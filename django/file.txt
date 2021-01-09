@@ -1,0 +1,93 @@
+
+<p style="text-align:justify;" class="mt-4">URL Mapping is a very short topic according to me.Suppose you are building a small website without using any web framework.How do you link one html page to another.I guess you can either use the anchor tag or the onclick event.Now in Web Frameworks which are actually designed to build large apps they need to have a well defined system for URL Mapping.</p>
+
+<p style="text-align:justify;">In Django We Map URLs in the <b>urls.py</b> file of the main project folder.</p>
+
+<p style="text-align:justify;">Now We will see the content of the <b>urls.py</b> file.</p>
+<div class="text-left mt-1">
+  <form action="https://www.jdoodle.com/api/redirect-to-post/python3-programming-online" method="post" target="_blank">
+ <textarea id="editor1" name="initScript" style="height:20vh!important;text-align:justify;overflow:hidden;-webkit-border-radius: 5px;
+    -moz-border-radius: 5px;border-radius: 5px;z-index:0;" readOnly = 'nocursor'>
+from django.contrib import admin  
+from django.urls import path  
+  
+urlpatterns = [  
+    path('admin/', admin.site.urls),  
+]  </textarea>
+              <!--<button type="submit" style="background-color:white;border:none;outline:none;box-shadow:none;" class="mt-3">
+              <a type="submit" class="pl-4 pr-4" style="border:2px solid #3399ff;border-radius:4px;color:#1aa3ff;">Run it    <i class="fa fa-angle-right"></i><i class="fa fa-angle-right"></i></a>
+             </button>
+             -->
+            
+           </form>
+                     <script>
+            
+    var editor = CodeMirror.fromTextArea(document.getElementById('editor1'),{
+      mode:"python",
+      lineNumbers:true
+    });
+  
+  </script>      
+</div>
+<p style="text-align:justify;" class="mt-2">You can see that Django has already mapped an url for admin.Which brought us to the Admin Page.</p>
+
+<h3 style="text-align:justify;">Django URL Functions</h3>
+<div style="overflow:scroll;">
+<table class="alt">
+<tbody><tr>
+      <th>Name</th>
+      <th>Description</th>
+    <th>Example</th>
+</tr>
+<tr>
+       <td>path(route, view, kwargs=None, name=None)</td>
+       <td>It returns an element for inclusion in urlpatterns.</td>
+     <td>path('index/', views.index, name='main-view')</td>
+</tr>
+<tr>
+       <td>re_path(route, view, kwargs=None, name=None)</td>
+       <td>It returns an element for inclusion in urlpatterns.</td>
+     <td>re_path(r'^index/$', views.index, name='index'),</td>
+</tr>
+<tr>
+       <td>include(module, namespace=None)</td>
+       <td>It is a function that takes a full Python import path to another URLconf module that should be "included" in this place.</td>
+     <td></td>
+</tr>
+<tr>
+       <td>register_converter(converter, type_name)</td>
+       <td>It is used for registering a converter for use in path() routes.</td>
+     <td></td>
+</tr>
+</tbody></table>
+</div>
+
+<h3 class="text-left mt-4">EXAMPLE</h3>
+<p style="text-align:justify;">Suppose you have two views named <b>Greeting</b> and <b>Wish</b>.Now how you can map these urls.</p>
+<div class="text-left mt-1">
+  <form action="https://www.jdoodle.com/api/redirect-to-post/python3-programming-online" method="post" target="_blank">
+ <textarea id="editor2" name="initScript" style="height:20vh!important;text-align:justify;overflow:hidden;-webkit-border-radius: 5px;
+    -moz-border-radius: 5px;border-radius: 5px;z-index:0;" readOnly = 'nocursor'>
+from django.contrib import admin    
+from django.urls import path    
+from myapp import views    
+urlpatterns = [    
+    path('admin/', admin.site.urls),    
+    path('greetings/', views.greetings),    
+    path('wish/',  views.wish),    
+]   </textarea>
+              <!--<button type="submit" style="background-color:white;border:none;outline:none;box-shadow:none;" class="mt-3">
+              <a type="submit" class="pl-4 pr-4" style="border:2px solid #3399ff;border-radius:4px;color:#1aa3ff;">Run it    <i class="fa fa-angle-right"></i><i class="fa fa-angle-right"></i></a>
+             </button>
+             -->
+            
+           </form>
+                     <script>
+            
+    var editor = CodeMirror.fromTextArea(document.getElementById('editor2'),{
+      mode:"python",
+      lineNumbers:true
+    });
+  
+  </script>      
+</div>

@@ -1,0 +1,4 @@
+I am a self taught programmer
+I love to code
+Python is an awesome programming language
+BestPythonTutorials.com is great place to learn coding

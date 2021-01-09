@@ -1,0 +1,14 @@
+<collection>
+	<codingwebsite>
+		<name>Hackerrank</name>
+		<rank>1</rank>
+	</codingwebsite>
+	<codingwebsite>
+		<name>Codeforces</name>
+		<rank>2</rank>
+	</codingwebsite>
+	<codingwebsite>
+		<name>Codechef</name>
+		<rank>3</rank>
+	</codingwebsite>
+</collection>

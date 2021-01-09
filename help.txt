@@ -1,0 +1,24 @@
+ <div data-datacamp-exercise data-lang="python">
+  <code data-type="sample-code">
+name = "Abhishek"
+print(name[-9:-1])
+
+ 
+</code>
+  </div>    
+
+
+<h4 class="text-left mt-4" style="color:#a54eee;">Output of the Above Code</h4>
+
+  <div class="container p-2" style="background-color:#f2f2f2;border:2px solid lightgrey;text-align:justify;">
+                 1<br>
+             1<br>
+             1<br>
+             2<br>
+             3<br>
+             4<br>
+             </div>
+
+
+             <a href="../home.php" style="color:grey;text-decoration:none;">Awesome Python Tutorials <img src="../django/link.png" style="height:10px;"></a>
+

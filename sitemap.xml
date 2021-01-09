@@ -1,0 +1,1432 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://bestpythontutorials.com/</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/index.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/home.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/django/home_django.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/flask/home_flask.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/numpy/home_numpy.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/pandas/home_pandas.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/matplotlib/home_matplotlib.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/tkinter/home_tkinter.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/html/home_html4.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/css/home_css.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/javascript/home_javascript.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/jquery/home_jquery.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/php/home_php.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/sass/home_sass.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/bootstrap/home_bootstrap.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/svg/home_svg.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/clanguage/home_c.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/cpp/home_cpp.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/csharp/home_csharp.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/java/home_java.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/nodejs/home_node.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/expressjs/home_express.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/angularjs/home_angularjs.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/ds/ds_home.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/algo/algo_home.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/intro3.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/installation.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/pythonides.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/print.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/datatypes.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/typecasting.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/operators.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/calculations.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/stringoperations.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/stringfunctions.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/controlstructures.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/userinput.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/if.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/loops.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/break.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/functions.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/pass.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/range.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/returnvsprint.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/recursion.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/recursionvsiteration.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/modules.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/userdefinedmodules.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/timemodule.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/osmodule.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/randommodule.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/sysmodule.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/statisticsmodule.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/readcsv.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/writecsv.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/readexcel.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/writeexcel.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/assert.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/commandline.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/exception.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/collectionmodule.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/itetools.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/magicmethods.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/and.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/is.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/isvsequal.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/ternary.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/slicing.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/comments.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/arrays.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/lambda.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/map.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/listcomprehension.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/dictionarycomprehension.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/setcomprehension.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/generators.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/generatorsvslist.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/generatorcomprehension.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/cmathmodule.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/decorators.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/classes.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/abstraction.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/inheritance.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/polymorphism.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/encapsulation.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/micropython.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/pythondescriptors.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/typechecking.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/exploringhttps.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/pdf.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/legb.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/async.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/redis.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/classmethod.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/staticmethod.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/instancemethod.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/pointers.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/with.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/memory.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/aws.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/pathlib.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/inner.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/automation.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/args.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/name.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/introception.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/enum.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/json.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/regexp.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/threads.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/meta.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/gil.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/copying.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/socket.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/functional.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/cpython.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/interfaces.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/cmodule.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/asynciomodule.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/designpatterns.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/buffering.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/linguistics.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/polynomial.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/wsgi.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/graph.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/systemprogramming.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/xmlprogramming.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/cgiprogramming.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/logging.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/debugging.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/forensics.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/virtualenv.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/contextmanager.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/functionfactory.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/closure.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/pickling.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/zip.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/sendingmail.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/serialization.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/unittesting.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/subprocessmodule.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/methodchaining.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/starpattern.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/pyramid.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/diamond.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/numberpatterns.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/morepatterns.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/introfilehandling.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/openingfile.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/readingfile.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/writingfile.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/deletingfile.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/tell.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/itertools.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/sql/home_sql.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/mysql/home_mysql.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/django/intro_django.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/django/virtual_env_django.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/django/environment_setup_django.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/django/creating_project_django.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/django/admin_interface_django.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/django/mvt_django.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/django/model_django.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/django/view_django.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/django/template_django.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/django/url_mapping_django.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/django/apache_setup_django.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/django/static_file_handling_django.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/django/forms_django.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/django/form_validation_django.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/django/creating_views_django.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/django/generic_views_django.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/django/file_upload_django.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/django/response_request_django.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/django/crud_django.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/django/sessions_django.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/django/ajax_django.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/django/comments_django.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/django/hashing_django.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/django/bootstrap_django.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/django/exceptions_django.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/django/database_connectivity_django.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/django/migrations_django.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/flask/intro_flask.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/flask/environment_setup_flask.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/flask/first_app_flask.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/flask/app_routing_flask.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/flask/url_building_flask.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/flask/http_flask.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/flask/templates_flask.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/flask/cookies_flask.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/flask/static_files_flask.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/flask/request_object_flask.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/flask/file_upload_flask.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/flask/sessions_flask.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/flask/redirect_errors_flask.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/flask/message_flashing_flask.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/flask/sqlite_flask.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/flask/sqlalchemy_flask.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/flask/wtf_flask.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/flask/fast_cji_flask.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/flask/deployment_flask.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/flask/caching_flask.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/flask/api_design_flask.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/numpy/intro_numpy.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/numpy/ndarray_numpy.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/numpy/datatype_numpy.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/numpy/array_creation_routines_numpy.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/numpy/array_attributes_numpy.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/numpy/array_from_existing_array_numpy.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/numpy/iterating_over_array_numpy.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/numpy/mathematical_functions_numpy.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/numpy/string_functions_numpy.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/numpy/bitwise_operators_numpy.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/numpy/indexing_and_slicing_numpy.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/numpy/broadcasting_numpy.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/numpy/arithmetic_operations_numpy.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/numpy/statistical_functions_numpy.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/numpy/sorting_numpy.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/numpy/searching_numpy.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/numpy/matrix_library_numpy.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/numpy/linear_algebra_numpy.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/numpy/matrix_operations_numpy.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/numpy/functions_numpy.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/numpy/copies_views_numpy.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/pandas/intro_pandas.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/pandas/installation_pandas.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/pandas/datastructures_pandas.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/pandas/series_pandas.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/pandas/panel_pandas.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/pandas/dataframe_pandas.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/pandas/basic_functionalities_pandas.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/pandas/readcsv_pandas.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/pandas/writecsv_pandas.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/pandas/indexing_pandas.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/pandas/iteration_pandas.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/pandas/sorting_pandas.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/pandas/aggregation_pandas.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/pandas/concatenation_pandas.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/pandas/data_visualization_pandas.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/pandas/sparse_data_pandas.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/pandas/iotools_pandas.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/pandas/dataoperations_pandas.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/pandas/multiple_indexing_pandas.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/pandas/reindexing_pandas.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/pandas/reset_index_pandas.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/pandas/set_index_pandas.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/pandas/time_series_pandas.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/pandas/datatime_pandas.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/pandas/time_offset_pandas.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/pandas/periods_pandas.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/pandas/working_with_text_pandas.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/pandas/view_data_pandas.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/pandas/selection_pandas.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/pandas/manipulating_data_pandas.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/pandas/merging_joining_pandas.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/matplotlib/intro_matplotlib.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/matplotlib/environment_setup_matplotlib.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/matplotlib/pyplot_matplotlib.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/matplotlib/sample_plots_matplotlib.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/matplotlib/lifecycle_of_plot_matplotlib.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/matplotlib/image_tutorial_matplotlib.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/matplotlib/customizing_matplotlib_with_stylesheets_matplotlib.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/matplotlib/figure_matplotlib.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/matplotlib/axes_matplotlib.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/matplotlib/subplots_matplotlib.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/matplotlib/legend_matplotlib.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/matplotlib/grid_matplotlib.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/matplotlib/constraint_layout_matplotlib.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/matplotlib/ticks_and_label_matplotlib.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/matplotlib/path_tutorial_matplotlib.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/matplotlib/path_effects_matplotlib.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/matplotlib/transformation_matplotlib.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/matplotlib/working_with_text_matplotlib.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/matplotlib/bar_plot_matplotlib.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/matplotlib/histogram_matplotlib.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/matplotlib/pie_chart_matplotlib.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/matplotlib/scatter_chart_matplotlib.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/matplotlib/line_graph_matplotlib.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/matplotlib/3d_graph_matplotlib.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/matplotlib/box_plot_matplotlib.php</loc>
+  <lastmod>2020-09-02T11:19:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/calculator.py</loc>
+  <lastmod>2020-08-01T18:29:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://bestpythontutorials.com/demo.txt</loc>
+  <lastmod>2020-06-03T01:55:48+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+
+
+</urlset>
