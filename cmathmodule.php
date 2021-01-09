@@ -1995,7 +1995,7 @@ function googleTranslateElementInit() {
  </tr>
   <tr>
     <td><a>math.isinf(x)</a></td>
-    <td>Check whether x is a positive or negative infinty</td>
+    <td>Check whether x is a positive or negative infinity</td>
  </tr>
    <tr>
     <td><a>math.isnan(x)</a></td>
@@ -2156,7 +2156,7 @@ print(math.floor(4.332))
  </tr>
   <tr>
     <td><a>cmath.isinf(x)</a></td>
-    <td>Check whether x is a positive or negative infinty</td>
+    <td>Check whether x is a positive or negative infinity</td>
  </tr>
    <tr>
     <td><a>cmath.isnan(x)</a></td>

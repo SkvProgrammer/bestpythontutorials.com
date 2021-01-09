@@ -1874,9 +1874,9 @@ function googleTranslateElementInit() {
            </div>
     
     <h3 style="text-align:justify;color:#a54eee;">Classes - Python</h3>
-        <p style="text-align:justify;">Classes are the #4537d1print for Creating Objects.Classes provide bundling data and functionalities.To understannd the meaning of Classes and Objects we will take a simple  example:-
+        <p style="text-align:justify;">Classes are the #4537d1print for Creating Objects.Classes provide bundling data and functionalities.To understand the meaning of Classes and Objects we will take a simple  example:-
           <div style="width:100%;height:auto;text-align:justify;">
-            <i>Suppose you have to go from Point A to Point B then you need some kind of transportation in the form of Vehicles here Vehicles can be refered  as <b>Classes</b> and <b>Cars</b> or <b>Motorcycles</b> are types of Vehicles which are the examples of <b>Objects</b>.</i>
+            <i>Suppose you have to go from Point A to Point B then you need some kind of transportation in the form of Vehicles here Vehicles can be referred  as <b>Classes</b> and <b>Cars</b> or <b>Motorcycles</b> are types of Vehicles which are the examples of <b>Objects</b>.</i>
           </div>
         </p>
 

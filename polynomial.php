@@ -1874,7 +1874,7 @@ This expression is usually written with the summation operator:
 <br><br>
 <a href="https://www.codecogs.com/eqnedit.php?latex=a_{n}x^{n}&space;&plus;&space;a_{n-1}\cdot&space;x^{n-1}&space;&plus;&space;\cdot&space;\cdot&space;\cdot&space;&plus;&space;a^{2}\cdot&space;x^{2}&space;&plus;&space;a&space;_{1}\cdot&space;x&space;&plus;&space;a_{0}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?a_{n}x^{n}&space;&plus;&space;a_{n-1}\cdot&space;x^{n-1}&space;&plus;&space;\cdot&space;\cdot&space;\cdot&space;&plus;&space;a^{2}\cdot&space;x^{2}&space;&plus;&space;a&space;_{1}\cdot&space;x&space;&plus;&space;a_{0}" title="a_{n}x^{n} + a_{n-1}\cdot x^{n-1} + \cdot \cdot \cdot + a^{2}\cdot x^{2} + a _{1}\cdot x + a_{0}" /></a>
 <h3 style="text-align:left;color:#a54eee;" class="mt-5">Polynomial Functions using Python</h3>
-<p style="text-align: justify;">In Python we can easily implement a polynomial function.we will be implement a polymial function i.e.</p>
+<p style="text-align: justify;">In Python we can easily implement a polynomial function.we will be implement a polynomial function i.e.</p>
 <a href="https://www.codecogs.com/eqnedit.php?latex=p(x)=x4-4x^{2}&plus;3x" target="_blank"><img src="https://latex.codecogs.com/png.latex?p(x)=x4-4x^{2}&plus;3x" title="p(x)=x4-4x^{2}+3x" /></a>
 <div class="text-left mt-2">
    <div data-datacamp-exercise data-lang="python">

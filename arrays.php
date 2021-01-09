@@ -1904,7 +1904,7 @@ print(list_1)
        
 
         <h3 style="text-align:left;color:#a54eee;">Accessing the Members of a List</h3>
-        <p style="text-align:justify;">To access the members of the List you need to use the <b>Index</b> numbers which we have dicussed in our <a href="slicing.php">Indexing and Slicing Chapter</a>.Indexing of a List starts with <numbers>0</numbers> from the beginning and starts with <numbers>-1</numbers> from the end of the List.</p>
+        <p style="text-align:justify;">To access the members of the List you need to use the <b>Index</b> numbers which we have discussed in our <a href="slicing.php">Indexing and Slicing Chapter</a>.Indexing of a List starts with <numbers>0</numbers> from the beginning and starts with <numbers>-1</numbers> from the end of the List.</p>
 
 
 <div data-datacamp-exercise data-lang="python">

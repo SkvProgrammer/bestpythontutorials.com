@@ -1889,9 +1889,9 @@ def divisibles(g_range, div_by):
 
 
 def main():
-    divsible1 = divisibles(746700, 32243)
-    divsible2 = divisibles(273662, 2313)
-    divsible3 = divisibles(233, 3)
+    divisible1 = divisibles(746700, 32243)
+    divisible2 = divisibles(273662, 2313)
+    divisible3 = divisibles(233, 3)
 
 
 
@@ -1935,10 +1935,10 @@ async def divisibles(g_range, div_by):
 
 
 async def main():
-    divsible1 = loop.create_task(divisibles(746700, 32243))
-    divsible2 = loop.create_task(divisibles(273662, 2313))
-    divsible3 = loop.create_task(divisibles(233, 3))
-    await asyncio.wait([divsible1, divsible2, divsible3])
+    divisible1 = loop.create_task(divisibles(746700, 32243))
+    divisible2 = loop.create_task(divisibles(273662, 2313))
+    divisible3 = loop.create_task(divisibles(233, 3))
+    await asyncio.wait([divisible1, divisible2, divisible3])
 
 if __name__ == '__main__':
     loop = asyncio.get_event_loop()

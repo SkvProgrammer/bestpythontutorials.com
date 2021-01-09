@@ -1127,7 +1127,7 @@ Computation Forensics includes a broad range of subjects which has objects, subs
 <p style="text-align:justify;">Computational forensics involves diverse digital methods. The best solution to ease all digital methods in forensics is to use a general-purpose programming language like Python.
 </p>
 <div class="container-fluid mt-5" style="background-color:#ffffcc;padding:20px;">
-<p style="text-align:justify;" class="mt-4">This was just an introduction to Computational Forensics in Python.We will be sooner launching cources on Computational Forensics.It's a new emerging Research domain.</p>
+<p style="text-align:justify;" class="mt-4">This was just an introduction to Computational Forensics in Python.We will be sooner launching courses on Computational Forensics.It's a new emerging Research domain.</p>
 </div>
 
 <br><br><br>

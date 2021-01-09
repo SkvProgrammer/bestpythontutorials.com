@@ -1871,7 +1871,7 @@ function googleTranslateElementInit() {
 
 <!-----------------------------CONTENT------------------->
 
-     <p style="text-align:justify;" class="mt-4">The term Recursion is used for defining a repetive task or something which is related to itself.</p>
+     <p style="text-align:justify;" class="mt-4">The term Recursion is used for defining a repetitive task or something which is related to itself.</p>
         <h1>OR</h1>
         <p style="text-align:justify;">Recursion in computer science is a method of solving a problem where the solution depends on solutions to smaller instances of the same problem</p>
  

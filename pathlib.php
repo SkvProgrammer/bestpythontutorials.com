@@ -1972,7 +1972,7 @@ print(obj) </textarea>
 
 <h4 class="text-left mt-4">class pathlib.<b>PureWindowsPath</b>(*pathsegments) </h4>
 <p style="text-align:justify;">
-This is also a subclass of patlib.PurePath class. It represents Windows file system paths.
+This is also a subclass of pathlib.PurePath class. It represents Windows file system paths.
 </p>
 <div class="text-left mt-1">
   <form action="https://www.jdoodle.com/api/redirect-to-post/python3-programming-online" method="post" target="_blank">

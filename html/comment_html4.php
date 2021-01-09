@@ -1147,9 +1147,9 @@ hr {
 <a href="https://www.youtube.com/channel/UC_pPPgwvndi8f2RkbkbvOIA" target="_blank" style="background-color:red;color:white;border-radius:10px;padding:1px;font-size:15px;" class="pl-2 pr-2 ml-1" id="facebookshare">   <i class="fa fa-youtube"></i>Youtube </a>
 <!--content goes here-->
 <div id="main">
-<p style="text-align:justify;" class="mt-4">Comments are a very important part of any markup language or any programming language as it increases code reusablity and allows the programmer to check differents sets of code without deleted or maniulating the older one.This actually helps a lot.We generally discuss comments in a programming language but wait in html we also have the power to use the comments using the <code>&lt;!-- Your Comment --&gt;</code> symbol.</p>
+<p style="text-align:justify;" class="mt-4">Comments are a very important part of any markup language or any programming language as it increases code reusability and allows the programmer to check differents sets of code without deleted or maniulating the older one.This actually helps a lot.We generally discuss comments in a programming language but wait in html we also have the power to use the comments using the <code>&lt;!-- Your Comment --&gt;</code> symbol.</p>
 
-<p style="text-align:justify;">Imagine if you don't have comments,the code reusablity will never happened and which will increase the load on the developer of not getting creative due to this Comments are a very important part of any programming language or markup language or scripting language.</p>
+<p style="text-align:justify;">Imagine if you don't have comments,the code reusability will never happened and which will increase the load on the developer of not getting creative due to this Comments are a very important part of any programming language or markup language or scripting language.</p>
 <p style="text-align:justify;">One more thing to know is that Comments are also great for debugging HTML, because you can comment out HTML lines of code, one at a time, to search for errors.</p>
 
 <h4 style="text-align:justify; color:#a54eee;" class="mt-4">EXAMPLES</h4>

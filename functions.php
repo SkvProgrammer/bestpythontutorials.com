@@ -1874,7 +1874,7 @@ function googleTranslateElementInit() {
 <!-- Use any element to open the sidenav -->
 <!--<button class="btn newcolorbtn pl-4 pr-4" onclick="opentoc()" style="border-radius:1px!important;box-shadow:none!important;position:fixed;background-image: linear-gradient(192deg,#4537d1,#a54eee);!important;border:none!important;right:10px;top:300px;color:white!important;"><i class="fa fa-table"></i></button>
 --><!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
-        <p style="text-align:justify;" id="functionsintro">Funtions are a block of code containing data members which can be called again and again as per the requirement.Functions are useful as they promote or carries code reusablity which is a very important factor for writing quality softwares using OOPs concept</p>
+        <p style="text-align:justify;" id="functionsintro">Funtions are a block of code containing data members which can be called again and again as per the requirement.Functions are useful as they promote or carries code reusability which is a very important factor for writing quality softwares using OOPs concept</p>
         <p style="text-align:justify;">Now we will see how to implement a function in python.For implementing or declaring a function in python we need to use the <code>def</code> keyword...</p>
 
  <div class="mb-3 mt-3">
@@ -1906,7 +1906,7 @@ sayHello();
 
 
 <h4 class="text-left mt-4" style="color:#a54eee;">EXPLANATION</h4>
-             <p style="text-align:justify;">You saw that I have mentioned some terms as comments we will try to undertand what actually they are.<br><br>The line of <code>def sayHello():</code> is called the signature of the function which means the function is declared.The second term that is the <i>function's body</i> is the actually code which will be displayed or performed on running the program.The last <code>sayHello();</code> part is the calling od the function that is the use of function being started.</p>
+             <p style="text-align:justify;">You saw that I have mentioned some terms as comments we will try to understand what actually they are.<br><br>The line of <code>def sayHello():</code> is called the signature of the function which means the function is declared.The second term that is the <i>function's body</i> is the actually code which will be displayed or performed on running the program.The last <code>sayHello();</code> part is the calling od the function that is the use of function being started.</p>
              
 
              <p>That's awesome we have made our first function now we can also pass some values to a function as <b>Parameters</b>.We can process the Parameters and can get differents sets of output...We will be making the same function as made above but there will be one difference we will take user's name instead of directly printing Hello in the console...</p>

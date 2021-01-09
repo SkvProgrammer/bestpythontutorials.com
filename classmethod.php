@@ -1889,7 +1889,7 @@ obj1.showcount()
        <a href="https://partners.hostgator.com/c/2548499/178160/3094" target="_top" id="178160"><img src="//a.impactradius-go.com/display-ad/3094-178160" border="0" alt="" width="336" height="280"/></a><img height="0" width="0" src="https://partners.hostgator.com/i/2548499/178160/3094" style="position:absolute;visibility:hidden;" border="0" /><br>
            </div>
 
-<p style="text-align:justify;" class="mt-3">Now we will see how to use Class methods using the <code>classmethod</code> funtion.The above example was based on decorators.<code>classmethod</code> in Python bound is to a Class. So, we don’t have to create an instance or object of a class to call this class method. A Python classmethod receives cls (class) as an implicit first argument, just like a standard method receives self as the first argument. This cls allows you to access the class variables, methods, and the static methods of the class.</p>
+<p style="text-align:justify;" class="mt-3">Now we will see how to use Class methods using the <code>classmethod</code> function.The above example was based on decorators.<code>classmethod</code> in Python bound is to a Class. So, we don’t have to create an instance or object of a class to call this class method. A Python classmethod receives cls (class) as an implicit first argument, just like a standard method receives self as the first argument. This cls allows you to access the class variables, methods, and the static methods of the class.</p>
 
 
 

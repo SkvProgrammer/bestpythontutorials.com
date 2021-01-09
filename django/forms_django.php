@@ -1517,7 +1517,7 @@ function googleTranslateElementInit() {
 
 
 
-<p style="text-align:justify;" class="mt-4">Django Forms API provides us a convinient way to create HTML forms and take input from the user and store it in the database.It is similar to the ModelForm class that creates a form by using the Model, but it does not require the Model.</p>
+<p style="text-align:justify;" class="mt-4">Django Forms API provides us a convenient way to create HTML forms and take input from the user and store it in the database.It is similar to the ModelForm class that creates a form by using the Model, but it does not require the Model.</p>
 
 <h3 class="text-left mt-4">EXAMPLE</h3>
 <div class="text-left mt-1 mb-1">

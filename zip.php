@@ -1936,7 +1936,7 @@ print("The list after conversion:",set(list1))
 #converting a list to set
 print("The Dictionary before conversion:",dict1)
 print("The Dictionary after conversion:",set(dict1))
-#coverting a Dictionary to set
+#converting a Dictionary to set
 print("The Tuple before conversion:",tuple1)
 print("The Tuple after conversion:",set(tuple1))
 #converting a tuple to set</code>

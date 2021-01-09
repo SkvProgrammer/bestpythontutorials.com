@@ -1885,7 +1885,7 @@ Encapsulation is the wrapping down of code and Data in a Single Unit which incre
 
  <h3 style="text-align:left;color:#a54eee;" class="mt-4">EXPLANATION</h3>
  <p style="text-align:justify;">
- Consider a real-life situation,Suppose there's a company called Ftech.In the company we have different deparments for differents purpose such as Financial,Sales or Executive.Now all of them have their own tasks to do,but sometimes one department may need to use the Data of another Department but it cannot access the Data of that Department Directly.They first have to call the head of that deparment and request them to give them the required Data. 
+ Consider a real-life situation,Suppose there's a company called Ftech.In the company we have different departments for differents purpose such as Financial,Sales or Executive.Now all of them have their own tasks to do,but sometimes one department may need to use the Data of another Department but it cannot access the Data of that Department Directly.They first have to call the head of that departments and request them to give them the required Data. 
  </p>
      <br>
            <script type="text/javascript">

@@ -1883,7 +1883,7 @@ function googleTranslateElementInit() {
   document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://partitiondetergenttumor.com/ccab6f0b37ebcf46ae2cc8c860e3836a/invoke.js"></scr' + 'ipt>');
 </script>
 
-<p style="text-align:justify;">Now,what is a Thread?Thread is an entity within a process that can be scheduled for execution. Also, it is the smallest unit of processing that can be performed in an OS (Operating System).<br><br>All the infomation inside a thread is stored in TCB(Thread Control Block).Some of these information are given below:</p>
+<p style="text-align:justify;">Now,what is a Thread?Thread is an entity within a process that can be scheduled for execution. Also, it is the smallest unit of processing that can be performed in an OS (Operating System).<br><br>All the information inside a thread is stored in TCB(Thread Control Block).Some of these information are given below:</p>
 <div style="overflow:auto;">
   <table>
     <tr>
@@ -1967,7 +1967,7 @@ t2.start()
   </div>   
      
 </div>
-<p style="text-align:justify;" class="mt-4 mb-4">The above code will run two threads one by one.You might have noticed that we have used <code>run()</code> method that we have declared inthe two classes but they actually are methods of <code>threading</code> module but when you will try to execute the same program using different functin name that will not work the output of the above program will be : It will first print Hello 20 times and then will Hi 20 times but that's not what we want we want some like Hello Hi Hello Hi.. Now the question is how can we acheive it.So,Let's Look at the below example.</p>
+<p style="text-align:justify;" class="mt-4 mb-4">The above code will run two threads one by one.You might have noticed that we have used <code>run()</code> method that we have declared in the two classes but they actually are methods of <code>threading</code> module but when you will try to execute the same program using different function name that will not work the output of the above program will be : It will first print Hello 20 times and then will Hi 20 times but that's not what we want we want some like Hello Hi Hello Hi.. Now the question is how can we achieve it.So,Let's Look at the below example.</p>
  <div class="mb-3 mt-3">
        <a href="https://partners.hostgator.com/c/2548499/178160/3094" target="_top" id="178160"><img src="//a.impactradius-go.com/display-ad/3094-178160" border="0" alt="" width="336" height="280"/></a><img height="0" width="0" src="https://partners.hostgator.com/i/2548499/178160/3094" style="position:absolute;visibility:hidden;" border="0" /><br>
            </div>
@@ -2003,7 +2003,7 @@ t2.start()
 
   
 </div>
-<p style="text-align:justify;" class="mt-4">The output of the above code is what we were trying to get i.e. Hello Hi Hello Hi ... 20 times.Now we will look at one more exaple where we will try to print another string after all the threads of the previous two classes are invoked.</p>
+<p style="text-align:justify;" class="mt-4">The output of the above code is what we were trying to get i.e. Hello Hi Hello Hi ... 20 times.Now we will look at one more example where we will try to print another string after all the threads of the previous two classes are invoked.</p>
 
 
 <div class="text-left mt-2">

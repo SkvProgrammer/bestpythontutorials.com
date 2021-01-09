@@ -1920,7 +1920,7 @@ And now you may get one doubt i.e., in manual testing you are writing test cases
            </div>
 
 <h4 class="text-left mt-4" style="color:#a54eee;">Automation Testing With Selenium</h4>
-<p style="text-align:justify;">Now we will learn how to automate the web browser testing using the <b>Selenium</b> Framework.Selenium supports all major browsers such as Google Chrome,Firefox,Safari,Internet Explorer and Opera Browser and It also supports programming lnaguages such 
+<p style="text-align:justify;">Now we will learn how to automate the web browser testing using the <b>Selenium</b> Framework.Selenium supports all major browsers such as Google Chrome,Firefox,Safari,Internet Explorer and Opera Browser and It also supports programming languages such 
     Java,
     C#,
     Ruby,

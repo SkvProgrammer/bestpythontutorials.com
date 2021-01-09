@@ -1868,7 +1868,7 @@ function googleTranslateElementInit() {
 
 
 
-<p style="text-align:justify;" class="mt-4">In Programming we often need to design some kind of patterns using loops or any other tool but the main thing is that it teaches us how to think and write some code by appying your knowledge of Loops.I think you have understood <a href="loops.php">Loops</a> are the prerequisites of this chapter but you can also start directly from here because I have also given some non conventional ways of implementing patterns.</p>
+<p style="text-align:justify;" class="mt-4">In Programming we often need to design some kind of patterns using loops or any other tool but the main thing is that it teaches us how to think and write some code by applying your knowledge of Loops.I think you have understood <a href="loops.php">Loops</a> are the prerequisites of this chapter but you can also start directly from here because I have also given some non conventional ways of implementing patterns.</p>
 <p style="text-align:justify;">Patterns can be printed in python using simple <i>for</i> loops. First outer loop is used to handle number of rows and Inner nested loop is used to handle the number of columns. Manipulating the print statements, different number patterns, alphabet patterns or star patterns can be printed.</p>
  <div class="mb-3 mt-3">
        <a href="https://partners.hostgator.com/c/2548499/178160/3094" target="_top" id="178160"><img src="//a.impactradius-go.com/display-ad/3094-178160" border="0" alt="" width="336" height="280"/></a><img height="0" width="0" src="https://partners.hostgator.com/i/2548499/178160/3094" style="position:absolute;visibility:hidden;" border="0" /><br>

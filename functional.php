@@ -1903,7 +1903,7 @@ function googleTranslateElementInit() {
 
 
 
-<p style="text-align:justify;">Now we will dicuss all the concepts of functional programming that are mentioned above one by one:</p>
+<p style="text-align:justify;">Now we will discuss all the concepts of functional programming that are mentioned above one by one:</p>
 <div class="text-left mt-0">
   <h3 style="text-align:left;color:#a54eee;" class="mb-1 mt-3">PURE FUNCTIONS</h3>
    <div data-datacamp-exercise data-lang="python">

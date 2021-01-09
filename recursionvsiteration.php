@@ -1868,7 +1868,7 @@ function googleTranslateElementInit() {
 
 <!-----------------------------CONTENT------------------->
 
-      <p style="text-align:justify;" class="mt-4">A program is called Recursive when an entity calls iteself and A program is called Iterative , the programs contains Loops...While dicussing recursion,a basic question comes in the mind that which is better ? -Recursion or Iteration.The answer to this question depends upon what we are trying to do...Below I have listed some properties of Recursion and Iteration</p>
+      <p style="text-align:justify;" class="mt-4">A program is called Recursive when an entity calls itself and A program is called Iterative , the programs contains Loops...While discussing recursion,a basic question comes in the mind that which is better ? -Recursion or Iteration.The answer to this question depends upon what we are trying to do...Below I have listed some properties of Recursion and Iteration</p>
 
         <h3 style="text-align:left;color:#a54eee;" class="mt-4">Recursion</h3>
         

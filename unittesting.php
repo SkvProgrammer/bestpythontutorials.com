@@ -1867,7 +1867,7 @@ function googleTranslateElementInit() {
 
 
 
-<p style="text-align:justify;" class="mt-4"><b>Unit Testing</b> is the first level of software testing where smallest unit of a software is tested.This is performed to validate that all the parts of the software are working as intented to do.</p>
+<p style="text-align:justify;" class="mt-4"><b>Unit Testing</b> is the first level of software testing where smallest unit of a software is tested.This is performed to validate that all the parts of the software are working as intended to do.</p>
 <p style="text-align:justify;">The <code>unittest</code> unit testing framework was originally inspired by JUnit and has a similar flavor as major unit testing frameworks in other languages. It supports test automation, sharing of setup and shutdown code for tests, aggregation of tests into collections, and independence of the tests from the reporting framework.</p>
      <br>
            <script type="text/javascript">

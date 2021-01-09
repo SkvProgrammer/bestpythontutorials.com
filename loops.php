@@ -1860,7 +1860,7 @@ function googleTranslateElementInit() {
 <p style="text-align:justify;" class="mt-4"><p style="text-align:justify;" class="mt-4"><strong>Note:</strong>Loops are also called <b>Iteration</b> or <b>Repetition Statements...</b></p></p>
 </div>
 
-        <p style="text-align:justify;">The iteration statements allows the programmer to perform a particular action repetedly untitll a certain condition is fulfilled...In Python we have three kind of <b>Loops</b>:-</p>
+        <p style="text-align:justify;">The iteration statements allows the programmer to perform a particular action repeatedly until a certain condition is fulfilled...In Python we have three kind of <b>Loops</b>:-</p>
         <ul style="text-align:left;">
           <li><strong>Counting Loop</strong> : Loops which repeats a certain number of times are called <strong>Counting Loops</strong> Ex. Python's <i>for</i> Loop</li>
           <li><Strong>Conditional Loop</Strong> : Loops which repeats until a certain condition becomes false are called  <strong>Conditional Loops</strong> Ex. Python's <i>While</i>  loop </li>

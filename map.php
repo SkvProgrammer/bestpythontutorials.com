@@ -1982,12 +1982,12 @@ print(list(result))
  <div data-datacamp-exercise data-lang="python">
   <code data-type="sample-code">
 age_list = [10,8,12,10,11,19,18,22,11,65]
-def check_eligiblity(age):
+def check_eligibility(age):
        if age > 18:
             return True
        else:
             return False
-filter_data = list(filter(check_eligiblity,age_list))
+filter_data = list(filter(check_eligibility,age_list))
 print(filter_data) 
  
 </code>

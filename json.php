@@ -1937,7 +1937,7 @@ print(json.dumps(dict1))
 </div>   <br><br>
  
 <div class="container-fluid p-3 pb-4" style="background-color:#ffffcc;">
-<p style="text-align:justify;" class="mt-4">In the above section we have discussed about the difference betwwen <code>load()</code> and <code>loads()</code> methods.We can apply the similar difference to <code>dump()</code> and <code>dumps</code> methods.The difference between <code>dump()</code> and <code>dumps()</code> method.The <code>dumps()</code> method lets you to convert the json data in the program itself into python's Dictionary but the <code>dump()</code> method lets you to open a json file which then can be converted to a Dictionary.</p>
+<p style="text-align:justify;" class="mt-4">In the above section we have discussed about the difference between <code>load()</code> and <code>loads()</code> methods.We can apply the similar difference to <code>dump()</code> and <code>dumps</code> methods.The difference between <code>dump()</code> and <code>dumps()</code> method.The <code>dumps()</code> method lets you to convert the json data in the program itself into python's Dictionary but the <code>dump()</code> method lets you to open a json file which then can be converted to a Dictionary.</p>
 </div>
 
 

@@ -1868,7 +1868,7 @@ function googleTranslateElementInit() {
  
 
 
-<p style="text-align:justify;" class="mt-4"><b>with</b> statement or block is very important in terms of writing more clear and readable.You might have seen it's use while opening file from the computer.It's a more convinient way for doing this.</p>
+<p style="text-align:justify;" class="mt-4"><b>with</b> statement or block is very important in terms of writing more clear and readable.You might have seen it's use while opening file from the computer.It's a more convenient way for doing this.</p>
 <div class="mb-3 mt-3">
        <a href="https://partners.hostgator.com/c/2548499/178160/3094" target="_top" id="178160"><img src="//a.impactradius-go.com/display-ad/3094-178160" border="0" alt="" width="336" height="280"/></a><img height="0" width="0" src="https://partners.hostgator.com/i/2548499/178160/3094" style="position:absolute;visibility:hidden;" border="0" /><br>
            </div>

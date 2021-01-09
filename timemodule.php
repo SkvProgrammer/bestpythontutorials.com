@@ -1941,7 +1941,7 @@ print(LocalTime)
             <source src="video.ogg" type="video/ogg">
           </video>
           -->
-          <p style="text-align:justify;"> <code>time.sleep()</code> method can come handy in such a situation where we need to hault the execution of the code and it provides an accurate and flexible way to hault the flow of code for any period of time.</p>
+          <p style="text-align:justify;"> <code>time.sleep()</code> method can come handy in such a situation where we need to halt the execution of the code and it provides an accurate and flexible way to halt the flow of code for any period of time.</p>
 
 
 

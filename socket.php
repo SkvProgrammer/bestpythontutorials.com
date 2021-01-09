@@ -1865,7 +1865,7 @@ function googleTranslateElementInit() {
 
   
 
-<p style="text-align:justify;" class="mt-4">Socket Programming is a way of connecting two nodes over a network to commuicate with each other.In this situation , one node runs at a port  of an IP and while the other reaches out to form the connection.<br><br>In Python , Socket Programming is done using a module called <code>socket</code>.Now,we will see how we can make a socket instance in Python.</p>
+<p style="text-align:justify;" class="mt-4">Socket Programming is a way of connecting two nodes over a network to communicate with each other.In this situation , one node runs at a port  of an IP and while the other reaches out to form the connection.<br><br>In Python , Socket Programming is done using a module called <code>socket</code>.Now,we will see how we can make a socket instance in Python.</p>
      <br>
            <script type="text/javascript">
   atOptions = {

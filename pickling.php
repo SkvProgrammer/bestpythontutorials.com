@@ -1872,7 +1872,7 @@ function googleTranslateElementInit() {
 <p style="text-align:justify;" class="mt-4">Pickling in Python is nothing but way which is used for serializing and de-serializing objects.In short,we can say that it is process of converting objects into character stream(character stream is sequence of bytes).In Python we are provided with a module called <code>pickle</code> for pickling an object.</p>
 
 <h3 style="text-align:left;color:#a54eee;" class="mt-4">Pickle Protocol</h3>
-<p style="text-align:justify;">There are mainly 6 pickle protocols  but actually you don't need to rember them all.To know more about pickle protocol 
+<p style="text-align:justify;">There are mainly 6 pickle protocols  but actually you don't need to remember them all.To know more about pickle protocol 
              <a href="https://docs.python.org/3/library/pickle.html" style="color:grey;text-decoration:none;">Click Here <img src="django/link.png" style="height:10px;"></a>.
 
 </p>

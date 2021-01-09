@@ -1124,7 +1124,7 @@ hr {
 <a href="https://www.youtube.com/channel/UC_pPPgwvndi8f2RkbkbvOIA" target="_blank" style="background-color:red;color:white;border-radius:10px;padding:1px;font-size:15px;" class="pl-2 pr-2 ml-1" id="facebookshare">   <i class="fa fa-youtube"></i>Youtube </a>
 <!--content goes here-->
 <div id="main">
-<p style="text-align:justify;" class="mt-4">In the previous chapters you have seen that we have used the <code>&lt;p&gt;</code> tag a lot.But we haven't dicussed a much about this tag so in this tag chapter we are going to do the same.</p>
+<p style="text-align:justify;" class="mt-4">In the previous chapters you have seen that we have used the <code>&lt;p&gt;</code> tag a lot.But we haven't discussed a much about this tag so in this tag chapter we are going to do the same.</p>
 
 <p style="text-align:justify;"><code>&lt;p&gt;</code> tag is usually used to display text on the HTML Document and it's a block element i.e. A paragraph always starts on a new line, and browsers automatically add some white space (a margin) before and after a paragraph.</p>
 

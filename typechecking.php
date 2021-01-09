@@ -1958,7 +1958,7 @@ print(type(True))
   };
   document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://partitiondetergenttumor.com/ccab6f0b37ebcf46ae2cc8c860e3836a/invoke.js"></scr' + 'ipt>');
 </script>
-<p style="text-align:justify;" class="mt-3"><b>isinstance()</b>:The 'insinstance('obj','class')' of Python can be used to know whether the 'obj', which is the object is the instance of the class or not. The returned output value is boolean can be one of True or False.</p>
+<p style="text-align:justify;" class="mt-3"><b>isinstance()</b>:The 'isinstance('obj','class')' of Python can be used to know whether the 'obj', which is the object is the instance of the class or not. The returned output value is boolean can be one of True or False.</p>
 <div data-datacamp-exercise data-lang="python">
   <code data-type="sample-code">
 print(isinstance("Skv",str))

@@ -1866,7 +1866,7 @@ function googleTranslateElementInit() {
           </p>
        <h2 style="text-align:left;color:#a54eee;" class="mt-4">dir() Function</h2>
 
-       <p style="text-align:justify;"><code>dir()</code> method is a powerful in-built method for fetchting the attributes and methods of an object.</p>
+       <p style="text-align:justify;"><code>dir()</code> method is a powerful in-built method for fetching the attributes and methods of an object.</p>
        <h3 style="text-align:left;color:#a54eee;" class="mt-4">SYNTAX</h3>
      
        <div class="container p-2" style="background-color:#f2f2f2;border:2px solid lightgrey;text-align:justify;">

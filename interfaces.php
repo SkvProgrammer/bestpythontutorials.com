@@ -1898,7 +1898,7 @@ class1.method()
   
 </div>
 <h3 style="text-align:left;color:#a54eee;" class="mt-5">Why We need Interfaces?</h3>
-<p style="text-align:justify;">It is used to achieve total abstraction. Since Python does not support Interfaces but supports mutiple inheritace. It is also used to achieve Loose Coupling. Interfaces are used to implement abstraction.</p>
+<p style="text-align:justify;">It is used to achieve total abstraction. Since Python does not support Interfaces but supports multiple inheritance. It is also used to achieve Loose Coupling. Interfaces are used to implement abstraction.</p>
 
 
 <!-------------------------------CONTENT----------------------------->

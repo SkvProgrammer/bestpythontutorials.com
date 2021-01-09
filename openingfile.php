@@ -1876,7 +1876,7 @@ function googleTranslateElementInit() {
   <form action="https://www.jdoodle.com/api/redirect-to-post/python3-programming-online" method="post" target="_blank">
  <textarea id="editor1" name="initScript" style="height:20vh!important;text-align:justify;overflow:hidden;-webkit-border-radius: 5px;
     -moz-border-radius: 5px;border-radius: 5px;z-index:0;" readOnly = 'nocursor'>
-#Opening a file using with statment
+#Opening a file using with statement
 with open("welcome.txt") as file:
 #Opening a file method 2
 file = open("demo.txt")

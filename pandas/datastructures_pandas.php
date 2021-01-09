@@ -1499,7 +1499,7 @@ padding:0px;
 </ol>
 
 <h4 class="text-left mt-4" style="color:#a54eee;">Series</h4>
-<p style="text-align:justify;">Now we will dicuss all the three structures in brief and in later chapters we will lool at more detailed chapters on these Data Structures.First of all We will talk about the <b>Series</b> Data Structure.<b>Series</b> are one-dimensional array like structure with homogeneous data. For example, the following series is a collection of integers 10,20,30...</p>
+<p style="text-align:justify;">Now we will discuss all the three structures in brief and in later chapters we will lool at more detailed chapters on these Data Structures.First of all We will talk about the <b>Series</b> Data Structure.<b>Series</b> are one-dimensional array like structure with homogeneous data. For example, the following series is a collection of integers 10,20,30...</p>
 <table>
   <tr style="border:1px solid grey;">
     <td style="border:1px solid grey;">10</td>

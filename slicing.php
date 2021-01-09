@@ -1896,7 +1896,7 @@ print(name[2:4])
   </div>
   <p style="text-align:justify;">The above example prints the part of string variable <b>name</b>  from index number <b>2(included)</b> and <b>5(not included)</b>.</p>
 
-<p style="text-align: justify;" class="mt-2 mb-3">Below I have provided a simple image which will help you to grab the concept of Indexing in Python.Please check the image again and again untill you are clear with Indexing.</p>
+<p style="text-align: justify;" class="mt-2 mb-3">Below I have provided a simple image which will help you to grab the concept of Indexing in Python.Please check the image again and again until you are clear with Indexing.</p>
 <br>
        <img id="myImg" src="image1.png"  style="width:100%;max-width:300px;box-shadow:1px 1px 1px lightgrey;border-radius:20px;">
 

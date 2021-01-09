@@ -1921,7 +1921,7 @@ file2 = open("file_name.txt")</textarea>
   <form action="https://www.jdoodle.com/api/redirect-to-post/python3-programming-online" method="post" target="_blank">
  <textarea id="editor2" name="initScript" style="height:20vh!important;text-align:justify;overflow:hidden;-webkit-border-radius: 5px;
     -moz-border-radius: 5px;border-radius: 5px;z-index:0;" readOnly = 'nocursor'>
-#Opening a file using with statment
+#Opening a file using with statement
 with open("welcome.txt") as file:</textarea>
               <!--<button type="submit" style="background-color:white;border:none;outline:none;box-shadow:none;" class="mt-3">
               <a type="submit" class="pl-4 pr-4" style="border:2px solid #3399ff;border-radius:4px;color:#1aa3ff;">Run it    <i class="fa fa-angle-right"></i><i class="fa fa-angle-right"></i></a>
