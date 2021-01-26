@@ -1890,7 +1890,7 @@ function googleTranslateElementInit() {
 <h3 style="text-align:left;color:#a54eee;" class="mt-5">Converting JSON to Python's Dictionary</h3>
 <p style="text-align:justify;">In json module we have a function called <code>loads()</code> which is used to convert a json string into Python's Dictionary.</p>
   <div class="text-left mt-0">
-       <div data-datacamp-exercise data-lang="python">
+       <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 import json
 
@@ -1921,7 +1921,7 @@ print(json.loads(json_data))
 <h3 style="text-align:left;color:#a54eee;" class="mt-4">Converting from Python to JSON</h3>
 <p style="text-align:justify;">In Python we have a method called <code>dumps()</code> which is used to convert a python Dictionary into json data.</p>
 <div class="text-left mt-0">
-   <div data-datacamp-exercise data-lang="python">
+   <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 import json
 

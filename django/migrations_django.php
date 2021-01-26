@@ -1555,7 +1555,7 @@ class Student(models.Model):
 </div>
 <p style="text-align:justify;" class="mt-2">Now we will make migrations..</p>
 <div class="container p-2" style="background-color:#f2f2f2;border:1px solid lightgrey;text-align:justify;">python manage.py makemigrations</div>
-<p style="text-align:justify;" class="mt-3">After migrating a migrations folder will be created where we have a migrations file wose content looks like:</p>
+<p style="text-align:justify;" class="mt-3">After migrating a migrations folder will be created where we have a migrations file whose content looks like:</p>
 <div class="text-left mt-1 mb-0">
   <p style="text-align:justify;" class="mb-1">0001_initial.py</p>
   <form action="" method="post" target="_blank">

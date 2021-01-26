@@ -1617,7 +1617,7 @@ Series/Index are numeric. Returns Boolean.</p></td>
 
 <h3 class="text-left mt-3" style="color:#a54eee;">EXAMPLES</h3>
 <h5 class="text-left mb-0 mt-3">code #1( lower() method )</h5>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 import pandas as pd
 import numpy as np
@@ -1630,7 +1630,7 @@ print(s.str.lower())
 </code>
   </div>
 <h5 class="text-left mb-0 mt-5">code #2( upper() method )</h5>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 import pandas as pd
 import numpy as np
@@ -1644,7 +1644,7 @@ print(s.str.upper())
   </div>
 
 <h5 class="text-left mb-0 mt-5">code #3( strip() method )</h5>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 import pandas as pd
 import numpy as np
@@ -1658,7 +1658,7 @@ print(s.str.strip())
   </div>
 
 <h5 class="text-left mb-0 mt-5">code #4( swapcase() method )</h5>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 import pandas as pd
 import numpy as np
@@ -1672,7 +1672,7 @@ print(s.str.swapcase())
   </div>
 
 <h5 class="text-left mb-0 mt-5">code #5( len() method )</h5>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 import pandas as pd
 import numpy as np
@@ -1686,7 +1686,7 @@ print(s.str.len())
   </div>
 
 <h5 class="text-left mb-0 mt-5">code #6( isupper() method )</h5>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 import pandas as pd
 import numpy as np

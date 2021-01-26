@@ -1505,7 +1505,7 @@ padding:0px;
 <h3 class="text-left mt-4" style="color:#a54eee;">EXAMPLES</h3>
 <p style="text-align:justify;">Now we will try to grab the concept of Time Series in Pandas with the help of few example based cases,Now, let’s do some practical analysis on some data to demonstrate the use of pandas time series.</p>
 <h5 class="text-left mb-0 mt-2">code #1(Basic Time Series Example)</h5>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 import pandas as pd 
 from datetime import datetime 
@@ -1523,7 +1523,7 @@ print(date_range)
 <p style="text-align:justify;">In the above example, we have created the timestamp on the bases of minutes for date ranges from <b>1/1/2019 – 1/12/2019</b>. We can vary the frequency by hours to minutes or seconds. This function will help you to tack the record of data stored per minute. As we can see in the output the length of the datetime stamp is <b>15841</b>. Remember pandas use data type as <b>datetime64[ns]</b>.</p>
 
 <h5 class="text-left mb-0 mt-5">code #2(Checking the type of Range Date)</h5>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 import pandas as pd 
 from datetime import datetime 
@@ -1545,7 +1545,7 @@ print(type(date_range[100]))
 
 
 <h5 class="text-left mb-0 mt-5">code #3(Using the head() method)</h5>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 import pandas as pd 
 from datetime import datetime 
@@ -1565,7 +1565,7 @@ df.head()
 
 
 <h5 class="text-left mb-0 mt-5">code #4(Slicing)</h5>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 import pandas as pd 
 from datetime import datetime 
@@ -1588,7 +1588,7 @@ print(df['2019-01-09'][1:11])
   </div>
 
 <h4 class="text-left mt-4" style="color:#a54eee;">EXPLANATION</h4>
-<p style="text-align:justify;">In the above Example we have tried to clice the string.</p>
+<p style="text-align:justify;">In the above Example we have tried to slice the string.</p>
 
 
 

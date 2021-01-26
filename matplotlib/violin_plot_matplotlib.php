@@ -1485,7 +1485,7 @@ padding:0px;
     except that they show
 the probability density of the data and different values.Also it delineates the distribution, median, interquartile range of data. So we see that IQR(interquartile range) and median are the statistical information provided by box plot whereas distribution is being provided by the histogram.
 </p>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
     <code data-type="sample-code"> 
         import matplotlib.pyplot as plt
         import numpy as np

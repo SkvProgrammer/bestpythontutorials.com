@@ -1907,7 +1907,7 @@ Encapsulation is the wrapping down of code and Data in a Single Unit which incre
 </ol>
 <h3 style="text-align:left;color:#a54eee;" class="mt-4">EXAMPLE</h3>
 
- <div data-datacamp-exercise data-lang="python">
+ <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 class A:
   def __init__(self,public,protected,private):
@@ -1940,7 +1940,7 @@ AttributeError: 'A' object has no attribute 'protected'</numbers>
 <p style="text-align:justify;">Now we will see implementation of Encapsulation</p>
    
 
- <div data-datacamp-exercise data-lang="python">
+ <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 class Encapsulation(object):
    def __init__(self):

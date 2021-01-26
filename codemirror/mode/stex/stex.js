@@ -100,7 +100,7 @@
     // called when in a normal (no environment) context
     function normal(source, state) {
       var plug;
-      // Do we look like '\command' ?  If so, attempt to apply the plugin 'command'
+      // Do we look like '\command' ?  If so, attemptt to apply the plugin 'command'
       if (source.match(/^\\[a-zA-Z@]+/)) {
         var cmdName = source.current().slice(1);
         plug = plugins.hasOwnProperty(cmdName) ? plugins[cmdName] : plugins["DEFAULT"];

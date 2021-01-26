@@ -1491,14 +1491,14 @@ padding:0px;
 <!--content goes here-->
 <div id="main">
 <p style="text-align:justify;" class="mt-4">In this chapter we are going to see the concept of <i>Reindexing</i> in Pandas.Reindexing is used as Reindexing of rows and columns and replacing the missing values of the DataFrame.</p>
- <p style="text-align:justify;">Reindexing in Pandas can be used to change the index of rows and columns of a DataFrame. Indexes can be used with reference to many index DataS tructure associated with several pandas series or pandas DataFrame. Let’s see how can we Reindex the columns and rows in Pandas DataFrame.</p>
+ <p style="text-align:justify;">Reindexing in Pandas can be used to change the index of rows and columns of a DataFrame. Indexes can be used with reference to many index Data Structure  associated with several pandas series or pandas DataFrame. Let’s see how can we Reindex the columns and rows in Pandas DataFrame.</p>
 
 
 <h4 style="text-align:justify;color:#a54eee;" class="mt-4">Reindexing the Rows</h4>
 <p>In this section we are going to see that how we can reindex the rows of a DataFrame using the Reindexing property in Pandas.We will be demonstrating it with a simple example.We will be using the <code>reindex()</code> method for this purpose.</p>
 
 <h5 class="text-left mt-4">code #1</h5>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 # import numpy and pandas module 
 import pandas as pd 
@@ -1520,7 +1520,7 @@ df.reindex(['1', '3', '2', '5', '4']))
   </div>
 
 <h5 class="text-left mt-4">code #2</h5>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 # import numpy and pandas module 
 import pandas as pd 
@@ -1547,7 +1547,7 @@ df.reindex(new_index))
 <h4 style="text-align:justify;color:#a54eee;" class="mt-4">Reindexing the Columns(using <i>axis</i> keyword)</h4>
 <p>In this section we are going to see that how we can reindex the columns of a DataFrame using the Reindexing property in Pandas.We will be demonstrating it with a simple example.We will be using the <code>reindex()</code> method for this purpose.</p>
 <h5 class="text-left mt-4">code #1</h5>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 # import numpy and pandas module 
 import pandas as pd 
@@ -1572,7 +1572,7 @@ df.reindex(new_index,axis = 'columns'))
 
 
 <h5 class="text-left mt-4">code #2</h5>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 # import numpy and pandas module 
 import pandas as pd 
@@ -1585,7 +1585,7 @@ index =['A', 'B', 'C', 'D', 'E']
 df1 = pd.DataFrame(np.random.rand(5, 5),  
         columns = column, index = index) 
   
-colum =['a', 'b', 'c', 'g', 'h'] 
+column=['a', 'b', 'c', 'g', 'h'] 
   
 # create the new index for columns 
 print(df1.reindex(colum, axis ='columns'))  
@@ -1597,7 +1597,7 @@ print(df1.reindex(colum, axis ='columns'))
 <p style="text-align:justify;">In Pandas we have a keyword called <code>fill_value</code> which in general is used to replace null or missing values.Replacing the integral values in the DataFrame.</p>
 
 <h5 class="text-left mt-4">code #1</h5>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 # import numpy and pandas module 
 import pandas as pd 
@@ -1610,7 +1610,7 @@ index =['A', 'B', 'C', 'D', 'E']
 df1 = pd.DataFrame(np.random.rand(5, 5),  
         columns = column, index = index) 
   
-colum =['a', 'b', 'c', 'g', 'h'] 
+column=['a', 'b', 'c', 'g', 'h'] 
   
 # create the new index for columns 
 print(df1.reindex(colum, axis ='columns',fill_value = 2))  
@@ -1621,7 +1621,7 @@ print(df1.reindex(colum, axis ='columns',fill_value = 2))
 <p style="text-align:justify;" class="mt-3">Now we will try to replace the missing values with other string values...</p>
 
 <h5 class="text-left mt-4">code #2</h5>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 # import numpy and pandas module 
 import pandas as pd 
@@ -1634,7 +1634,7 @@ index =['A', 'B', 'C', 'D', 'E']
 df1 = pd.DataFrame(np.random.rand(5, 5),  
         columns = column, index = index) 
   
-colum =['a', 'b', 'c', 'g', 'h'] 
+column=['a', 'b', 'c', 'g', 'h'] 
   
 # create the new index for columns 
 print(df1.reindex(colum, axis ='columns',fill_value = 'Missing Data!'))  

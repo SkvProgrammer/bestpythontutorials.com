@@ -1864,11 +1864,11 @@ function googleTranslateElementInit() {
 <!-----------------------------CONTENT------------------->
 
   
-<p style="text-align:justify;" class="mt-4">A class is like a user-defined #4537d1print or prototype from which objects are created. Classes provide a means of bundling data and functionality together. Creating a new class also creates a new type of object, allowing new instances of that type to be made. Each class instance can have attributes attached to it for maintaining its state. Class instances can also have methods (defined by its class) for modifying its state.</p>
+<p style="text-align:justify;" class="mt-4">A class is like a user-defined blueprint or prototype from which objects are created. Classes provide a means of bundling data and functionality together. Creating a new class also creates a new type of object, allowing new instances of that type to be made. Each class instance can have attributes attached to it for maintaining its state. Class instances can also have methods (defined by its class) for modifying its state.</p>
 
 
 <p style="text-align:justify;">Let's see an example of <b>Instance Method</b> in Python...</p>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 class person:
     def __init__(self,age):
@@ -1887,7 +1887,7 @@ obj1.display_age()
 
 <p style="text-align:justify;" class="mt-2">The above example will help you to tackle classes now the real thing to deal with is the instance method.Let's dive into it.</p>
 
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 # Python program to demonstrate 
 # instance methods 

@@ -1497,7 +1497,7 @@ padding:0px;
 </div>
 <!--content goes here-->
 <div id="main">
-<p style="text-align:justify;" class="mt-4">Pandas provide full features jpin operations similar to Joins in Relational Database such as SQL.This is the last chapter of our tutorial series and I hope you enjoyed a lot...</p>
+<p style="text-align:justify;" class="mt-4">Pandas provide full features join operations similar to Joins in Relational Database such as SQL.This is the last chapter of our tutorial series and I hope you enjoyed a lot...</p>
 
 <p style="text-align:justify;">Pandas provides a single function, <b>merge</b>, as the entry point for all standard database join operations between DataFrame objects −
 </p>
@@ -1539,7 +1539,7 @@ right_on</td> <td> Columns from the right DataFrame to use as keys. Can either b
 </div>
 <p style="text-align:justify;" class="mt-3">Now let's grab this concept of Merging and Joining with the help of sophisticated examples.</p>
 <h5 class="text-left mb-0 mt-3">code #1( A simple example )</h5>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 # import the pandas library
 import pandas as pd
@@ -1559,7 +1559,7 @@ print(right)
   </div>
 <h4 class="text-left mt-4" style="color:#a54eee;">Merge Two DataFrames on a Key</h4>
 <h5 class="text-left mb-0 mt-3">code #2( Joining the left and right of the code #1 )</h5>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 # import the pandas library
 import pandas as pd
@@ -1582,7 +1582,7 @@ print(pd.merge(left,right,on="Name"))
 
 <h4 class="text-left mt-4" style="color:#a54eee;">Merge Two DataFrames on Multiple Key</h4>
 <h5 class="text-left mb-0 mt-3">code #3( Joining the left and right of the code #1 )</h5>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 # import the pandas library
 import pandas as pd
@@ -1636,7 +1636,7 @@ print(pd.merge(left,right,on=["Name","Subject"]))
 </tbody></table>
 </div>
 <h5 class="text-left mb-0 mt-3">code #4( Demonstrating the use of how )</h5>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 # import the pandas library
 import pandas as pd

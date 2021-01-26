@@ -1565,7 +1565,7 @@ function googleTranslateElementInit() {
 
 
 <p style="text-align:justify;" class="mt-4">Django is a Python based Web Framework which is used to build powerful Web Applicatiosn.Django Follows MVT Architechture.What is MVT , We will be discussing in later chapters.</p>
-<p style="text-align:justify;" class="mt-4">Django is famous for it's ready to use components and built in admin Panel which looks great and comes in very handly while Backend Stuffs.</p>
+<p style="text-align:justify;" class="mt-4">Django is famous for it's ready to use components and built in admin Panel which looks great and comes in very handy while Backend Stuffs.</p>
 
 <h3 class="text-left mt-4" style="color:#a54eee;">Why Django?</h3>
 <ul style="text-align:justify;">

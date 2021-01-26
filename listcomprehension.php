@@ -1876,7 +1876,7 @@ function googleTranslateElementInit() {
       
         <p style="text-align:justify;">Suppose you want to print all the even numbers from a list.Let us now look at the use of <i>for</i> loop and List Comprehension for this purpose</p>
         <h3 style="text-align:left;color:#a54eee;" class="mt-4">EXAMPLE</h3>
- <div data-datacamp-exercise data-lang="python">
+ <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 #using for loop
 list_1 = [2,3,5,8,10,12]
@@ -1911,7 +1911,7 @@ print([i for i in list_1 if i%2 == 0])
 
 <p style="text-align:justify;" class="mt-3">Now we will see how to iterate over a string using List Comprehension Method.</p>
 
- <div data-datacamp-exercise data-lang="python">
+ <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 str_1 = "programmer"
 print([i for i in str_1]) 
@@ -1938,7 +1938,7 @@ print([i for i in str_1])
 
 
 
- <div data-datacamp-exercise data-lang="python">
+ <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 lt = list(map(lambda a:a, 'programmer'))
 print(lt) 

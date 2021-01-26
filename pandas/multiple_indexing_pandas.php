@@ -1504,7 +1504,7 @@ padding:0px;
 
 <h3 class="text-left mt-4" style="color:#a54eee;">EXAMPLES</h3>
 <p class="text-left mb-0 m1-3">code #1(Use MultiIndex.to_frame() function to construct a dataframe using the MultiIndex levels as the column and index)</p>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 # importing pandas as pd 
 import pandas as pd 
@@ -1520,7 +1520,7 @@ print(muix)
 </code>
   </div>
 <p class="text-left mb-0 mt-3">code #2(Now let’s construct the dataframe from the MultiIndex.)</p>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 # importing pandas as pd 
 import pandas as pd 
@@ -1535,7 +1535,7 @@ muix.to_frame(index = True)
 </code>
   </div>
 <p class="text-left mb-0 mt-3">code #3(Create a DataFrame from new index)</p>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 # importing pandas as pd 
 import pandas as pd 

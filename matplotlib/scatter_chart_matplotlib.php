@@ -20,7 +20,7 @@
           <script src="../codemirror/mode/javascript/javascript.js"></script>
           <script src="../codemirror/mode/sql/sql.js"></script>
            <script src="../codemirror/mode/xml/xml.js"></script> 
-           <meta name="description" content="Scatter Chart - Matplotlib - Scatter Plot - Scatter plots are used to plot data points on horizontal and vertical axis in the attempt to show how much one variable is affected by - BestPythonTutorials.com" />
+           <meta name="description" content="Scatter Chart - Matplotlib - Scatter Plot - Scatter plots are used to plot data points on horizontal and vertical axis in the attemptt to show how much one variable is affected by - BestPythonTutorials.com" />
            <script src="https://unpkg.com/applause-button/dist/applause-button.js" type="text/javascript"></script>
         <link rel="stylesheet" type="text/css" href="https://unpkg.com/applause-button/dist/applause-button.css">
          <!-- add the button style & script -->
@@ -1488,7 +1488,7 @@ A scatter plot (also called a scatterplot, scatter graph, scatter chart, scatter
 
 <h3 class="text-left mt-4" style="color:#a54eee;">EXAMPLES</h3>
 <h5 class="text-left mb-0 mt-2">code #1( Basic Scatter Chart )</h5>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code"> 
 import matplotlib.pyplot as plt
 class11_grades = [89, 90, 70, 89, 100, 80, 90, 100, 80, 34]
@@ -1509,7 +1509,7 @@ plt.show()
 
 
 <h5 class="text-left mb-0 mt-2">code #2( Scattered Masked )</h5>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code"> 
 import numpy as np
 
@@ -1540,7 +1540,7 @@ plt.show()
 
 
 <h5 class="text-left mb-0 mt-2">code #3( Scatter Plot with Legend )</h5>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code"> 
 import numpy as np
 np.random.seed(19680801)

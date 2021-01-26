@@ -1490,7 +1490,7 @@ padding:0px;
 </div>
 <!--content goes here-->
 <div id="main">
-<p style="text-align:justify;" class="mt-4">In the previous chapter we have see that how we can read csv files in Python using Pandas now we will that how to convert a dataframe into CSV file using the <code>to_csv()</code> method.The syntax is given below-</p>
+<p style="text-align:justify;" class="mt-4">In the previous chapter we have see that how we can read csv files in Python using Pandas now we will see that how to convert a dataframe into CSV file using the <code>to_csv()</code> method.The syntax is given below-</p>
 <div class="text-left mt-0 mb-1">
   <form action="https://www.jdoodle.com/api/redirect-to-post/python3-programming-online" method="post" target="_blank">
  <textarea id="editor1" name="initScript" style="height:20vh!important;text-align:justify;overflow:hidden;-webkit-border-radius: 5px;

@@ -1869,7 +1869,7 @@ function googleTranslateElementInit() {
 
 
 
- <div data-datacamp-exercise data-lang="python">
+ <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 import random
 random.seed(10)
@@ -1894,7 +1894,7 @@ print(random.random())
 
 
 
- <div data-datacamp-exercise data-lang="python">
+ <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 import random
 print(random.choice([1,1,2,2,3,8,10])) 
@@ -1936,7 +1936,7 @@ print(random.choice([1,1,2,2,3,8,10]))
 </div>
 <br>
 
- <div data-datacamp-exercise data-lang="python">
+ <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 import random
 print(random.randint(2,10)) 
@@ -1991,7 +1991,7 @@ print(random.randint(2,10))
 
 
 
- <div data-datacamp-exercise data-lang="python">
+ <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 import random
 print(random.randrange(2,10)) 

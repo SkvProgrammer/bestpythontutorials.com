@@ -1495,7 +1495,7 @@ padding:0px;
 <h4 class="text-left mt-4" style="color:#a54eee;">Basic Iteration</h4>
 <p style="text-align:justify;">In this section we will see a simple example of iteration of iterating over rows and columns of a DataFrame.Iterating a DataFrame gives column names. Let us consider the following example to understand the same.</p>
 
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 import pandas as pd
 import numpy as np
@@ -1523,7 +1523,7 @@ for i in df:
 <h4 class="text-left mt-4" style="color:#a54eee;">iteritems()</h4>
 <p style="text-align:justify;">This method iterates over each column as key, value pair with label as key and column value as a Series object.
 </p>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 import pandas as pd
 import numpy as np
@@ -1537,7 +1537,7 @@ for key,value in df.iteritems():
 <h4 class="text-left mt-4" style="color:#a54eee;">iterrows()</h4>
 <p style="text-align:justify;">iterrows() returns the iterator yielding each index value along with a series containing the data in each row.
 </p>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 # importing pandas as pd 
 import pandas as pd 
@@ -1560,7 +1560,7 @@ for i, j in df.iterrows():
 <h4 class="text-left mt-4" style="color:#a54eee;">itertuples()</h4>
 <p style="text-align:justify;">itertuples() method will return an iterator yielding a named tuple for each row in the DataFrame. The first element of the tuple will be the row’s corresponding index value, while the remaining values are the row values.
 </p>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 # importing pandas as pd 
 import pandas as pd 

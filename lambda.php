@@ -1884,7 +1884,7 @@ function googleTranslateElementInit() {
         <h3 style="text-align:left;color:#a54eee;" class="mt-5">EXAMPLE</h3>
 
 
- <div data-datacamp-exercise data-lang="python">
+ <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 x = lambda a,b : a + b
 print(x(4,5)) 
@@ -1917,10 +1917,10 @@ print(x(4,5))
 
 
 
- <div data-datacamp-exercise data-lang="python">
+ <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 def cube(x):
-return x*x*x
+   return x*x*x
 cube = lambda y: y*y*y
 print(cube(2))
 print(cube(2)) 

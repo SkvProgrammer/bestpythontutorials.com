@@ -1870,7 +1870,7 @@ function googleTranslateElementInit() {
            <p style="text-align:left;">Except the object(s) <a href="functions.php#parameter" style="color:grey;text-decoration:none;">Parameters <img src="django/link.png" style="height:12px;"></a> all other parameters are optional..</p>
            <p style="text-align:left;" class="mt-5">The <b>separator</b> parameter  specifies how to separate the objects, if there are more than one object. Default is ' '</p>
 
-           <div data-datacamp-exercise data-lang="python">
+           <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 print("Hello","satyam",sep=".")
 </code>
@@ -1880,7 +1880,7 @@ print("Hello","satyam",sep=".")
             <p style="text-align:left;">The <b>end</b> parameter  specifies what to print at the end. Default is '\n'(new line)</p>
 
 
-      <div data-datacamp-exercise data-lang="python">
+      <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 print("Hello",end=" Satyam")
 </code>
@@ -1891,7 +1891,7 @@ print("Hello",end=" Satyam")
 
              <p style="text-align:left;">Printing multiple statements using the print function</p>
 
-      <div data-datacamp-exercise data-lang="python">
+      <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 print("Hello"," BestPythonTutorials")
 </code>
@@ -1903,7 +1903,7 @@ print("Hello"," BestPythonTutorials")
 
     <p style="text-align:left;">Printing the value of a variable using the print function</p>
 
-          <div data-datacamp-exercise data-lang="python">
+          <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 a = 12
 print(a)
@@ -1915,7 +1915,7 @@ print(a)
            </div>
             <p style="text-align:left;">Printing the values of an array using the print function</p>
 
-          <div data-datacamp-exercise data-lang="python">
+          <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 a = ['Google','Facebook','Microsoft']
 print(a)
@@ -1949,7 +1949,7 @@ print(a)
 <p style="text-align:justify;">We can declare a doc string using <code>""" triple quotes """</code>.</p>
 
 
-          <div data-datacamp-exercise data-lang="python">
+          <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 def docmethod():
         """ Docstrings  Demonstration"""
@@ -1961,7 +1961,7 @@ def docmethod():
 <p style="text-align:justify;">We can access a docstring using a <a href="magicmethods.php" style="color:grey;text-decoration:none;"> Magic Method <img src="django/link.png" style="height:10px;"></a> called <code>__doc__</code> and a method called <code>help()</code>.See the example for better understanding.</p>
 
 
-          <div data-datacamp-exercise data-lang="python">
+          <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 def docmethod():
         """ Docstrings  Demonstration"""
@@ -1978,7 +1978,7 @@ print(help(docmethod))
 
 <h5 class="text-left mt-1 mb-0">Code #1(Multiline Strings - Error Generated)</h5>
 
-          <div data-datacamp-exercise data-lang="python">
+          <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 #this program will generate an error
 print("Hello I am
@@ -1989,7 +1989,7 @@ a programmer")
 
 <h5 class="text-left mt-1 mb-0">Code #2(Multiline Strings - Making them possible)</h5>
 
-          <div data-datacamp-exercise data-lang="python">
+          <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 #this program will work fine
 print("Hello I am"\
@@ -2000,7 +2000,7 @@ print("Hello I am"\
 
 <h5 class="text-left mt-1 mb-0">Code #3(Multiline Strings - Using Docstring)</h5>
 
-          <div data-datacamp-exercise data-lang="python">
+          <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 print("""I am a programmer and I love
 to teach programming to others""")

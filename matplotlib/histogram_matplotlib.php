@@ -1528,7 +1528,7 @@ padding:0px;
 </div>
 
 <h5 class="text-left mt-3">Now we will look at a very simple example of plotting a histogram:-</h5>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code"> 
 from matplotlib import pyplot as plt
 import numpy as np

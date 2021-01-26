@@ -1877,7 +1877,7 @@ function googleTranslateElementInit() {
         <p>The <code>except</code> block lets you handle the error.</p>
 
         <h3 style="text-align:left;color:#a54eee;" class="mt-4">EXAMPLE</h3>
- <div data-datacamp-exercise data-lang="python">
+ <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 try:
    print(10/0)
@@ -1894,7 +1894,7 @@ except ZeroDivisionError:
        
         <p style="text-align:justify;" class="mt-3">The <code>finally</code> block is executed before the try block everytime.</p>
 
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 try: 
    print(10/0)
@@ -1910,7 +1910,7 @@ finally:
          
         <h3 style="text-align:left;text-decoration:none;color:#a54eee;" class="mt-4">Raising an Exception</h3>
 
-         <div data-datacamp-exercise data-lang="python">
+         <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 maths_score = 99
 if maths_score < 100 or maths_score == 99:

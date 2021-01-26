@@ -1866,7 +1866,7 @@ function googleTranslateElementInit() {
            </div>
                  <p style="text-align:justify;"><strong>raw_input() : </strong>This method is only supported in older version of Python i.e. Python 2.x.This method reads the input from the keyboard and stores it in the variable in which we want it to be...</p>
 
-                  <div data-datacamp-exercise data-lang="python">
+                  <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 taking_input = raw_input("Enter a String:")
 print taking_input
@@ -1886,7 +1886,7 @@ bestpythontutorials
 
 
                  <p style="text-align:justify;"><strong>input() : </strong>This method is  supported in newer versions of Python i.e. Python 3.x.This method reads the input from the keyboard and stores it in the variable in which we want it to be...</p>
-                                   <div data-datacamp-exercise data-lang="python">
+                                   <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 taking_input = input("Enter a String:")
 print(taking_input)

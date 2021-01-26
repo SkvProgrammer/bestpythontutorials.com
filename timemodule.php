@@ -1873,7 +1873,7 @@ function googleTranslateElementInit() {
           <p style="text-align:justify;"><code>time.time()</code> method returns the time in number of seconds from epoch.We will understand this function by making a program to find out the execution time of a <code>for</code> loop...</p>
              
 
- <div data-datacamp-exercise data-lang="python">
+ <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 import time
 start = time.time()
@@ -1918,7 +1918,7 @@ Time taken by for loop: 0.015626907348632812</keyword>
 </p>
 
 
- <div data-datacamp-exercise data-lang="python">
+ <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 import time
 time_in_seconds = 1373263749

@@ -1522,7 +1522,7 @@ padding:0px;
 
 <h4 class="text-left mt-4" style="color:#a54eee;">EXAMPLES</h4>
 <h5 class="text-left mb-0 mt-2">code #1(Creating a DataFrame)</h5>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 import pandas as pd  
 info = pd.DataFrame({'Name': ['Peter', 'Tom', 'Iron Man', 'Tony'],  
@@ -1534,7 +1534,7 @@ info
   </div>
 
 <h5 class="text-left mb-0 mt-5">code #2(Create a MultiIndex using columns 'Age' and 'Name')</h5>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 import pandas as pd  
 info = pd.DataFrame({'Name': ['Peter', 'Tom', 'Iron Man', 'Tony'],  
@@ -1546,7 +1546,7 @@ info
   </div>
 
 <h5 class="text-left mb-0 mt-5">code #3(It creates a MultiIndex using an Index and a column)</h5>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 import pandas as pd  
 info = pd.DataFrame({'Name': ['Peter', 'Tom', 'Iron Man', 'Tony'],  

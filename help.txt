@@ -1,4 +1,4 @@
- <div data-datacamp-exercise data-lang="python">
+ <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 name = "Abhishek"
 print(name[-9:-1])

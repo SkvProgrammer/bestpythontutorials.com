@@ -1899,7 +1899,7 @@ function googleTranslateElementInit() {
 
 <h3 style="text-align:justify;color: #a54eee;" class="mt-4">Now we will how to send mail using python with a very simple example using smtplib</h3>
 
-    <div data-datacamp-exercise data-lang="python">
+    <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
    # sending email in python
 import smtplib 
@@ -1937,7 +1937,7 @@ s.quit()
 </script>
   <h3 class="text-left mt-4" style="color:#a54eee;">Sending an HTML email using Python</h3>
   <p style="text-align:justify;">When you send messages using smtplib in Python.All the messages are treated as simple text but when you add any html tag it will show the output of the HTML.But in many cases we might need to send Pure HTML tagged messages not the output of the HTML.In this section we will try to send email in the form of html tags.So let's start :) We just have to add an attribute called content-type.</p>
-      <div data-datacamp-exercise data-lang="python">
+      <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
    #BestPythonTutorials.com
 import smtplib, ssl
@@ -2002,7 +2002,7 @@ with smtplib.SMTP_SSL("smtp.gmail.com", 587, context=context) as server:
 </script>
   <h3 class="text-left mt-4" style="color:#a54eee;">Sending an attachment in email using Python</h3>
   <p>Attachments are files like image,audio or video that can be a reference to the email.In this section we are going to discuss that how can we send an attachment using Python.</p>
-      <div data-datacamp-exercise data-lang="python">
+      <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 import smtplib
 import base64

@@ -1870,7 +1870,7 @@ function googleTranslateElementInit() {
 
 
 
- <div data-datacamp-exercise data-lang="python">
+ <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 list1 = [1,2,3,4,5]
 print(list1[0])
@@ -1887,7 +1887,7 @@ print(list1[4])
         <p style="text-align:justify;text-decoration:none;"><b>Slicing</b> refers to divide a string into different parts that are called <b>Substring</b>.You can easily grab this concept by taking a look at the example given below.</p>
 
 
- <div data-datacamp-exercise data-lang="python">
+ <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 name = "Abhishek"
 print(name[2:4]) 
@@ -1910,14 +1910,14 @@ print(name[2:4])
     <h3 style="text-align:left;color:#a54eee;">More Examples</h3>
     
   <h5 class="text-left mt-1 mb-0">Code #1( Printing all the characters after the index number 2 )</h5>
- <div data-datacamp-exercise data-lang="python">
+ <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 name = "Abhishek"
 print(name[2:]) 
 </code>
   </div>
     <h5 class="text-left mt-1 mb-0">Code #2( Printing all the characters after the index number -1 or simply reversing the string )</h5>
- <div data-datacamp-exercise data-lang="python">
+ <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 name = "Abhishek"
 print(name[::-1])
@@ -1926,7 +1926,7 @@ print(name[::-1])
   </div>
 
     <h5 class="text-left mt-1 mb-0">Code #3( Printing all the character of even order )</h5>
- <div data-datacamp-exercise data-lang="python">
+ <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 name = "Abhishek"
 print(name[1:8:2])
@@ -1937,7 +1937,7 @@ print(name[1:8:2])
 
 
     <h5 class="text-left mt-1 mb-0">Code #4( Printing using the negative index )</h5>
- <div data-datacamp-exercise data-lang="python">
+ <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 name = "Abhishek"
 print(name[-9:-1])

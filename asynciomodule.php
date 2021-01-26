@@ -1876,7 +1876,7 @@ function googleTranslateElementInit() {
            </div>
 <div class="text-left mt-2">
   <h3 style="text-align:left;color:#a54eee;" class="mb-1 mt-3">EXAMPLE</h3>
-   <div data-datacamp-exercise data-lang="python">
+   <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 def divisibles(g_range, div_by):
     print("Finding numbers in range {} divisible by {}".format(g_range, div_by))
@@ -1921,7 +1921,7 @@ It's not really necessary in this case that we run like this, what if we'd like 
 <h3 class="mt-4" style="text-align:left;">The above program made with the help of asyncio module</h3>
 <div class="text-left mt-2">
  
-     <div data-datacamp-exercise data-lang="python">
+     <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 import asyncio
 async def divisibles(g_range, div_by):

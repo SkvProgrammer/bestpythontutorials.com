@@ -1517,7 +1517,7 @@ A Pie Chart can only display one series of data. Pie charts show the size of ite
 
 <h4 class="text-left mt-4" style="color:#a54eee;">EXAMPLES</h4>
 <h5 class="text-left mb-0 mt-2">code #1(A simple pie chart)</h5>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code"> 
 from matplotlib import pyplot as plt
 import numpy as np
@@ -1533,7 +1533,7 @@ plt.show()
 <h4 class="text-left mt-4" style="color:#a54eee;">Output of the above code</h4>
 <img src="pie1.svg" class="img-fluid" style="height:600px;">
 <h5 class="text-left mb-0 mt-2">code #2(Explode Example)</h5>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code"> 
 from matplotlib import pyplot as plt
 import numpy as np

@@ -1872,7 +1872,7 @@ The <code>==</code> operator is used when the values of two operands are equal, 
 The <code>is</code> operator evaluates to true if the variables on either side of the operator point to the same object and false otherwise.</p>
 
 <h3 style="text-align:left;color:#a54eee;" class="mt-5">EXAMPLE</h3>
- <div data-datacamp-exercise data-lang="python">
+ <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 """Demonstration of is and == operators in python"""
 list_1 = [ ]
@@ -1893,7 +1893,7 @@ else:
            </div>
  <p style="text-align:justify;" class="mt-3 mb-3">You can apply the similar logic to <code>!=</code> and <code>is not</code> as applied above and see the below example for better understanding...</p>
 
- <div data-datacamp-exercise data-lang="python">
+ <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 """Demonstration of is not and != operators in python"""
 list_1 = [ ]

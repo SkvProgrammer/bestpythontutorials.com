@@ -1510,7 +1510,7 @@ Use of special library functions (e.g., random)
 
 <h4 class="text-left mt-4" style="color:#a54eee;">Array Creation - Using Lists and Tuples.</h4>
 <p style="text-align:justify;">In this section we are going to create arrays using Python's List and Tuple Data Structures.Python by default doesn't supports Arrays.So in Place of Arrays,Lists are used.</p>
-<div data-datacamp-exercise data-lang="python" style="z-index:0;">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python" style="z-index:0;">
   <code data-type="sample-code">
 #creating an array using Python's List
 array1 = [1,2,3,4,5]
@@ -1523,7 +1523,7 @@ for i in array1:
 <h4 class="text-left mt-5" style="color:#a54eee;">Array Creation - Using Array Creation Routines</h4>
 <p style="text-align:justify;">In NumPy we have some special functions such as <comment>np.zeros</comment>,<comment>np.ones</comment> and <comment>np.empty</comment> which are used to create arrays and they are generally know as array creation routines.In this chapter we are just going to cover few of them but if you are interested in learning more <a href="" target="_blank" style="color:grey;text-decoration:none;">Click here <img src="../django/link.png" style="height:10px;"></a></p>
 
-<div data-datacamp-exercise data-lang="python" style="z-index:0;">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python" style="z-index:0;">
   <code data-type="sample-code">
 import numpy as np
 print(np.zeros([1,2]))
@@ -1542,7 +1542,7 @@ Various fields have standard formats for array data. The following lists the one
 </p>
 <h3 class="text-left mt-4" style="color:#a54eee;">Array Creation - Using Array method</h3>
 <p style="text-align:justify;">We can also create arrays using the <code>array()</code> method in NumPy.</p>
-<div data-datacamp-exercise data-lang="python" style="z-index:0;">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python" style="z-index:0;">
   <code data-type="sample-code">
 import numpy as np
 print(np.array([1,2,3,4,5]))
@@ -1550,7 +1550,7 @@ print(np.array([1,2,3,4,5]))
   </div>
 <h3 class="text-left mt-4" style="color:#a54eee;">Array Creation - Using Random method</h3>
 <p style="text-align:justify;">We can also create arrays using the <code>array()</code> method in NumPy.</p>
-<div data-datacamp-exercise data-lang="python" style="z-index:0;">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python" style="z-index:0;">
   <code data-type="sample-code">
 from numpy import random
 x = random.randint(100, size=(3, 5))

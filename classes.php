@@ -1874,7 +1874,7 @@ function googleTranslateElementInit() {
            </div>
     
     <h3 style="text-align:justify;color:#a54eee;">Classes - Python</h3>
-        <p style="text-align:justify;">Classes are the #4537d1print for Creating Objects.Classes provide bundling data and functionalities.To understand the meaning of Classes and Objects we will take a simple  example:-
+        <p style="text-align:justify;">Classes are the blueprint for Creating Objects.Classes provide bundling data and functionalities.To understand the meaning of Classes and Objects we will take a simple  example:-
           <div style="width:100%;height:auto;text-align:justify;">
             <i>Suppose you have to go from Point A to Point B then you need some kind of transportation in the form of Vehicles here Vehicles can be referred  as <b>Classes</b> and <b>Cars</b> or <b>Motorcycles</b> are types of Vehicles which are the examples of <b>Objects</b>.</i>
           </div>
@@ -1883,7 +1883,7 @@ function googleTranslateElementInit() {
  <div class="mb-3 mt-3">
        <a href="https://partners.hostgator.com/c/2548499/178160/3094" target="_top" id="178160"><img src="//a.impactradius-go.com/display-ad/3094-178160" border="0" alt="" width="336" height="280"/></a><img height="0" width="0" src="https://partners.hostgator.com/i/2548499/178160/3094" style="position:absolute;visibility:hidden;" border="0" /><br>
            </div>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 class Myclass:
     pass
@@ -1903,7 +1903,7 @@ class Myclass:
 <p style="text-align:justify;"><code>Object</code> is simply a collection of data (variables) and methods (functions) that act on those data.Objects are the <i>real-world</i> entity i.e they really exists.</p>
 <h3 class="text-left mt-3" style="color:#a54eee;">Creating an Object</h3>
 
-  <div data-datacamp-exercise data-lang="python">
+  <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 class Myclass:
     x = 10
@@ -1934,7 +1934,7 @@ Now what are <b>Constructors</b>,Constructors are Special Functions which are us
 The name of the Constructor must be similar to the name of that Class.We will understand this concept by a Simple Example.
 </p>
 
-  <div data-datacamp-exercise data-lang="python">
+  <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 class Myconstructor:
       x = None
@@ -1964,7 +1964,7 @@ print(obj2.x)
 It does not have to be named <code>self</code> , you can call it whatever you like, but it has to be the first parameter of any function in the class: 
 </p>
 
-   <div data-datacamp-exercise data-lang="python">
+   <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 class Myclass:
       def __init__(selfobject,x):

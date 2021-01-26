@@ -1489,7 +1489,7 @@ function googleTranslateElementInit() {
 <!-----------------------Google Translate API ends----------------->
 <!--content goes here-->
 <div id="main">
-  <p style="text-align:justify;" class="mt-4">In this chapter we are going to do something awesome which I personally love i.e. Database Management in Flask.As you might know that Django has a built-in suppport for SQLite Database which is a great thing as it reduces the complexity of Database Handling.</p>
+  <p style="text-align:justify;" class="mt-4">In this chapter we are going to do something awesome which I personally love i.e. Database Management in Flask.As you might know that Django has a built-in support for SQLite Database which is a great thing as it reduces the complexity of Database Handling.</p>
 
   <h3 class="text-left mt-4" style="color:#a54eee;">Connecting with SQLite Database</h3>
 <div class="text-left mt-0 mb-1">
@@ -1926,7 +1926,7 @@ def view():
 
 
 
-<p style="text-align:justify;" class="mt-4">Now it's time to deesign the main page which the <b>crud.py</b></p>.
+<p style="text-align:justify;" class="mt-4">Now it's time to design the main page which the <b>crud.py</b></p>.
 <div class="text-left mt-0 mb-1">
 <p class="text-left"></p>
  <form action="" method="post" target="_blank">

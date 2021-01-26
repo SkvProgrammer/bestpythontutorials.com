@@ -1518,7 +1518,7 @@ function googleTranslateElementInit() {
 
 
 
-  <p style="text-align:justify;" class="mt-4">AJAX stands for Asyncronous Javascript and XML.This technology is useful when you want your app to behave asyncronously i.e. Suppose you are logging in your site then while logging you are redirected to the homepage that is your website is handling multiple requests and giving the correct response. </p>
+  <p style="text-align:justify;" class="mt-4">AJAX stands for Asyncronous Javascript and XML.This technology is useful when you want your app to behave asynchronously i.e. Suppose you are logging in your site then while logging you are redirected to the homepage that is your website is handling multiple requests and giving the correct response. </p>
   <p style="text-align:justify;">In order to use AJAX in your Web Application you need to make some changes in the <b>settings.py</b> file.Django can directly use AJAX with the help of JQuery or Django also has some AJAX Libraries such as  django-dajax which is a powerful tool to easily and super-quickly develop asynchronous presentation logic in web applications, using Python and almost no JavaScript source code.</p>
   
   <p style="text-align:justify;">First thing we need is to install django-dajax.It can be installed using pip package manager.</p>

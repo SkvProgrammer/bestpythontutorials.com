@@ -1497,7 +1497,7 @@ function googleTranslateElementInit() {
 <p style="text-align:justify;">We will discuss all the three methods in detail in this chapter.This is a very important topic in Data Analysis.</p>
 <h3 class="text-left mt-4" style="color:#a54eee;">Field Access</h3>
 <p style="text-align:justify;">Field Access is nothing but what we normally do for indexing of elements in an array using it's index number or slicing methods.</p>
-<div data-datacamp-exercise data-lang="python" style="z-index:0;">
+<div data-datacamp-exercise data-no-lazy-loading data-no-lazy-loading data-lang="python" style="z-index:0;">
   <code data-type="sample-code"> 
 import numpy as np  
 array1 = [1,2,3]
@@ -1522,7 +1522,7 @@ an integer</p>
 
 <p style="text-align:justify;" class="mt-5">Consider the below example:-</p>
 <p class="text-left">code #1</p>
-<div data-datacamp-exercise data-lang="python" style="z-index:0;">
+<div data-datacamp-exercise data-no-lazy-loading data-no-lazy-loading data-lang="python" style="z-index:0;">
   <code data-type="sample-code"> 
 import numpy as np 
 
@@ -1536,7 +1536,7 @@ print("Basic slicing, getting all elements = ",array1[0:5])
   </div>
 
   <p class="text-left">code #2</p>
-<div data-datacamp-exercise data-lang="python" style="z-index:0;">
+<div data-datacamp-exercise data-no-lazy-loading data-no-lazy-loading data-lang="python" style="z-index:0;">
   <code data-type="sample-code"> 
 import numpy as np 
 
@@ -1550,7 +1550,7 @@ print("Basic slicing, getting the elements of  uneven order = ",array1[0:5:2])
   </div>
 
 <h3 class="text-left mt-4" style="color:#a54eee;">Advanced Indexing</h3>
-<p style="text-align:justify;">We are considering an array x with index called ind now if the below is true for ind then theese process is called <b>Advanced Indexing</b>.</p>
+<p style="text-align:justify;">We are considering an array x with index called ind now if the below is true for ind then this process is called <b>Advanced Indexing</b>.</p>
 <p style="text-align:justify;">1) an ndarray of type integer or Boolean</p>
 <p style="text-align:justify;">2) or a tuple with at least one sequence object</p>
 <p style="text-align:justify;">3) is a non tuple sequence object
@@ -1560,7 +1560,7 @@ print("Basic slicing, getting the elements of  uneven order = ",array1[0:5:2])
 
 <h4 class="text-left mt-4" style="color:#a54eee;">Integer Indexing</h4>
 <p style="text-align:justify;">When integers are used for indexing. Each element of first dimension is paired with the element of the second dimension. So the index of the elements in this case are (0,0),(1,0),(2,1) and the corresponding elements are selected.</p>
-<div data-datacamp-exercise data-lang="python" style="z-index:0;">
+<div data-datacamp-exercise data-no-lazy-loading data-no-lazy-loading data-lang="python" style="z-index:0;">
   <code data-type="sample-code"> 
 import numpy as np 
 
@@ -1573,7 +1573,7 @@ print(array1[[0,1,0,1],[0,1,0,0]])
 <h4 class="text-left mt-4" style="color:#a54eee;">Boolean Indexing</h4>
 <p style="text-align:justify;">This indexing has some boolean expression as the index. Those elements are returned which satisfy that Boolean expression. It is used for filtering the desired element values.
 </p>
-<div data-datacamp-exercise data-lang="python" style="z-index:0;">
+<div data-datacamp-exercise data-no-lazy-loading data-no-lazy-loading data-lang="python" style="z-index:0;">
   <code data-type="sample-code"> 
 import numpy as np 
 

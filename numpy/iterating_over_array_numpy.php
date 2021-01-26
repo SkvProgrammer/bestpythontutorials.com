@@ -1496,7 +1496,7 @@ function googleTranslateElementInit() {
 <div id="main">
 <p style="text-align:justify;" class="mt-4">This chapter focuses on the iteration of an array.So definitely there's a prerequisite i.e. the knowledge of Loops.<a href="../loops.php" target="_target" style="color:grey;text-decoration:none;"> Click Here to Learn About Loops <img src="../django/link.png" style="height:10px;"></a></p>
 <p style="text-align:justify;">We can easily loop through an Array using for loops and nested for loops.</p>
-<div data-datacamp-exercise data-lang="python" style="z-index:0;">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python" style="z-index:0;">
   <code data-type="sample-code"> 
 import numpy as np 
 array1 = np.array([[1,2,3,4,5]]) 
@@ -1505,7 +1505,7 @@ for i in array1:
 </code>
   </div>
 <p style="text-align:justify;" class="mt-4">Now we will try to iterate over a 2D Array using nested Loops.</p>
-<div data-datacamp-exercise data-lang="python" style="z-index:0;">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python" style="z-index:0;">
   <code data-type="sample-code"> 
 import numpy as np 
 array1 = np.array([[1,2,3],[4,5,6]]) 
@@ -1518,7 +1518,7 @@ for i in array1:
 
 <h3 class="text-left mt-5" style="color:#a54eee;">numpy.nditer()</h3>
 <p style="text-align:justify;">Numpy provides a method called <b>nditer</b> which is used to iterate over an array.</p>
-<div data-datacamp-exercise data-lang="python" style="z-index:0;">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python" style="z-index:0;">
   <code data-type="sample-code"> 
 import numpy as np
 a = np.arange(0,60)
@@ -1535,7 +1535,7 @@ for x in np.nditer(a):
 <p style="text-align:justify;">
 NumPy does not change the data type of the element in-place (where the element is in array) so it needs some other space to perform this action, that extra space is called buffer, and in order to enable it in <code>nditer()</code> we pass <code>flags=['buffered']</code>.
 </p>
-<div data-datacamp-exercise data-lang="python" style="z-index:0;">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python" style="z-index:0;">
   <code data-type="sample-code"> 
 import numpy as np
 
@@ -1552,7 +1552,7 @@ for x in np.nditer(array1, flags=['buffered'], op_dtypes=['S']):
 <p style="text-align:justify;">
 Sometimes we require corresponding index of the element while iterating, the <code>ndenumerate()</code> method can be used for those usecases.
 </p>
-<div data-datacamp-exercise data-lang="python" style="z-index:0;">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python" style="z-index:0;">
   <code data-type="sample-code"> 
 import numpy as np
 

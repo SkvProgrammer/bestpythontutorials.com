@@ -1577,23 +1577,23 @@ function googleTranslateElementInit() {
 <p style="text-align:justify;" class="mt-4">Now we will discuss them all with examples.</p>
 
 <h3 style="text-align:justify;color:#a54eee;" class="mt-4">numpy.char.add()</h3>
-<div data-datacamp-exercise data-lang="python" style="z-index:0;">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python" style="z-index:0;">
   <code data-type="sample-code"> 
 import numpy as np 
-#concatening two string arrays
+#concatenating two string arrays
 print(np.char.add(["Hello "],[" Numpy"]))
 </code>
   </div>
 
 <h3 style="text-align:justify;color:#a54eee;" class="mt-4">numpy.char.multiply()</h3>
-<div data-datacamp-exercise data-lang="python" style="z-index:0;">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python" style="z-index:0;">
   <code data-type="sample-code"> 
 import numpy as np 
 print(np.char.multiply("Numpy ",3))
 </code>
   </div>
   <h3 style="text-align:justify;color:#a54eee;" class="mt-4">numpy.char.center()</h3>
-<div data-datacamp-exercise data-lang="python" style="z-index:0;">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python" style="z-index:0;">
   <code data-type="sample-code"> 
 import numpy as np 
 print(np.char.center("Numpy",20,"*"))
@@ -1601,28 +1601,28 @@ print(np.char.center("Numpy",20,"*"))
   </div>
 
     <h3 style="text-align:justify;color:#a54eee;" class="mt-4">numpy.char.capitalize()</h3>
-<div data-datacamp-exercise data-lang="python" style="z-index:0;">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python" style="z-index:0;">
   <code data-type="sample-code"> 
 import numpy as np 
 print(np.char.capitalize("numpy"))
 </code>
   </div>
    <h3 style="text-align:justify;color:#a54eee;" class="mt-4">numpy.char.title()</h3>
-<div data-datacamp-exercise data-lang="python" style="z-index:0;">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python" style="z-index:0;">
   <code data-type="sample-code"> 
 import numpy as np 
 print(np.char.title("best python tutorials"))
 </code>
   </div>
      <h3 style="text-align:justify;color:#a54eee;" class="mt-4">numpy.char.split()</h3>
-<div data-datacamp-exercise data-lang="python" style="z-index:0;">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python" style="z-index:0;">
   <code data-type="sample-code"> 
 import numpy as np 
 print(np.char.split("Hello NumPy"),sep = " ")
 </code>
   </div>
        <h3 style="text-align:justify;color:#a54eee;" class="mt-4">numpy.char.join()</h3>
-<div data-datacamp-exercise data-lang="python" style="z-index:0;">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python" style="z-index:0;">
   <code data-type="sample-code"> 
 import numpy as np 
 print(np.char.join("-","Hello Satyam"))

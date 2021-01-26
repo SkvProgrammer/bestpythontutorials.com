@@ -1884,7 +1884,7 @@ function googleTranslateElementInit() {
         <h3 style="text-align:left;color:#a54eee;" class="mt-4">EXAMPLE</h3>
         <p style="text-align:justify;">In this example we will be creating a Parent Class A and Child Class B and will inherit a variable called <b>x</b>.</p>
 
-         <div data-datacamp-exercise data-lang="python">
+         <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 class A:
    x = 5
@@ -1901,7 +1901,7 @@ class B(A):
 <h3 style="text-align:left;color:#a54eee;" class="mt-4">Role of __init__() method</h3>
 <p style="text-align:justify;">When you add the <code>__init__()</code> function, the child class will no longer inherit the parent's <code>__init__()</code> function.</p>
 
- <div data-datacamp-exercise data-lang="python">
+ <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 
 
@@ -1929,7 +1929,7 @@ def __init__(self,name,age):
              <h3 style="text-align:left;color:#a54eee;" class="mt-4">Use of super() method</h3>
              <p style="text-align:justify;">By using the <code>super()</code> function, you do not have to use the name of the parent element, it will automatically inherit the methods and properties from its parent.</p>
 
- <div data-datacamp-exercise data-lang="python">
+ <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 class Person:
   def __init__(self, firstname, lastname):
@@ -1964,7 +1964,7 @@ x.print_name()
 <h3 style="text-align:left;color:#a54eee;" class="mt-4">Add Methods and Properties</h3>
 
 
- <div data-datacamp-exercise data-lang="python">
+ <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 class Person:
   age = 27

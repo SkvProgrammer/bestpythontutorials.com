@@ -1870,7 +1870,7 @@ function googleTranslateElementInit() {
 
 <p style="text-align:justify;" class="mt-4">In this chapter we are going to make a python program which will print some number patterns.</p>
  <h3 class="text-left mt-4" style="color:#a54eee;">Pattern no - 1</h3>
-     <div data-datacamp-exercise data-lang="python">
+     <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 for i in range(1,5):
   print("1"*i)
@@ -1881,7 +1881,7 @@ for i in range(1,5):
            </div>
 
    <h3 class="text-left mt-4" style="color:#a54eee;">Pattern no - 2</h3>
-     <div data-datacamp-exercise data-lang="python">
+     <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 def pattern(n):
     x = 0
@@ -1906,7 +1906,7 @@ pattern(5)
 </script>
 
    <h3 class="text-left mt-4" style="color:#a54eee;">Pattern no - 3</h3>
-     <div data-datacamp-exercise data-lang="python">
+     <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 def pattern(n):
      for i in range(1, n):
@@ -1929,7 +1929,7 @@ pattern(5)
 </script>
 
     <h3 class="text-left mt-4" style="color:#a54eee;">Pattern no - 4</h3>
-     <div data-datacamp-exercise data-lang="python">
+     <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 def pattern(n):
     k = 2 * n - 2

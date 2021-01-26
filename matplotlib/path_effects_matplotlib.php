@@ -1489,7 +1489,7 @@ padding:0px;
 <h3 class="text-left mt-4" style="color:#a54eee;">EXAMPLES</h3>
 
 <h5 class="text-left mt-4">code #1(Normal Text)</h5>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code"> 
 import matplotlib.pyplot as plt
 import matplotlib.patheffects as path_effects
@@ -1507,7 +1507,7 @@ plt.show()
 
 <h5 class="text-left mt-4">code #2(Text with shadow)</h5>
 <p style="text-align:justify;">The classes <code>SimplePatchShadow</code> and <code>SimpleLineShadow</code> do precisely this by drawing either a filled patch or a line patch below the original artist:</p>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code"> 
 import matplotlib.patheffects as path_effects
 import matplotlib.pyplot as plt
@@ -1527,7 +1527,7 @@ plt.show()
 <h4 class="text-left mt-4" style="color:#a54eee;">Amazing Effects</h4>
 
 <h5 class="text-left mt-4">code #3(Amazing Effect)</h5>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code"> 
 import matplotlib.patheffects as path_effects
 import matplotlib.pyplot as plt

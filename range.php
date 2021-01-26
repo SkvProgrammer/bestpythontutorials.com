@@ -1891,7 +1891,7 @@ function googleTranslateElementInit() {
 
 
 
- <div data-datacamp-exercise data-lang="python">
+ <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 a = range(2,6)
 for i in a:
@@ -1924,7 +1924,7 @@ for i in a:
 
 
 
- <div data-datacamp-exercise data-lang="python">
+ <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 a = range(6)
 for i in a:
@@ -1961,7 +1961,7 @@ for i in a:
 
 
 
- <div data-datacamp-exercise data-lang="python">
+ <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 a = range(1,6,2)
 for i in a:

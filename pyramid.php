@@ -1871,7 +1871,7 @@ function googleTranslateElementInit() {
 
 <p style="text-align:justify;" class="mt-4">In this chapter we are going to make a program which will print a pyramid pattern of asterisks(*).Previous chapter was an introduction to pattern programming.</p>
 <p style="text-align:justify;">Below Program is just made using the print function but it's not useful it's just for fun.</p>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 print("      *        ")
 print("     * *       ")
@@ -1886,7 +1886,7 @@ print("  *  *  *  *   ")
 
 
   <p style="text-align:justify;">Below I have provided an example in which I have made the pyramid pattern using nested loops.This is based on actual logic.</p>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 def pattern(n):
       k = 2 * n - 2
@@ -1907,7 +1907,7 @@ pattern(5)
 
 
   <h3 class="text-left mt-3" style="color:#a54eee;">Reverse Pyramid Pattern</h3>
-  <div data-datacamp-exercise data-lang="python">
+  <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 def pattern(n):
       k = 2*n -2
@@ -1923,7 +1923,7 @@ pattern(5)
 </code>
   </div>
   <h3 class="text-left mt-4" style="color:#a54eee;">Pattern using List</h3>
-   <div data-datacamp-exercise data-lang="python">
+   <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 def pattern(n):
     List1 = []

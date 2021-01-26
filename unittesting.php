@@ -1898,7 +1898,7 @@ A test runner is a component which orchestrates the execution of tests and provi
 </p>
 
 <h3 class="text-left mt-5" style="color: #a54eee;">Basic Example</h3>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 import unittest
 

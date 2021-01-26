@@ -1890,7 +1890,7 @@ function googleTranslateElementInit() {
 
 
 
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 list_1 = [1,2,3,4,5]
 print(list_1) 
@@ -1907,7 +1907,7 @@ print(list_1)
         <p style="text-align:justify;">To access the members of the List you need to use the <b>Index</b> numbers which we have discussed in our <a href="slicing.php">Indexing and Slicing Chapter</a>.Indexing of a List starts with <numbers>0</numbers> from the beginning and starts with <numbers>-1</numbers> from the end of the List.</p>
 
 
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 list_1 = [1,2,3,4,5]
 print(list_1[0])
@@ -1924,7 +1924,7 @@ print(list_1[-1])
         <p style="text-align:justify;">To delete the list we will use the keyword <code>del</code></p>
 
 
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 list_1 = [1,2,3,4,5]
 del list_1
@@ -1943,7 +1943,7 @@ print(list_1)
 
           <h3 style="text-align:left;color:#a54eee;">Looping through a List</h3>
     
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 list_1 = [1,2,3,4,5]
 for i in list_1:
@@ -1957,7 +1957,7 @@ print(i)
         <h3 style="text-align:left;color:#a54eee;">Length of a List</h3>
         <p style="text-align:justify;">We will use the <code>len()</code> method to find the length of the list</p>
     
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 list_1 = [1,2,3,4,5]
 print(len(list_1))  
@@ -1973,7 +1973,7 @@ print(len(list_1))
         </p>
     
 
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 list_1 = [1,2,3,4,5]
 list_1.insert(0,0)
@@ -1994,7 +1994,7 @@ print(list_1)
         </p>
     
 
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 list_1 = [1,2,3,4,5]
 list_1.remove(1)
@@ -2011,7 +2011,7 @@ print(list_1)
 
 
 
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 list_1 = [1,2,3,4,5]
 list_1.clear()
@@ -2028,7 +2028,7 @@ print(list_1)
         <p style="text-align:justify;">We will use the <code>pop()</code> method to delete the Last element or item of the List
         </p>
     
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 list_1 = [1,2,3,4,5]
 list_1.pop()
@@ -2060,7 +2060,7 @@ Creating a tuple is as simple as putting different comma-separated values. Optio
        
 
         
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 #python program to declare a tuple
 tuple1 = ("Satyam","Kumar","Verman")#
@@ -2074,7 +2074,7 @@ tuple2 = ()#empty tuple
        
 
 <h5 class="text-left mt-1 mb-0">Code #1(Positive Indexing)</h5>      
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 #python program to access the items of a tuple
 tuple1 = ("Satyam","Kumar","Verman")
@@ -2083,7 +2083,7 @@ print(tuple1[0])
   </div> 
 
 <h5 class="text-left mt-3 mb-0">Code #2(Negative Indexing)</h5>      
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 #python program to access the items of a tuple
 tuple1 = ("Satyam","Kumar","Verman")
@@ -2092,7 +2092,7 @@ print(tuple1[-1])
   </div> 
 
   <h5 class="text-left mt-1 mb-0">Code #3(Looping)</h5>      
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 #python program to access the items of a tuple
 tuple1 = ("Satyam","Kumar","Verman")
@@ -2117,7 +2117,7 @@ for i in tuple1:
 <p style="text-align:justify;">In this section we are going to learn how to change the items of a Tuple.</p>
        
      
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 #python program to access the items of a tuple
 tuple1 = ("Satyam","Kumar","Verman")
@@ -2136,7 +2136,7 @@ TypeError: 'tuple' object does not support item assignment<br>
 
 <p style="text-align:justify;" class="mt-2 mb-2">As you know we can't change the items of a tuple,you can first convert it to a List and then you can perform the operations.</p>
 
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 #python program to access the items of a tuple
 tuple1 = ("Satyam","Kumar","Verman")
@@ -2161,7 +2161,7 @@ print(tuple1)
 
 <h4 class="text-left mt-4" style="color:#a54eee;">Declare a Set</h4>
 <p style="text-align: justify;">In this section we are going to declare a Set in Python.Set is a type of Array  </p>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 #python program to declare a Set
 set1 = {"Satyam","Kumar","Verman"}
@@ -2170,7 +2170,7 @@ print(set1)
   </div>   
 <h4 class="text-left mt-4" style="color:#a54eee;">Accessing the items of a Set</h4>
 <p style="text-align:justify;">In this section we are going to access the elements of a Set using the <b>for in loop</b>.Please note that we can't access the items of a set using their <b>index number</b>.</p>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 #python program to access the items of a Set
 set1 = {"Satyam","Kumar","Verman"}
@@ -2202,7 +2202,7 @@ for i in set1:
 
 <h4 class="text-left mt-4" style="color:#a54eee;">Adding items in a Set</h4>
 <p style="text-align:justify;">If we want to add a single item to the set we can use the <code>add()</code> method whereas if you want add more than one element we can use the <code>update()</code> method.</p>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 #python program to demonstrate
 #the use of add() and update() method
@@ -2222,7 +2222,7 @@ print(set2)
 
 <h4 class="text-left mt-4" style="color:#a54eee;">Length of a Set</h4>
 <p style="text-align:justify;">To find the length of a set we can use the <code>len()</code> method.</p>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 #python program to demonstrate
 #the use of len() method
@@ -2235,7 +2235,7 @@ print(len(set1))
 <h4 class="text-left mt-4" style="color:#a54eee;">Remove the items of a Set</h4>
 <p style="text-align:justify;">To remove or simply delete the items of a list you can use two methods:<code>remove()</code>,<code>discard()</code>,<code>pop()</code>,<code>clear()</code> and <code>del</code> Keyword.</p>
 <h5 class="text-left mt-1 mb-0">Code #1( remove() method )</h5>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 #python program to demonstrate
 #the use of remove() method
@@ -2246,7 +2246,7 @@ print(set1)
 </code>
   </div>  
 <h5 class="text-left mt-3 mb-0">Code #2( discard() method )</h5>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 #python program to demonstrate
 #the use of remove() method
@@ -2262,7 +2262,7 @@ print(set1)
 
 
 <h5 class="text-left mt-3 mb-0">Code #3( delete items using the <b>pop()</b> method)</h5>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 #python program to demonstrate
 #the use of pop() method
@@ -2280,7 +2280,7 @@ print(set1)
 
 
 <h5 class="text-left mt-3 mb-0">Code #4( remove all items using the <b>clear()</b> method)</h5>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 #python program to demonstrate
 #the use of clear() method
@@ -2292,7 +2292,7 @@ print(set1)
   </div> 
 
 <h5 class="text-left mt-3 mb-0">Code #5( delete the set using <b>del</b> keyword)</h5>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 #python program to demonstrate
 #the use of del keyword
@@ -2309,7 +2309,7 @@ print(set1)#this will generate an error because the set is already deleted
 
 <h4 class="text-left mt-4" style="color:#a54eee;">Joining two Sets</h4>
 <p style="text-align:justify;">We can join to sets using the <code>union()</code> method.</p>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 #python program to demonstrate
 #the use of union() method
@@ -2327,7 +2327,7 @@ print(set1)
 
 
 
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 #python program to demonstrate
 #the use of update() method very 
@@ -2350,7 +2350,7 @@ print(set1)
 
 <h4 class="text-left mt-4" style="color:#a54eee;">Declare a Dictionary</h4>
 <p style="text-align:justify;">In this section we will try to declare a simple Dictionary.</p>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 #python program to demonstrate
 #to declare a Dictionary
@@ -2381,7 +2381,7 @@ print(dict1)
 <h4 class="text-left mt-4" style="color:#a54eee;">Access the items of a Dictionary</h4>
 <p style="text-align:justify;">In this section we will try to access the items of a Dictionary.</p>
 <h5 class="text-left mt-1 mb-0">Code #1(Accessing the items of a Dictionary using the Keys)</h5>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 #python program to demonstrate
 #to access the items of a Dictionary
@@ -2394,7 +2394,7 @@ print(dict1["Key1"])
 
 
 <h5 class="text-left mt-1 mb-0">Code #2(Accessing the items of a Dictionary using the <b>for in</b> loop)</h5>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
     #python program to demonstrate
 #to access the items of a Dictionary
@@ -2417,7 +2417,7 @@ for i,j in dict1.items():
 
 
 <h5 class="text-left mt-1 mb-0">Code #3(Accessing the items of a Dictionary using the <code>get()</code> method)</h5>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 #python program to demonstrate
 #to access the items of a Dictionary
@@ -2433,7 +2433,7 @@ print(x)
 <h4 class="text-left mt-4" style="color:#a54eee;">Changing the items of a Dictionary</h4>
 <p style="text-align:justify;">In this section we will try to change the items of the Dictionary.</p>
 
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 #python program to demonstrate
 #to change the items of a Dictionary
@@ -2449,7 +2449,7 @@ print(company_data)
 <h4 class="text-left mt-4" style="color:#a54eee;">Looping through a Dictionary</h4>
 <p style="text-align:justify;">In this section we will try to loop through a Dictionary.</p>
 
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 #python program to demonstrate
 #to loop through a Dictionary
@@ -2475,7 +2475,7 @@ for i in company_data.items():
 <h4 class="text-left mt-4" style="color:#a54eee;">Length of a Dictionary</h4>
 <p style="text-align:justify;">In this section we will try to find out the length of the Dictionary using the <code>len()</code> method.</p>
 
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 #python program to demonstrate
 #to find the length of the Dictionary
@@ -2491,7 +2491,7 @@ print(len(company_data))
 <p style="text-align:justify;">In this section we will try to remove the items of a Dictionary using <code>pop()</code>,<code>popitem()</code> methods and <code>del</code> keyword.</p>
 
 <h5 class="text-left mt-1 mb-0">Code #1( <code>pop()</code> method deletes any specified element of the Dictionary )</h5>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 #python program to demonstrate
 #to remove a specified element 
@@ -2506,7 +2506,7 @@ print(company_data)
 
 
 <h5 class="text-left mt-1 mb-0">Code #2( <code>popitem()</code> method removes the last inserted element it works after python 3.7 versions )</h5>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 #python program to demonstrate
 #to remove the last element 
@@ -2536,7 +2536,7 @@ print(company_data)
 </script>
 
 <h5 class="text-left mt-1 mb-0">Code #3( <code>del</code> keyword deletes the entire dictionary )</h5>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 #python program to demonstrate
 #to delete the entire list 

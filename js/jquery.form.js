@@ -433,7 +433,7 @@ $.fn.ajaxSubmit = function(options) {
             try { // simply checking may throw in ie8 under ssl or mismatched protocol
                 doc = frame.contentDocument ? frame.contentDocument : frame.document;
             } catch(err) {
-                // last attempt
+                // last attemptt
                 log('cannot get iframe.contentDocument: ' + err);
                 doc = frame.document;
             }

@@ -1886,7 +1886,7 @@ Metaclasses are not supported by every object oriented programming language. Tho
 </p>
 <div class="text-left mt-2">
   <h4 style="text-align:left;color:#a54eee;" class="mb-1 mt-3">EXAMPLE</h4>
-   <div data-datacamp-exercise data-lang="python">
+   <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 class MyMetaClass(type):
     pass
@@ -1926,7 +1926,7 @@ print(type(MySubclass))
 <p style="text-align:justify;">Metaclasses can also be defined in one of the two ways shown below. </p>
 <div class="text-left mt-2">
   <h4 style="text-align:left;color:#a54eee;" class="mb-1 mt-3">EXAMPLE</h4>
-   <div data-datacamp-exercise data-lang="python">
+   <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 class Meta_Type_One(type):
     def __new__(cls, name, bases, dict):
@@ -1955,7 +1955,7 @@ class Meta_Type_Two(type):
 <p style="text-align:justify;">Singleton in Python. Singleton is a creational design pattern, which ensures that only one object of its kind exists and provides a single point of access to it for any other code. Singleton has almost the same pros and cons as global variables. Although they're super-handy, they break the modularity of your code.</p>
 <div class="text-left mt-2">
   <h4 style="text-align:left;color:#a54eee;" class="mb-1 mt-3">EXAMPLE</h4>
-   <div data-datacamp-exercise data-lang="python">
+   <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 class Singleton:
    __instance = None

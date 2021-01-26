@@ -1980,7 +1980,7 @@ public class Hello{
            </div>
 
 <h5 style="text-align:justify;" class="mt-3">Now we will see how to run above three programs using Python Subprocess Module.It's very easy to do it.</h5>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 # Python 3 program to demonstrate subprocess 
 # module 

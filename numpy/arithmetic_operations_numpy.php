@@ -1542,7 +1542,7 @@ function googleTranslateElementInit() {
 </div>
 
 <h4 class="text-left mt-4" style="color:#a54eee;">EXAMPLE</h4>
-<div data-datacamp-exercise data-lang="python" style="z-index:0;">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python" style="z-index:0;">
   <code data-type="sample-code"> 
 import numpy as np 
 a = np.array([[1,2,3,4]])
@@ -1575,7 +1575,7 @@ print("The exponential form is:",np.power(2,2))
 
 <li>numpy.angle() − IT returns the angle of the complex argument. The function has degree parameter. If true, the angle in the degree is returned, otherwise the angle is in radians.
 </ul>
-<div data-datacamp-exercise data-lang="python" style="z-index:0;">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python" style="z-index:0;">
   <code data-type="sample-code"> 
 import numpy as np 
 a = np.array([2j, 4j, 1j , 1+1j]) 

@@ -1527,7 +1527,7 @@ The user has a great deal of control over text properties (font size, font weigh
 
 
 <h5 class="text-left mt-4">code #1( All in one example )</h5>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code"> 
 import matplotlib.pyplot as plt
 fig = plt.figure()

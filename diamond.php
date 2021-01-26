@@ -1870,7 +1870,7 @@ function googleTranslateElementInit() {
 
 
  <p style="text-align:justify;" class="mt-4">In this chapter we are going to make a program to print a diamond pattern.This chapter is about diamond pattern in python.</p>
-   <div data-datacamp-exercise data-lang="python">
+   <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 # Python program to 
 # print Diamond shape 
@@ -1930,7 +1930,7 @@ Diamond(rows)
 
 
   <h3 style="text-align:left;color: #a54eee;" class="mt-3">Hourglass Pattern</h3>
-     <div data-datacamp-exercise data-lang="python">
+     <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 def main():
     character = "*"

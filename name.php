@@ -1878,7 +1878,7 @@ function googleTranslateElementInit() {
 Consider the following code for better understanding.</p>
 
 
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 # name is main
 #filename = main.py
@@ -1906,7 +1906,7 @@ I am from the main.py
            </div>
 <p class="mt-3" style="text-align:justify;">Now we will import the above file i.e. the <code>main.py</code> and will print the <code>__name__</code> of the file.</p>
 
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 #importing main.py
 import main

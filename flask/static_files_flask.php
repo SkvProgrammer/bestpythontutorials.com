@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-Us">
     <head>
-        <title>Environment Setup for Flask</title>
+        <title>Static Files in Flask - BestPythonTutorials.com</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <script charset="UTF-8" src="//web.webpushs.com/js/push/21f7140e081ac8d7144ec5c3ffb92c8c_1.js" async></script>
@@ -18,7 +18,7 @@
           <script src="../codemirror/mode/javascript/javascript.js"></script>
           <script src="../codemirror/mode/sql/sql.js"></script>
            <script src="../codemirror/mode/xml/xml.js"></script> 
-           <meta name="description" content="Flask Tutorial - Flask Environment Setup using pip- BestPythonTutorials.com" />
+           <meta name="description" content="Static Files in Flask - A web application often requires a static file such as a javascript file or a CSS file supporting the display of a web page - BestPythonTutorials.com" />
            <script src="https://unpkg.com/applause-button/dist/applause-button.js" type="text/javascript"></script>
         <link rel="stylesheet" type="text/css" href="https://unpkg.com/applause-button/dist/applause-button.css">
          <!-- add the button style & script -->
@@ -40,7 +40,7 @@
          <!--<script async src="https://cse.google.com/cse.js?cx=016236012273495808262:cabujlbzuwi"></script><link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text&display=swap" rel="stylesheet">-->
     
            
-     <script type="application/javascript" src="https://sdki.truepush.com/sdk/v2.0.2/app.js" async></script>
+    <script type="application/javascript" src="https://sdki.truepush.com/sdk/v2.0.2/app.js" async></script>
     <script>
     var truepush = window.truepush || [];
             
@@ -52,8 +52,7 @@
         })
     })
     </script>
-
-
+        
        <style>
 
  
@@ -1282,7 +1281,6 @@ padding:0px;
 
 </style>
 
-
 </head>
 <body>
 
@@ -1354,14 +1352,14 @@ padding:0px;
     <li style="box-shadow:1px 1px white;background-color:white;background-image:none!important;padding:0px;"><h4 style="text-align:center;font-family: 'Big Shoulders Stencil Text', cursive!important;height:30px;line-height:55px;color:#a54eee;background-color:white;font-size:35px!important;">FLASK TUTORIAL</h4></li><br>
       <li><a href="home_flask.php"  target="_self">Flask Home</a></li>
       <li><a href="intro_flask.php"  target="_self">Introduction</a></li>
-      <li style="background-image:linear-gradient(#4537d1,#4537d1);border-top:1px solid white;border-bottom:1px solid white;"><a href="environment_setup_flask.php"  target="_self">Environment Setup</a></li>
+      <li><a href="environment_setup_flask.php"  target="_self">Environment Setup</a></li>
       <li><a href="first_app_flask.php"  target="_self">First App</a></li>
       <li><a href="app_routing_flask.php"  target="_self">App Routing</a></li>
       <li><a href="url_building_flask.php"  target="_self">URL Building</a></li>
       <li><a href="http_flask.php"  target="_self">HTTP Methods</a></li>
       <li><a href="templates_flask.php"  target="_self">Templates</a></li>
       <li><a href="cookies_flask.php"  target="_self">Cookies</a></li>
-      <li><a href="static_files_flask.php"  target="_self">Static Files</a></li>
+      <li style="background-image:linear-gradient(#4537d1,#4537d1);border-top:1px solid white;border-bottom:1px solid white;"><a href="static_files_flask.php"  target="_self">Static Files</a></li>
       <li><a href="request_object_flask.php"  target="_self">Request Object</a></li>
       <li><a href="file_upload_flask.php"  target="_self">File Upload</a></li>
       <li><a href="sessions_flask.php"  target="_self">Sessions</a></li>
@@ -1386,16 +1384,16 @@ padding:0px;
    
 
      <a href="" style="border:none;color:white;"><h1 id="tag1">FLASK TUTORIAL</h1></a>
-       <a href="home_flask.php"  target="_self">Flask Home</a>
+       <a href="home_flask.php"  target="_self">Flask home</a>
       <a href="intro_flask.php"  target="_self">Introduction</a>
-      <a href="environment_setup_flask.php"  target="_self" style="color:white;">Environment Setup</a>
+      <a href="environment_setup_flask.php"  target="_self">Environment Setup</a>
       <a href="first_app_flask.php"  target="_self">First App</a>
       <a href="app_routing_flask.php"  target="_self">App Routing</a>
       <a href="url_building_flask.php"  target="_self">URL Building</a>
       <a href="http_flask.php"  target="_self">HTTP Methods</a>
       <a href="templates_flask.php"  target="_self">Templates</a>
       <a href="cookies_flask.php"  target="_self">Cookies</a>
-      <a href="static_files_flask.php"  target="_self">Static Files</a>
+      <a href="static_files_flask.php"  target="_self" style="color:white;">Static Files</a>
       <a href="request_object_flask.php"  target="_self">Request Object</a>
       <a href="file_upload_flask.php"  target="_self">File Upload</a>
       <a href="sessions_flask.php"  target="_self">Sessions</a>
@@ -1458,10 +1456,10 @@ padding:0px;
    <gcse:search></gcse:search>
 </div><br>
 <!--search ends-->
-    <h2 style="text-align:left;">Flask Environment Setup</h2>
+    <h2 style="text-align:left;color:#a54eee;">Static Files in Flask</h2>
 <div class="row ml-auto mr-auto" style="width:40%!important;">
-<a href="https://www.facebook.com/sharer/sharer.php?u=http%3A//bestpythontutorials.com/flask/environment_setup_flask.php" style="background-color:#3377ff;color:white;border-radius:1px;padding:1px;font-size:15px;" id="facebookshare" class="col-lg-3 col-sm-3 col-md-3 mb-1" class="col-lg-3 col-sm-3 col-md-3 mb-1"> <i class="fa fa-facebook-f"></i> Share </a>
-<a href="https://twitter.com/intent/tweet?text=http%3A//bestpythontutorials.com/flask/environment_setup_flask.php" style="background-color:#1ac6ff;color:white;border-radius:1px;padding:1px;font-size:15px;" id="facebookshare" class="col-lg-3 col-sm-3 col-md-3 mb-1"> <i class="fa fa-twitter"></i> Tweet </a>
+<a href="https://www.facebook.com/sharer/sharer.php?u=http%3A//bestpythontutorials.com/flask/static_files_flask.php" style="background-color:#3377ff;color:white;border-radius:1px;padding:1px;font-size:15px;" id="facebookshare" class="col-lg-3 col-sm-3 col-md-3 mb-1" class="col-lg-3 col-sm-3 col-md-3 mb-1"> <i class="fa fa-facebook-f"></i> Share </a>
+<a href="https://twitter.com/intent/tweet?text=http%3A//bestpythontutorials.com/flask/static_files_flask.php" style="background-color:#1ac6ff;color:white;border-radius:1px;padding:1px;font-size:15px;" id="facebookshare" class="col-lg-3 col-sm-3 col-md-3 mb-1"> <i class="fa fa-twitter"></i> Tweet </a>
 <a href="https://www.youtube.com/channel/UC_pPPgwvndi8f2RkbkbvOIA" target="_blank" style="background-color:red;color:white;border-radius:1px;padding:1px;font-size:15px;" class="col-lg-3 col-sm-3 col-md-3 mb-1" id="facebookshare">   <i class="fa fa-youtube"></i> Youtube </a>
 <a style="background-color:orangered;color:white;border-radius:1px;padding:1px;font-size:15px;" class="col-lg-3 col-sm-3 col-md-3 mb-1" id="facebookshare" onclick="languagedisplay()">   <i class="fa fa-language"></i><text>Language</text> </a></button>
 
@@ -1490,29 +1488,98 @@ function googleTranslateElementInit() {
 <!-----------------------Google Translate API ends----------------->
 <!--content goes here-->
 <div id="main">
-<p style="text-align:justify;" class="mt-4
-">Before installing Python it would be better for us to install virtual environment in order to keep the packages in the right and efficient way.If you don't know what is virtual environment and how to install it.Check out our <a href="../virtualenv.php" style="text-decoration:none;color:grey;">Virtual Environment Chapter <img src="../django/link.png" style="height:10px;"></a></p>
 
-<p style="text-align:justify;">Now after installing , creating and activating the virtual environment you can install Flask in your computer by typing the following command in cmd or terminal:</p>
-<div class="container p-2" style="background-color:#f2f2f2;border:1px solid lightgrey;text-align:justify;">
-  pip install flask
-</div>
+<p style="text-align:justify;" class="mt-4">The first and foremost thing is to know what are static files in an Web Application.If you have been using different web applications then you might be knowing that there are different components of an Web Applications that are images , javascript files and css files.</p>
 
-<h3 class="text-left mt-4">Check the installation</h3>
-<p style="text-align:justify;">Open python in the terminal and type the follwing code to find out whether flask is installed in your device or not and to get the version of the flask.You can open the <b>repl</b> in Python by simply typing python in cmd or terminal:</p>
-<div class="container" style="text-align:justify;background-color:#f2f2f2;border:1px solid lightgrey;">
-Microsoft Windows [Version 6.3.9600]<br>
-(c) 2013 Microsoft Corporation. All rights reserved.
-<br>
-<br>
-C:\Users\Your Name>python
-</div>
-<p style="text-align:justify;" class="mt-3">Now this will start python in your terminal now what's the next step,the next step is just type the below code:</p>
-<div class="container p-2" style="background-color:#f2f2f2;border:1px solid lightgrey;text-align:justify;">
-  >>>import flask<br>
-  >>>flask.__version__
-</div>
+<p style="text-align:justify;">Now we will see an example of using static files in the form javascript file.</p>
+<div class="text-left mt-0 mb-1">
+  <p class="text-left mb-0">static.py</p>
+ <form action="" method="post" target="_blank">
+ <textarea id="editor1" name="initScript" style="height:20vh!important;text-align:justify;overflow:hidden;-webkit-border-radius: 5px;
+    -moz-border-radius: 5px;border-radius: 5px;z-index:0;" readOnly = 'nocursor'>
+from flask import Flask, render_template
+app = Flask(__name__)
 
+@app.route("/")
+def index():
+   return render_template("static.html")
+
+if __name__ == '__main__':
+   app.run()</textarea>
+              <!--<button type="submit" style="background-color:white;border:none;outline:none;box-shadow:none;" class="mt-3">
+              <a type="submit" class="pl-4 pr-4" style="border:2px solid #3399ff;border-radius:4px;color:#1aa3ff;">Run it    <i class="fa fa-angle-right"></i><i class="fa fa-angle-right"></i></a>
+             </button>
+             -->
+            
+           </form>
+                     <script>
+            
+    var editor = CodeMirror.fromTextArea(document.getElementById('editor1'),{
+      mode:"python",
+      lineNumbers:true
+    });
+  
+  </script>      
+</div>
+<div class="text-left mt-0 mb-1">
+  <p class="text-left mb-0">static.html</p>
+ <form action="" method="post" target="_blank">
+ <textarea id="editor2" name="initScript" style="height:20vh!important;text-align:justify;overflow:hidden;-webkit-border-radius: 5px;
+    -moz-border-radius: 5px;border-radius: 5px;z-index:0;" readOnly = 'nocursor'>
+<html>
+   <head>
+      <script type = "text/javascript" 
+         src = "{{ url_for('static', filename = 'script.js') }}" ></script>
+   </head>
+   
+   <body>
+      <input type = "button" onclick = "greetings()" value = "Start Greeting" />
+   </body>
+</html></textarea>
+              <!--<button type="submit" style="background-color:white;border:none;outline:none;box-shadow:none;" class="mt-3">
+              <a type="submit" class="pl-4 pr-4" style="border:2px solid #3399ff;border-radius:4px;color:#1aa3ff;">Run it    <i class="fa fa-angle-right"></i><i class="fa fa-angle-right"></i></a>
+             </button>
+             -->
+            
+           </form>
+                     <script>
+            
+    var editor = CodeMirror.fromTextArea(document.getElementById('editor2'),{
+      mode:"xml",
+      lineNumbers:true
+    });
+  
+  </script>      
+</div>
+<div class="text-left mt-0 mb-1">
+  <p class="text-left mb-0">script.js</p>
+ <form action="" method="post" target="_blank">
+ <textarea id="editor3" name="initScript" style="height:20vh!important;text-align:justify;overflow:hidden;-webkit-border-radius: 5px;
+    -moz-border-radius: 5px;border-radius: 5px;z-index:0;" readOnly = 'nocursor'>
+function greetings(){
+alert("Hello Flask");
+}
+</textarea>
+              <!--<button type="submit" style="background-color:white;border:none;outline:none;box-shadow:none;" class="mt-3">
+              <a type="submit" class="pl-4 pr-4" style="border:2px solid #3399ff;border-radius:4px;color:#1aa3ff;">Run it    <i class="fa fa-angle-right"></i><i class="fa fa-angle-right"></i></a>
+             </button>
+             -->
+            
+           </form>
+                     <script>
+            
+    var editor = CodeMirror.fromTextArea(document.getElementById('editor3'),{
+      mode:"javascript",
+      lineNumbers:true
+    });
+  
+  </script>      
+</div>
+<p style="text-align:justify;" class="mt-3">Your app is ready test it out.</p>
+
+
+
+     
 </div>
 <br><br>
 <button class="btn btn-default" style="border-radius:50px;background-color:orangered;color:white;padding-left:63px;padding-right:63px;" id="skvspatron" onclick="window.open('https://www.patreon.com/skvprogrammer','_self')">Become a Patron</button><br> 
@@ -1669,7 +1736,7 @@ s0.parentNode.insertBefore(s1,s0);
         
 
         
-             <button class="btn newcolorbtn" onclick="prev()" id="prev" style="color:white;position:absolute;left:10%;border-radius:1px!important;font-family: 'Roboto Condensed', sans-serif;"><i class=" fa fa-chevron-left"></i>  Previous</button>
+             <button class="btn newcolorbtn" onclick="prev()" id="prev" style="color:white;position:absolute;left:10%;border-radius:1px!important;font-family: 'Roboto Condensed', sans-serif;"><i class=" fa fa-chevron-left"></i> Previous</button>
            <button class="btn newcolorbtn" id="next" style="color:white;position:absolute;right:10%;border-radius:1px!important;font-family: 'Roboto Condensed', sans-serif;" onclick="next()">Next  <i class=" fa fa-chevron-right"></i></button><br>
            <!------------------------ADS----------------->
            <div class="container-fluid mt-3 mb-1" style="height:30vh;width:100%;">
@@ -1856,10 +1923,10 @@ function closeNav() {
   window.open("installation.php");
 }*/
 function next(){
-  window.open("first_app_flask.php","_self");
+  window.open("request_object_flask.php","_self");
 }
 function prev(){
-  window.open("intro_flask.php","_self");
+  window.open("cookies_flask.php","_self");
 }
 
 /**********scroll functionality*********/
@@ -1891,13 +1958,15 @@ function topFunction() {
   <script type="text/javascript">
         
     function codespeedy(){
-      var print_div = document.getElementById("main");
-var print_area = window.open();
+      /*var print_div = document.getElementById("main");
+var print_area = window.open(print_div.innerHTML);
 print_area.document.write(print_div.innerHTML);
 print_area.document.close();
 print_area.focus();
 print_area.print();
 print_area.close();
+*/
+window.print()
 // This is the code print a particular div element
     }
    

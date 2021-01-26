@@ -1887,7 +1887,7 @@ function googleTranslateElementInit() {
 <p style="text-align:justify;">In Python , We have a special feature that is almost not supported in any popular programming language of current time.The feature is called <i>Reference Counter</i>.This feature is used count the number of references that are made to assign the values of a Data Object.Due to this counter, we can count the references and when this count reaches to zero the variable or data object will be released automatically.</p>
 <div class="text-left mt-2">
   <h4 style="text-align:left;color:#a54eee;" class="mb-1 mt-3">EXAMPLE</h4>
-   <div data-datacamp-exercise data-lang="python">
+   <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 """Python Program for demonstrating Reference Count Feature"""
 import sys 

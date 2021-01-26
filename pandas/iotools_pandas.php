@@ -1520,7 +1520,7 @@ padding:0px;
 <h4 class="text-left mt-4" style="color:#a54eee;">Read and Write API</h4>
 <p style="text-align:justify;"> HDFStore supports an top-level API using <code>read_hdf</code> for reading and <code>to_hdf</code> for writing, similar to how <code>read_csv</code> and <code>to_csv</code> work.</p>
 <p class="text-left mb-0">code #1</p>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 import pandas as pd  
 import numpy as np  

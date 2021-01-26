@@ -1498,7 +1498,7 @@ function googleTranslateElementInit() {
 <p style="text-align:justify;">Arithmetic operations on arrays are usually done on corresponding elements. If two arrays are of exactly the same shape, then these operations are smoothly performed.</p>
 <h4 style="text-align:justify;" class="mt-4">EXAMPLE</h4>
 <p class="text-left">code #1</p>
-<div data-datacamp-exercise data-lang="python" style="z-index:0;">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python" style="z-index:0;">
   <code data-type="sample-code"> 
 import numpy as np 
 
@@ -1517,7 +1517,7 @@ print(b)
 
 <p class="text-left mt-3">code #2</p>
 <p style="text-align:justify;">Operations on arrays of different shapes.</p>
-<div data-datacamp-exercise data-lang="python" style="z-index:0;">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python" style="z-index:0;">
   <code data-type="sample-code"> 
 import numpy as np 
 
@@ -1533,7 +1533,7 @@ print(z)
   <h4 class="text-left mt-4">Rules of Broadcasting</h4>
   <p style="text-align:justify;">There are some rules of broadcasting which we need to know while performing different operations on NumPy Arrays.</p>
 
-<p style="text-align:justify;">1) The smaller dimension array can be appended with '1' in its shape i.e. they can strech to perform the operations succecsfully.</p>
+<p style="text-align:justify;">1) The smaller dimension array can be appended with '1' in its shape i.e. they can strech to perform the operations successfully.</p>
 <p style="text-align:justify;">
 2) Size of each output dimension is the maximum of the input sizes in the dimension.</p>
 <p style="text-align:justify;">
@@ -1548,7 +1548,7 @@ Broadcasting can be applied to the arrays if the following rules are satisfied.
 <p style="text-align:justify;">3) Array with the fewer dimension can be appended with '1' in its shape.
 </p>
 <p style="text-align:justify;" class="mt-5">Consider the below example:</p>
-<div data-datacamp-exercise data-lang="python" style="z-index:0;">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python" style="z-index:0;">
   <code data-type="sample-code"> 
 import numpy as np 
 a = np.array([[0,0,0],[1,1,1],[20,20,20],[3,3,3]]) 

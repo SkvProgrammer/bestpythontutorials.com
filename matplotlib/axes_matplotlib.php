@@ -1493,7 +1493,7 @@ The Axes instance supports callbacks through a callbacks attribute which is a Ca
 
 <h5 class="text-left mb-0 mt-2">code #
 1( Axes Example )</h5>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 import matplotlib.pyplot as plt
 import numpy as np

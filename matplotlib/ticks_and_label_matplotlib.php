@@ -1488,7 +1488,7 @@ padding:0px;
 <h3 class="text-left mt-4" style="color:#a54eee;">EXAMPLE</h3>
  <h5 class="text-left mb-0 mt-3">code #
 1( xticks and yticks in matplotlib )</h5>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code"> 
 import matplotlib.pyplot as plt
 import numpy as np

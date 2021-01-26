@@ -1529,7 +1529,7 @@ ignore_index=False)</div>
 <h3 class="text-left mt-4" style="color:#a54eee;">Concatenating Objects</h3>
 <p style="text-align:justify;">Now we will going to see that how we can concatenate Data Structures of Pandas using the <b>concat()</b> method.So we will be using a simple example to grab this concept of Concatenating Objects in Pandas.They are really awesome.</p>
 <p class="text-left mb-0">code #1</p>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 import pandas as pd  
 import numpy as np  
@@ -1546,7 +1546,7 @@ print(pd.concat([a,b]))
   </div>
 <p style="text-align:justify;">Suppose we wanted to associate specific keys with each of the pieces of the chopped up DataFrame. We can do this by using the keys argument −</p>
 <p class="text-left mb-0">code #2</p>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 import pandas as pd  
 import numpy as np  
@@ -1561,9 +1561,9 @@ b = pd.DataFrame({"Name":["Laxmi","Sonali","Surbhi"],
 print(pd.concat([a,b],keys = ["x","y"]))
 </code>
   </div>
-<p style="text-align:justify;">Now we will that how we can change the indexing by using the <code>ignore_index()</code> method.</p>
+<p style="text-align:justify;">Now we will see that how we can change the indexing by using the <code>ignore_index()</code> method.</p>
   <p class="text-left mb-0">code #3</p>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 import pandas as pd  
 import numpy as np  
@@ -1582,7 +1582,7 @@ print(pd.concat([a,b],keys = ["x","y"],ignore_index = True))
 <p style="text-align:justify;">If two objects need to be added along axis=1, then the new columns will be appended.</p>
 
  <p class="text-left mb-0">code #4</p>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 import pandas as pd  
 import numpy as np  
@@ -1600,7 +1600,7 @@ print(pd.concat([a,b],keys = ["x","y"],ignore_index = True,axis=1))
 <h3 class="text-left mt-5" style="color:#a54eee;">Concatenating using the append() method</h3>
 <p style="text-align:justify;">Now we will see that how we can concatenate two DataFrames using the <code>append()</code> method.</p>
  <p class="text-left mb-0">code #5</p>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 import pandas as pd  
 import numpy as np  

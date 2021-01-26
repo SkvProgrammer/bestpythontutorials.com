@@ -1490,7 +1490,7 @@ padding:0px;
 </div>
 <!--content goes here-->
 <div id="main">
-<p style="text-align:justify;" class="mt-4">Python is a great Programming Language for Data Analysis Due to the availablity of Awesome Data Processing Tools such as <b>Pandas</b>.In this chapter we are going to cover the concept of <i>Aggregation</i> in Pandas.</p>
+<p style="text-align:justify;" class="mt-4">Python is a great Programming Language for Data Analysis Due to the availability of Awesome Data Processing Tools such as <b>Pandas</b>.In this chapter we are going to cover the concept of <i>Aggregation</i> in Pandas.</p>
 
 <p style="text-align:justify;"><code style="font-size:18px;">Dataframe.aggregate()</code> function is used to apply some aggregation across one or more column. Aggregate using callable, string, dict, or list of string/callables. Most frequently used aggregations are:
 </p>
@@ -1532,7 +1532,7 @@ padding:0px;
 </div>
 <h4 style="text-align:justify;color:#a54eee;" class="mt-4">EXAMPLES</h4>
 <p class="text-left mb-0">code #1</p>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 import pandas as pd  
 import numpy as np  
@@ -1541,7 +1541,7 @@ data.agg(['sum','min'])
 </code>
   </div>
 <p class="text-left mb-0">code #2</p>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 import pandas as pd  
 import numpy as np  

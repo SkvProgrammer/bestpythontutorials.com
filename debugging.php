@@ -1887,7 +1887,7 @@ function googleTranslateElementInit() {
 <h3 style="text-align:justify;color:#a54eee;" class="mt-5">breakpoint() method</h3>
 <p style="text-align:justify;">Python <code>breakpoint()</code> is a new built-in function introduced in <code>Python 3.7</code>. Python code debugging has always been a painful process because of tight coupling between the actual code and the debugging module code. For example, if you are using pdb debugger, then you will have to call <code>pdb</code>.</p>
 <div class="text-left mt-1">
-   <div data-datacamp-exercise data-lang="python">
+   <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 def debugger(x,y): 
   breakpoint() 
@@ -1918,7 +1918,7 @@ s -> step to next line in this function or a called function
 <h3 class="text-left mt-5" style="color:#a54eee;">pdb.set_trace()</h3>
 <p style="text-align:justify;">Enter the debugger at the calling stack frame. This is useful to hard-code a breakpoint at a given point in a program, even if the code is not otherwise being debugged (e.g. when an assertion fails). If given, header is printed to the console just before debugging begins.</p>
 <div class="text-left mt-1">
-     <div data-datacamp-exercise data-lang="python">
+     <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 def debugger(a, b): 
   import pdb; pdb.set_trace() 

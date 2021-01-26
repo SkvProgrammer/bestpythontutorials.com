@@ -1902,7 +1902,7 @@ Python provides a <code>re</code> Module to deal with Regular Expression or to p
 </div>
 <div class="text-left mt-2">
   <h3 style="text-align:left;color:#a54eee;" class="mb-0">EXAMPLE</h3>
-   <div data-datacamp-exercise data-lang="python">
+   <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 import re
 
@@ -1918,7 +1918,7 @@ print(x)
 </div>   
 
 <h2 style="text-align:left;color:#a54eee;" class="mt-5">match() method</h2>
-<p style="text-align:justify;">This function attempts to match Regular Expression pattern to string with optional flags.</p>
+<p style="text-align:justify;">This function attemptts to match Regular Expression pattern to string with optional flags.</p>
 <h3 style="text-align:left;color:#a54eee;" class="mt-4">SYNTAX</h3>
 <div class="container" style="width:auto;height:auto;border:3px solid #f2f2f2;text-align:justify;">
   re.<comment>match</comment>(pattern, string, flags=0)
@@ -1954,7 +1954,7 @@ print(x)
 
 <div class="text-left mt-2">
   <h3 style="text-align:left;color:#a54eee;" class="mb-0">EXAMPLE</h3>
-   <div data-datacamp-exercise data-lang="python">
+   <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 import re
 
@@ -1983,7 +1983,7 @@ else:
 </div>
 <div class="text-left mt-2">
   <h3 style="text-align:left;color:#a54eee;" class="mb-0 mt-3">EXAMPLE</h3>
-   <div data-datacamp-exercise data-lang="python">
+   <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 import re
 

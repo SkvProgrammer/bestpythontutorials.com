@@ -1897,7 +1897,7 @@ function googleTranslateElementInit() {
 
         <h4 style="text-align: left;color:#a54eee;" class="mt-5">EXAMPLE</h4>
       
- <div data-datacamp-exercise data-lang="python">
+ <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 list_1 = [1,2,3,4,5]
 def return_square(n):
@@ -1915,7 +1915,7 @@ print(a)
 
 
 
- <div data-datacamp-exercise data-lang="python">
+ <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 list_1 = [1,2,3,4,5]
 def return_square(n):
@@ -1944,7 +1944,7 @@ print(list(a))
 
 <p style="text-align:justify;" class="mt-4">I think you might have understand what's happening here as A new list which has items square the values of the previous list.Now we will see how to use <a href="lambda.php" style="color:grey;text-decoration:none;">Lambda Expressions <img src="django/link.png" style="height:10px;"></a>.</p>
 
- <div data-datacamp-exercise data-lang="python">
+ <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 number_list = (2, 4, 6, 8)
 result = map(lambda a: a + a, number_list)
@@ -1979,7 +1979,7 @@ print(list(result))
            </div>
 
 <h3 class="mt-5" style="text-align:left;color:#a54eee;">EXAMPLE</h3>
- <div data-datacamp-exercise data-lang="python">
+ <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 age_list = [10,8,12,10,11,19,18,22,11,65]
 def check_eligibility(age):
@@ -2016,7 +2016,7 @@ print(filter_data)
 </script>
      
 <h3 class="mt-3" style="text-align:left;color:#a54eee;">EXAMPLE</h3>
- <div data-datacamp-exercise data-lang="python">
+ <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 from functools import reduce
 list_1 = [ 1 , 3, 5, 6, 2 ]

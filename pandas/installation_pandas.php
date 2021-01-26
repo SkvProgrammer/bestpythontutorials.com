@@ -1494,7 +1494,7 @@ padding:0px;
 <p style="text-align:justify;" class="mt-4">Since Pandas is a Python Library you can easily install it using the Pip Package manager.See the below command and copy it to your cmd or terminal:</p>
 <div class="container p-1" style="background-color:#f2f2f2;border:1px solid lightgrey;text-align:justify;">pip install pandas</div>
 
-<p style="text-align:justify;" class="mt-4">To verify installtion you need to import python  and if no errors are encountered then you can say Pandas is installed in your Systems or if you get any errors try to install it again or you can also comment the problems.</p>
+<p style="text-align:justify;" class="mt-4">To verify installation you need to import pandas  and if no errors are encountered then you can say Pandas is installed in your Systems or if you get any errors try to install it again or you can also comment the problems.</p>
 
 <h4 class="text-left mt-4" style="color:#a54eee;">Second Way of Using Pandas</h4>
 <p style="text-align:justify;">There's an <a href="https://www.anaconda.com/" style="color:grey;text-decoration:none;"> Anaconda <img src="../django/link.png" style="height:12px;"></a> distribution which you can install in your systems.Anaconda is the world's most popular Data Science Platform it also supports Tensorflow,which is a machine learning tool. </p>

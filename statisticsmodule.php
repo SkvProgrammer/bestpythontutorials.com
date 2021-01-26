@@ -1868,7 +1868,7 @@ function googleTranslateElementInit() {
 <h2 style="text-align:left;color:#a54eee;" class="mt-5">mean() Function</h2>
 <p style="text-align:justify;">This function return the arithmetic mean of numbers in a list</p>
 
- <div data-datacamp-exercise data-lang="python">
+ <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 import statistics
 list1 = [2,8,9]
@@ -1906,7 +1906,7 @@ print(statistics.mean(list1))
 
 
 
- <div data-datacamp-exercise data-lang="python">
+ <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 import statistics
 list1 = [2,8,9,9,9,1,1,1,1]
@@ -1938,7 +1938,7 @@ print(statistics.mode(list1))
              <h2 style="text-align:left;color:#a54eee;" class="mt-5">median() Function</h2>
                 
                 <p style="text-align:justify;">The <code>median()</code> function is used to return the middle value of the numeric data in the list.</p>
- <div data-datacamp-exercise data-lang="python">
+ <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 import statistics
 list1 = [2,9,4,6,8]
@@ -1967,7 +1967,7 @@ print(statistics.median(list1))
                 <p style="text-align:justify;">Return the sample standard deviation (the square root of the sample variance). See variance() for arguments and other details.</p>
 
 
- <div data-datacamp-exercise data-lang="python">
+ <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 import statistics
 list1 = [2,9,4,6,8]

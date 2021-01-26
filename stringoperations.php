@@ -1860,7 +1860,7 @@ function googleTranslateElementInit() {
 
 
 
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 print(len("programming"))
 
@@ -1876,7 +1876,7 @@ print(len("programming"))
              <p style="text-align:justify;" class="mt-4"><code>index()</code> function is used to find the index value of a character of a string...</p>  
 
 
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 a = "Programming"
 print(a.index("P")) 
@@ -1894,7 +1894,7 @@ print(a.index("P"))
 
 
 
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 a = "Programming"
 print(a.count("m")) 
@@ -1932,7 +1932,7 @@ print(a.count("m"))
 
 
 
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 a = "Programming"
 print(a[2:5]) 
@@ -1959,7 +1959,7 @@ print(a[2:5])
            </h4>
            
 
-            <div data-datacamp-exercise data-lang="python">
+            <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 a = "Hello"
 print(a[::-1]) 

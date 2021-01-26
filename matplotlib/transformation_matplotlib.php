@@ -1480,7 +1480,7 @@ padding:0px;
 </div>
 <!--content goes here-->
 <div id="main">
-  <p style="text-align:justify;" class="mt-4">Like any graphics packages, Matplotlib is built on top of a transformation framework to easily move between coordinate systems.This matplotlib package is used to easily change the coordinate systems.There are 4 coordinate systems availale for transformation from each other.A Table of coordinate systems is given below:</p>
+  <p style="text-align:justify;" class="mt-4">Like any graphics packages, Matplotlib is built on top of a transformation framework to easily move between coordinate systems.This matplotlib package is used to easily change the coordinate systems.There are 4 coordinate systems available for transformation from each other.A Table of coordinate systems is given below:</p>
 <div style="overflow:scroll;;">
   <table class="table table-bordered">
 <tbody><tr>

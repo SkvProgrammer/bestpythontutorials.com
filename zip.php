@@ -1886,7 +1886,7 @@ function googleTranslateElementInit() {
 <p style="text-align:justify;" class="mt-4">Here iterators means any iterable object such as list,string or tuple.The <code>zip()</code> method will return a single iterator object, having mapped values from all the
 containers.</p> 
 
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
 <!--  <code data-type="pre-exercise-code">
     # This will get executed each time the exercise gets initialized
     b = 6
@@ -1926,7 +1926,7 @@ print (un_mapped)
     <comment>set</comment>(iterable)
   </div>
   <p style="text-align:justify;" class="mt-3">An iterable object such as List,Tuple etc.</p>
-    <div data-datacamp-exercise data-lang="python">
+    <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 list1 = [1,2,3,4]
 dict1 = {1:"BPT",2:"W3"}

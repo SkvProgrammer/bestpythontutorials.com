@@ -1647,7 +1647,7 @@ The parameters are −
 
 
 <p style="text-align:justify;" class="mt-4">Now we will see how to use these Data Types in NumPy and believe me these are really very helpful.</p>
-<div data-datacamp-exercise data-lang="python" style="z-index:0;">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python" style="z-index:0;">
   <code data-type="sample-code">
 # now apply it to ndarray object 
 import numpy as np 
@@ -1658,7 +1658,7 @@ print(a)
 </code>
   </div>
 <p style="text-align:justify;">Now we will see another example of using the data types in numpy.</p>
-<div data-datacamp-exercise data-lang="python" style="z-index:0;">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python" style="z-index:0;">
   <code data-type="sample-code">
 # file name can be used to access content of age column 
 import numpy as np 
@@ -1668,7 +1668,7 @@ a = np.array([(10,),(20,),(30,)], dtype = dt)
 print(a['age'])
 </code>
   </div>
-  <p style="text-align:justify;" class="mt-4">The above two examples are enought to grab the concept of Data Types in NumPy.</p>
+  <p style="text-align:justify;" class="mt-4">The above two examples are enough to grab the concept of Data Types in NumPy.</p>
 
 
 

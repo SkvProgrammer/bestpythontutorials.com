@@ -1875,7 +1875,7 @@ function googleTranslateElementInit() {
 
 <h4 class="text-left mt-4" style="color:#a54eee;">Using <i>@staticmethod</i></h4>
 
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 class person:
     @staticmethod
@@ -1897,7 +1897,7 @@ p1.greetings()
 
 <h4 class="text-left mt-4" style="color:#a54eee;">Using <i>staticmethod()</i></h4>
 
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 class person:
     def greetings():

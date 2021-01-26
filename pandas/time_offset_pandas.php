@@ -1571,7 +1571,7 @@ When we create a date offset for a negative number of periods, the date will be 
 
 <h3 class="text-left mt-4" style="color:#a54eee;">EXAMPLES</h3>
 <h5 class="text-left mb-0 mt-3">code #1( Using the time offset method )</h5>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 import pandas as pd   
 # Create the Timestamp   
@@ -1588,7 +1588,7 @@ print(do)
   </div>
 
 <h5 class="text-left mb-0 mt-3">code #2( Extension of the above code )</h5>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 import pandas as pd     
 # Create the Timestamp   

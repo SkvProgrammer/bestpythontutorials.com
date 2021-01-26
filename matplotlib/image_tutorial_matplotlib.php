@@ -1504,7 +1504,7 @@ Here's the image we're going to play with:
 </p>
 
 <h5 class="text-left mt-4" style="color:#a54eee;">Reading the Image</h5>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 import pandas as pd
 import numpy as np
@@ -1520,7 +1520,7 @@ print(img)
 <p style="text-align:justify;">
 So, you have your data in a numpy array (either by importing it, or by generating it). Let's render it. In Matplotlib, this is performed using the <code>imshow()</code> function. Here we'll grab the plot object. This object gives you an easy way to manipulate the plot from the prompt.
 </p>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 import pandas as pd
 import numpy as np
@@ -1536,7 +1536,7 @@ print(imgplot)
 <h3 class="text-left mt-5" style="color:#a54eee;">Image Effects</h3>
 <h4 class="text-left mt-1 mb-0" style="color:#a54eee;">Pseudo color image in Matplotlib</h4>
 <p style="text-align:justify;" class="mb-0">In this section we are going to convert the image into pseudo color theme.</p>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 import pandas as pd
 import numpy as np
@@ -1551,7 +1551,7 @@ plt.imshow(lum_img)
   </div>
 <p style="text-align:justify;">Now, with a luminosity (2D, no color) image, the default colormap (aka lookup table, LUT), is applied. The default is called viridis. There are plenty of others to choose from.</p>
 
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 import pandas as pd
 import numpy as np
@@ -1567,7 +1567,7 @@ plt.imshow(lum_img, cmap="hot")
 
 <p style="text-align:justify;">you can also change colormaps on existing plot objects using the <code>set_cmap()</code> method:</p>
 
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 import pandas as pd
 import numpy as np
@@ -1581,7 +1581,7 @@ print(img)
   </div>
 
 <h4 class="text-left mt-4" style="color:#a54eee;">Subplots</h4>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 import pandas as pd
 import numpy as np
@@ -1603,7 +1603,7 @@ plt.colorbar(ticks=[0.1, 0.3, 0.5, 0.7], orientation='horizontal')
 </code>
   </div>
 <h4 class="text-left mt-4" style="color:#a54eee;">Blur Images</h4>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 import pandas as pd
 import numpy as np

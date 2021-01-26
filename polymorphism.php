@@ -1867,7 +1867,7 @@ function googleTranslateElementInit() {
   <p style="text-align:justify;" class="mt-4"><b>Polymorphism</b> is one of the main pillars of <b>OOPs</b>.<b>Polymorphism</b> means having multiple or many forms.It means Same Function name performing Different Actions.</p>
         <h4 style="text-align:left;color:#a54eee;" class="mt-4">EXAMPLE</h4>
 
- <div data-datacamp-exercise data-lang="python">
+ <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 """Polymorphism in Python"""
 
@@ -1905,7 +1905,7 @@ Using Duck Typing, we do not check types at all. Instead, we check for the prese
   </div>
 </div>
 <h4 style="text-align:left;color:#a54eee;" class="mt-4">EXAMPLE</h4>
- <div data-datacamp-exercise data-lang="python">
+ <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 class String: 
     def __len__(self): 
@@ -1937,7 +1937,7 @@ if __name__ == "__main__":
 <h3 style="text-align:left;color:#a54eee;" class="mt-5">Method Overloading</h3>
 <p style="text-align:justify;"><b>Method Overloading</b> is a powerful technique in which we can use functions with different actions by having different type of data or different numbers of parameters with same function name.Below is a simple example of <b>Method Overloading</b></p>
 <h4 style="text-align:left;color:#a54eee;" class="mt-4">EXAMPLE</h4>
- <div data-datacamp-exercise data-lang="python">
+ <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 class Person:
     def SayHello(self, name=None):
@@ -1973,7 +1973,7 @@ obj.SayHello('BestPythonTutorials')
  <h3 style="text-align:left;color:#a54eee;" class="mt-5">Method Overriding</h3>
 <p style="text-align:justify;"><b>Method Overriding</b> is the technique in which the Function's body is changed in the child class after being inherited from the parent class.</b></p>
 <h4 style="text-align:left;color:#a54eee;" class="mt-4">EXAMPLE</h4>
- <div data-datacamp-exercise data-lang="python">
+ <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 class A:
     def __init__(self,name):
@@ -2010,7 +2010,7 @@ obj2.Hello()
 <h3 style="text-align:left;color:#a54eee;" class="mt-5">Multiple Inheritance</h3>
 <p style="text-align:justify;">When a class is derived from more than one base class it is called <b>Multiple Inheritance</b>.</p>
 <h4 style="text-align:left;color:#a54eee;" class="mt-4">EXAMPLE</h4>
- <div data-datacamp-exercise data-lang="python">
+ <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 class A:
     def say(self):

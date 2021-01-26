@@ -1483,7 +1483,7 @@ padding:0px;
 <p style="text-align:justify;" class="mt-4">In this chapter we are going to create Line Charts of Different Styles.In the first example we are going to create a simple sine wave graph.</p>
 
 <h5 class="text-left mb-0 mt-2">code #1( Sine Wave )</h5>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code"> 
 import numpy as np
 from matplotlib import pyplot as plt
@@ -1499,7 +1499,7 @@ ax.plot(x, np.sin(x));
 <img src="sinewave.png" class="img-fluid">
 
 <h5 class="text-left mb-0 mt-2">code #2( Sine and Cos Wave )</h5>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code"> 
 import numpy as np
 from matplotlib import pyplot as plt
@@ -1519,7 +1519,7 @@ ax.plot(x, np.cos(x));
 <p style="text-align:justify;">The <code>plt.plot()</code> function takes additional arguments that can be used to specify these. To adjust the color, you can use the <code>color</code> keyword, which accepts a string argument representing virtually any imaginable color. The color can be specified in a variety of ways:</p>
 
 <h5 class="text-left mb-0 mt-2">code #3( Styled Line Graph )</h5>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code"> 
 import numpy as np
 from matplotlib import pyplot as plt
@@ -1543,7 +1543,7 @@ plt.plot(x, np.sin(x - 5), color='chartreuse'); # all HTML color names supported
 
 
 <h5 class="text-left mb-0 mt-2">code #4( Styled Line Graph 2 )</h5>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code"> 
 import numpy as np
 from matplotlib import pyplot as plt
@@ -1573,7 +1573,7 @@ plt.plot(x, x + 7, ':');  # dotted,
 <h4 class="text-left mt-4" style="color:#a54eee;">Axes Limit</h4>
 <p style="text-align:justify;">We can limit the plot line using the two methods called <code>xlim()</code> and <code>ylim()</code>.</p>
 <h5 class="text-left mb-0 mt-2">code #5( Limiting the Axes )</h5>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code"> 
 import numpy as np
 from matplotlib import pyplot as plt

@@ -1489,7 +1489,7 @@ PyLab is a procedural interface to the Matplotlib object-oriented plotting libra
 
 <h4 class="text-left mt-4" style="color:#a54eee;">EXAMPLES</h4>
 <h5 class="text-left mb-0 mt-2">code #1( Pyplot Example )</h5>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 import matplotlib.pyplot as plt
 plt.plot([1, 2, 3, 4])
@@ -1498,7 +1498,7 @@ plt.show()
 </code>
   </div>
 <h5 class="text-left mb-0 mt-5">code #2( Pylab Example )</h5>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 from matplotlib import pylab
 import numpy as np

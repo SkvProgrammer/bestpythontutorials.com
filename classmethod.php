@@ -1867,7 +1867,7 @@ function googleTranslateElementInit() {
 
  <p style="text-align:justify;" class="mt-4">The <code>@classmethod</code> decorator can be applied on any method of a class. This decorator will allow us to call that method using the class name instead of the object.</p>
 
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 class person:
     Objects=0
@@ -1893,7 +1893,7 @@ obj1.showcount()
 
 
 
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 class Fruit:
     name = 'Mango'

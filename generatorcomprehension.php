@@ -1873,7 +1873,7 @@ function googleTranslateElementInit() {
 <p style="text-align:justify;">First of all what is a Generator Comprehension?Just Like List,Dict and Set Comprehension it's a shorthand technique for creating a <b>Generator Object</b>.Let's see an example of Generator Comprehension.</p>
 
     
-    <div data-datacamp-exercise data-lang="python">
+    <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 # Generator Expression 
 generator_expression = list((i for i in range(11) if i % 3 == 0))#Type Casting the Generator Object to List 

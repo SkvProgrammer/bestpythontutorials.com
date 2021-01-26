@@ -1553,7 +1553,7 @@ Arrays should be constructed using array, zeros or empty (refer to the See Also 
 
 <h3 class="text-left mt-4" style="color:#a54eee;">EXAMPLE</h3>
 <p style="text-align:justify;">In this example we are going to create a simple array using <code>numpy.array()</code> method.</p>
-<div data-datacamp-exercise data-lang="python" style="z-index:0;">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python" style="z-index:0;">
   <code data-type="sample-code">
 import numpy as np 
 a = np.array([1,2,3]) 
@@ -1562,7 +1562,7 @@ print(a)
   </div>
 
 <p style="text-align:justify;">Now we will create a multidimensional array and will try to find out the dimensions using ndim</p>
-<div data-datacamp-exercise data-lang="python" style="z-index:0;">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python" style="z-index:0;">
   <code data-type="sample-code">
 import numpy as np 
 a = np.array([[1,2,3],[4,5,6],[7,8,9]]) 

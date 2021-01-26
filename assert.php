@@ -1873,7 +1873,7 @@ function googleTranslateElementInit() {
         <p>Assertions are the debugging tools which helps in smooth flow of the code. Assertions are mainly assumptions that a programmer always wants to be true and hence puts them in the code so that failure of them doesn’t affect the further execution.</p>
         <h3 style="text-align:left;color:#a54eee;" class="mt-4">EXAMPLE</h3>
        
- <div data-datacamp-exercise data-lang="python">
+ <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 a = "programmer"
 assert a == """developer""", """a must be 'programmer' """

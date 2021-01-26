@@ -1500,7 +1500,7 @@ padding:0px;
 
 
 <h5 class="text-left mb-0">code #1(Create a DataFrame and create own index without removing the default index)</h5>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 # Import pandas package 
 import pandas as pd 
@@ -1523,7 +1523,7 @@ df
 </code>
   </div>
 <h5 class="text-left mb-0 mt-5">code #2(Creating our own index and removing the default index )</h5>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 # Import pandas package 
 import pandas as pd 
@@ -1545,7 +1545,7 @@ df
   </div>
 
 <h5 class="text-left mb-0 mt-5">code #3(Reset own index and make default index as index.)</h5>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 # Import pandas package 
 import pandas as pd 

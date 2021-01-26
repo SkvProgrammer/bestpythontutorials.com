@@ -1490,7 +1490,7 @@ padding:0px;
 </div>
 <!--content goes here-->
 <div id="main">
-<p style="text-align:justify;" class="mt-4">In the introductory chapter of <i>Data Structures</i> we have discussed above all the three data structures that are panel,series and data frame in short.Now in this chapter we are going to discuss the <b>Panel</b> Data Structure in more Detailed Way.</p>
+<p style="text-align:justify;" class="mt-4">In the introductory chapter of <i>Data Structures</i> we have discussed all the three data structures that are panel,series and data frame in short.Now in this chapter we are going to discuss the <b>Panel</b> Data Structure in more Detailed Way.</p>
 <p style="text-align:justify;">First of all what is the technical definition of Panels - Panels are 3D containers for storing values in the form of a table.Now in Panels we can have heterogenous data and Panels are also mutable.</p>
 
 <p style="text-align:justify;">The names for the 3 axes are intended to give some semantic meaning to describing operations involving panel data. They are −
@@ -1546,7 +1546,7 @@ padding:0px;
 <p style="text-align: justify;">In this section we are going to see that how we can create panels in pandas.There are several ways to create a panel in pandas - either from ndarrays or the dict of DataFrames. </p>
 <h5 class="text-left mt-3" style="color:#a54eee;">Creating a Panel from ndarrays</h5>
 <p style="text-align:justify;">Now we are going to create a Panel using the ndarray.</p>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 # creating an empty panel
 import pandas as pd
@@ -1573,7 +1573,7 @@ Minor_axis axis: 0 to 4<br>
 <h5 class="text-left mt-5" style="color:#a54eee;">Creating a Panel from Dict of Data Frames</h5>
 <p style="text-align:justify;">In this section we are going to create a Panel using the Dictionary of Data Frames.</p>
 
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 import pandas as pd
 import numpy as np
@@ -1593,7 +1593,7 @@ print(p)
 </ul>
 
 <h5 class="text-left mt-5" style="color:#a54eee;">Using Items</h5>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 import pandas as pd
 import numpy as np
@@ -1605,7 +1605,7 @@ print(p['Item_1'])
 </code>
   </div>
 <h5 class="text-left mt-5" style="color:#a54eee;">Using Major Axis</h5>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 import pandas as pd
 import numpy as np
@@ -1618,7 +1618,7 @@ print(p.major_xs(1))
   </div>
 
 <h5 class="text-left mt-5" style="color:#a54eee;">Using Minor Axis</h5>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 import pandas as pd
 import numpy as np

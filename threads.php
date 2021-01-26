@@ -1940,7 +1940,7 @@ function googleTranslateElementInit() {
 
 <div class="text-left mt-2">
   <h3 style="text-align:left;color:#a54eee;" class="mb-1 mt-3">EXAMPLE</h3>
-   <div data-datacamp-exercise data-lang="python">
+   <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 from time import sleep
 from threading import*
@@ -1974,7 +1974,7 @@ t2.start()
 
 <div class="text-left mt-2">
   <h3 style="text-align:left;color:#a54eee;" class="mb-1 mt-3">EXAMPLE</h3>
-   <div data-datacamp-exercise data-lang="python">
+   <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 from time import sleep
 from threading import*
@@ -2008,7 +2008,7 @@ t2.start()
 
 <div class="text-left mt-2">
   <h3 style="text-align:left;color:#a54eee;" class="mb-1 mt-3">EXAMPLE</h3>
-   <div data-datacamp-exercise data-lang="python">
+   <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 from time import sleep
 from threading import*

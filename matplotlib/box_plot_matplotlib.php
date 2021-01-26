@@ -1563,7 +1563,7 @@ showfliers</td>
 
     <h3 class="text-left mt-4" style="color:#a54eee;">EXAMPLES</h3>
 <h5 class="text-left">Code #1(A Basic box plot)</h5>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code"> 
 import numpy as np
 import matplotlib.pyplot as plt
@@ -1598,7 +1598,7 @@ plt.show()
 
 
   <h5 class="text-left">Code #2(Box plot with notched boxes)</h5>
-  <div data-datacamp-exercise data-lang="python">
+  <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
     <code data-type="sample-code"> 
       import numpy as np
       import matplotlib.pyplot as plt
@@ -1631,7 +1631,7 @@ plt.show()
 
     
   <h5 class="text-left">Code #2(Box plot with notched boxes)</h5>
-  <div data-datacamp-exercise data-lang="python">
+  <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
     <code data-type="sample-code"> 
       import numpy as np
       import matplotlib.pyplot as plt

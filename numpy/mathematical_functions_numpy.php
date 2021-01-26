@@ -1498,7 +1498,7 @@ function googleTranslateElementInit() {
 
 <h3 class="text-left mt-4" style="color:#a54eee;">Trigonometric Functions</h3>
 <p style="text-align:justify;">NumPy Provides a large number of standard Trigonometric Functions.In this chapter we will see the use of <code>sine</code>,<code>cosine</code>,<code>tan</code>,<code>arcsine</code>,<code>arcos</code> and <code>arctan</code>.</p>
-<div data-datacamp-exercise data-lang="python" style="z-index:0;">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python" style="z-index:0;">
   <code data-type="sample-code"> 
 import numpy as np 
 a = np.array([0,30,45,60,90]) #angles
@@ -1516,7 +1516,7 @@ print(np.tan(a*np.pi/180))
   </div>
 <p style="text-align:justify;" class="mt-4"><code>arcsine</code>,<code>arcos</code> and <code>arctan</code> functions returns the inverse of sin,cos and tan of angles.To verify the output you can use the <b>numpy.degrees()</b> method.</p>
 
-<div data-datacamp-exercise data-lang="python" style="z-index:0;">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python" style="z-index:0;">
   <code data-type="sample-code"> 
 import numpy as np 
 a = np.array([0,30,45,60,90]) 

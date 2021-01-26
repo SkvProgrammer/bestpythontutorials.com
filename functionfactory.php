@@ -1878,7 +1878,7 @@ function googleTranslateElementInit() {
 </ul>
 <h3 style="text-align:justify;color:#a54eee;" class="mt-4">EXAMPLE</h3>
 <div class="text-left mt-1">
-   <div data-datacamp-exercise data-lang="python">
+   <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 # A simple static factory method.
 from __future__ import generators

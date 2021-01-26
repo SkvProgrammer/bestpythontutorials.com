@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-Us">
     <head>
-        <title>Sessions in Flask - BestPythonTutorials.com</title>
+        <title>Redirecting Pages and Errors in Flask - BestPythonTutorials.com</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <script charset="UTF-8" src="//web.webpushs.com/js/push/21f7140e081ac8d7144ec5c3ffb92c8c_1.js" async></script>
@@ -18,7 +18,7 @@
           <script src="../codemirror/mode/javascript/javascript.js"></script>
           <script src="../codemirror/mode/sql/sql.js"></script>
            <script src="../codemirror/mode/xml/xml.js"></script> 
-           <meta name="description" content="Sessions in Flask - Login and Logout Functionality in Flask - BestPythonTutorials.com" />
+           <meta name="description" content="Redirecting Pages and Errors in Flask - BestPythonTutorials.com" />
            <script src="https://unpkg.com/applause-button/dist/applause-button.js" type="text/javascript"></script>
         <link rel="stylesheet" type="text/css" href="https://unpkg.com/applause-button/dist/applause-button.css">
          <!-- add the button style & script -->
@@ -1362,8 +1362,8 @@ padding:0px;
       <li><a href="static_files_flask.php"  target="_self">Static Files</a></li>
       <li><a href="request_object_flask.php"  target="_self">Request Object</a></li>
       <li><a href="file_upload_flask.php"  target="_self">File Upload</a></li>
-      <li style="background-image:linear-gradient(#4537d1,#4537d1);border-top:1px solid white;border-bottom:1px solid white;"><a href="sessions_flask.php"  target="_self">Sessions</a></li>
-      <li><a href="redirect_errors_flask.php"  target="_self">Redirect and Errors</a></li>
+      <li><a href="sessions_flask.php"  target="_self">Sessions</a></li>
+      <li style="background-image:linear-gradient(#4537d1,#4537d1);border-top:1px solid white;border-bottom:1px solid white;"><a href="redirect_errors_flask.php"  target="_self">Redirect and Errors</a></li>
       <li><a href="message_flashing_flask.php"  target="_self">Message Flashing</a></li>
       <li><a href="sqlite_flask.php"  target="_self">SQLite</a></li>
       <li><a href="sqlalchemy_flask.php"  target="_self">SQLAlchemy</a></li>
@@ -1396,8 +1396,8 @@ padding:0px;
       <a href="static_files_flask.php"  target="_self">Static Files</a>
       <a href="request_object_flask.php"  target="_self">Request Object</a>
       <a href="file_upload_flask.php"  target="_self">File Upload</a>
-      <a href="sessions_flask.php"  target="_self" style="color:white;">Sessions</a>
-      <a href="redirect_errors_flask.php"  target="_self">Redirect and Errors</a>
+      <a href="sessions_flask.php"  target="_self">Sessions</a>
+      <a href="redirect_errors_flask.php"  target="_self" style="color:white;">Redirect and Errors</a>
       <a href="message_flashing_flask.php"  target="_self">Message Flashing</a>
       <a href="sqlite_flask.php"  target="_self">SQLite</a>
       <a href="sqlalchemy_flask.php"  target="_self">SQLAlchemy</a>
@@ -1456,10 +1456,10 @@ padding:0px;
    <gcse:search></gcse:search>
 </div><br>
 <!--search ends-->
-    <h2 style="text-align:left;color:#a54eee;">Sessions in Flask</h2>
+    <h2 style="text-align:left;color:#a54eee;">Flask Redirect and Errors</h2>
 <div class="row ml-auto mr-auto" style="width:40%!important;">
-<a href="https://www.facebook.com/sharer/sharer.php?u=http%3A//bestpythontutorials.com/flask/sessions_flask.php" style="background-color:#3377ff;color:white;border-radius:1px;padding:1px;font-size:15px;" id="facebookshare" class="col-lg-3 col-sm-3 col-md-3 mb-1" class="col-lg-3 col-sm-3 col-md-3 mb-1"> <i class="fa fa-facebook-f"></i> Share </a>
-<a href="https://twitter.com/intent/tweet?text=http%3A//bestpythontutorials.com/flask/sessions_flask.php" style="background-color:#1ac6ff;color:white;border-radius:1px;padding:1px;font-size:15px;" id="facebookshare" class="col-lg-3 col-sm-3 col-md-3 mb-1"> <i class="fa fa-twitter"></i> Tweet </a>
+<a href="https://www.facebook.com/sharer/sharer.php?u=http%3A//bestpythontutorials.com/flask/redirect_errors_flask.php" style="background-color:#3377ff;color:white;border-radius:1px;padding:1px;font-size:15px;" id="facebookshare" class="col-lg-3 col-sm-3 col-md-3 mb-1" class="col-lg-3 col-sm-3 col-md-3 mb-1"> <i class="fa fa-facebook-f"></i> Share </a>
+<a href="https://twitter.com/intent/tweet?text=http%3A//bestpythontutorials.com/flask/redirect_errors_flask.php" style="background-color:#1ac6ff;color:white;border-radius:1px;padding:1px;font-size:15px;" id="facebookshare" class="col-lg-3 col-sm-3 col-md-3 mb-1"> <i class="fa fa-twitter"></i> Tweet </a>
 <a href="https://www.youtube.com/channel/UC_pPPgwvndi8f2RkbkbvOIA" target="_blank" style="background-color:red;color:white;border-radius:1px;padding:1px;font-size:15px;" class="col-lg-3 col-sm-3 col-md-3 mb-1" id="facebookshare">   <i class="fa fa-youtube"></i> Youtube </a>
 <a style="background-color:orangered;color:white;border-radius:1px;padding:1px;font-size:15px;" class="col-lg-3 col-sm-3 col-md-3 mb-1" id="facebookshare" onclick="languagedisplay()">   <i class="fa fa-language"></i><text>Language</text> </a></button>
 
@@ -1488,26 +1488,178 @@ function googleTranslateElementInit() {
 <!-----------------------Google Translate API ends----------------->
 <!--content goes here-->
 <div id="main">
-<p style="text-align:justify;" class="mt-4">The concept of sessions is almost similar to that of the cookies.So if you have the knowledge of Cookies then It will be a plus point in this chapter.</p>
-<p style="text-align:justify;">The session can be defined as the duration for which a user logs into the server and logs out. The data which is used to track this session is stored into the temporary directory on the server.</p>
-<p style="text-align:justify;">A session with each client is assigned a <b>Session ID</b>. The Session data is stored on top of cookies and the server signs them cryptographically. For this encryption, a Flask application needs a defined <b>SECRET_KEY</b>.
-</p>
-<p style="text-align:justify;">
-Session object is also a dictionary object containing key-value pairs of session variables and associated values.
-</p>
-<p style="text-align:justify;">To set the user name we have to write as following:</p>
-<div class="container p-1" style="text-align:justify;background-color:#f2f2f2;border:1px solid lightgrey;">
-Session['user_name'] = 'value'
- </div>
- <p style="text-align:justify;" class="mt-2">To release a session variable use <code>pop()</code> method.
-</p>
-<div class="container p-1" style="text-align:justify;background-color:#f2f2f2;border:1px solid lightgrey;">
-session.pop(&lt;variable_name&gt;, none)  
- </div>
+<p style="text-align:justify;" class="mt-4">Flask class provides the <code>redirect()</code> function which redirects the user to some specified URL with the specified status code.An HTTP status code is a response from the server to the request of the browser. When we visit a website, a request is sent to the server, and the server then responds to the browser's request with a three-digit code: the HTTP status code. This status code also represents the error.</p>
 
-<p style="text-align:justify;" class="mt-3">To demonstrate the use of sessions we are going to create a simple login and logout app using sessions which will be awesome.</p>
+<h3 class="text-left mt-4" style="color:#a54eee;">SYNTAX</h3>
+<div class="container p-1" style="background-color:#f2f2f2;border:1px solid lightgrey;text-align:justify;">Flask.redirect(location, statuscode, response)</div>
+
+<h3 class="text-left mt-4" style="color:#a54eee;">PARAMETERS</h3>
+<div style="overflow:scroll;">
+  <table class="alt">
+<tbody><tr>
+  <th>S.no</th>
+  <th>Parameter</th>
+  <th>Description</th>
+</tr>
+<tr>
+  <td>1</td>
+  <td>location</td>
+  <td>It is the URL where the response will be redirected.</td>
+</tr>
+<tr>
+  <td>2</td>
+  <td>status code</td>
+  <td>It is the status code that is sent to the browser's header along with the response from the server.</td>
+</tr>
+<tr>
+  <td>3</td>
+  <td>response</td>
+  <td>It is the instance of the response that is used in the project for future requirements. </td>
+</tr>
+</tbody></table>
+</div>
+
+<h3 class="text-left mt-4" style="color:#a54eee;">Standard HTTP Code</h3>
+<ul style="text-align:justify;list-style:square;">
+<li>HTTP_300_MULTIPLE_CHOICES
+<li>HTTP_301_MOVED_PERMANENTLY
+<li>HTTP_302_FOUND
+<li>HTTP_303_SEE_OTHER
+<li>HTTP_304_NOT_MODIFIED
+<li>HTTP_305_USE_PROXY
+<li>HTTP_306_RESERVED
+<li>HTTP_307_TEMPORARY_REDIRECT
+</ul>
+<p style="text-align:justify;" class="mt-3">The default status code is 302, which is for ‘found’</p>
+
+<h3 class="text-left mt-4" style="color:#a54eee;">The <code>abort()</code> Function</h3>
+<p style="text-align:justify;">The abort() function is used to handle the cases where the errors are involved in the requests from the client side, such as bad requests, unauthorized access and many more. However, the error code is to be mentioned due to which the error occurred.
+</p>
+<h4 class="text-left mt-3" style="color:#a54eee;">SYNTAX</h4>
+<div class="container p-1" style="background-color:#f2f2f2;border:1px solid lightgrey;text-align:justify;">
+  Flask.abort(code)
+</div>
+
+<p style="text-align:justify;" class="mt-3">The <b>code</b> parameter takes one of following values - </p>
+<ul style="list-style:square;text-align:justify;">
+<li>400 − for Bad Request
+
+<li>401 − for Unauthenticated
+
+<li>403 − for Forbidden
+
+<li>404 − for Not Found
+
+<li>406 − for Not Acceptable
+
+<li>415 − for Unsupported Media Type
+
+<li>429 − Too Many Requests
+</ul>
 
 <h3 class="text-left mt-4" style="color:#a54eee;">EXAMPLE</h3>
+<div class="text-left mt-0 mb-1">
+  <p class="text-left mb-0">The below code will redirect the user if the login attempt is failed as many times as the login continuously fails.</p>
+ <form action="" method="post" target="_blank">
+ <textarea id="editor1" name="initScript" style="height:20vh!important;text-align:justify;overflow:hidden;-webkit-border-radius: 5px;
+    -moz-border-radius: 5px;border-radius: 5px;z-index:0;" readOnly = 'nocursor'>
+from flask import Flask, redirect, url_for, render_template, request
+# Initialize the Flask application
+app = Flask(__name__)
+
+@app.route('/')
+def index():
+   return render_template('login.html')
+
+@app.route('/login',methods = ['POST', 'GET']) 
+def login(): 
+   if request.method == 'POST' and request.form['username'] == 'admin' :
+      return redirect(url_for('success'))
+   else:
+      return redirect(url_for('index'))
+
+@app.route('/successlogin')
+def success():
+   return 'You have logged in successfully'
+  
+if __name__ == '__main__':
+   app.run()</textarea>
+              <!--<button type="submit" style="background-color:white;border:none;outline:none;box-shadow:none;" class="mt-3">
+              <a type="submit" class="pl-4 pr-4" style="border:2px solid #3399ff;border-radius:4px;color:#1aa3ff;">Run it    <i class="fa fa-angle-right"></i><i class="fa fa-angle-right"></i></a>
+             </button>
+             -->
+            
+           </form>
+                     <script>
+            
+    var editor = CodeMirror.fromTextArea(document.getElementById('editor1'),{
+      mode:"python",
+      lineNumbers:true
+    });
+  
+  </script>      
+</div>
+<div class="text-left mt-0 mb-1">
+<p style="text-align:justify;" class="mt-4">Printing the <b>Unauthorized</b> Message in the browser...</p>
+ <form action="" method="post" target="_blank">
+ <textarea id="editor2" name="initScript" style="height:20vh!important;text-align:justify;overflow:hidden;-webkit-border-radius: 5px;
+    -moz-border-radius: 5px;border-radius: 5px;z-index:0;" readOnly = 'nocursor'>
+from flask import *  
+app = Flask(__name__)  
+ 
+@app.route('/')  
+def index ():  
+    return render_template("index.html")  
+ 
+@app.route('/login')  
+def login():  
+    return render_template("login.html");  
+ 
+@app.route('/validate', methods = ["POST"])  
+def validate():  
+    if request.method == 'POST' and request.form['password'] == '12345':  
+        return redirect(url_for("success"))  
+    else:  
+        abort(401)  
+ 
+@app.route('/success')  
+def success():  
+    return "You have logged in successfully"  
+  
+if __name__ == '__main__':  
+    app.run()</textarea>
+              <!--<button type="submit" style="background-color:white;border:none;outline:none;box-shadow:none;" class="mt-3">
+              <a type="submit" class="pl-4 pr-4" style="border:2px solid #3399ff;border-radius:4px;color:#1aa3ff;">Run it    <i class="fa fa-angle-right"></i><i class="fa fa-angle-right"></i></a>
+             </button>
+             -->
+            
+           </form>
+                     <script>
+            
+    var editor = CodeMirror.fromTextArea(document.getElementById('editor2'),{
+      mode:"python",
+      lineNumbers:true
+    });
+  
+  </script>      
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 </div>
@@ -1853,10 +2005,10 @@ function closeNav() {
   window.open("installation.php");
 }*/
 function next(){
-  window.open("redirect_errors_flask.php","_self");
+  window.open("message_flashing_flask.php","_self");
 }
 function prev(){
-  window.open("file_upload_flask.php","_self");
+  window.open("sessions_flask.php","_self");
 }
 
 /**********scroll functionality*********/

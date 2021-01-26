@@ -41,7 +41,7 @@ CodeMirror.defineMode("puppet", function () {
     'sport ssh_authorized_key sshkey stage state table tidy todest toports tosource ' +
     'user vlan yumrepo zfs zone zpool');
 
-  // After finding a start of a string ('|") this function attempts to find the end;
+  // After finding a start of a string ('|") this function attemptts to find the end;
   // If a variable is encountered along the way, we display it differently when it
   // is encapsulated in a double-quoted string.
   function tokenString(stream, state) {

@@ -1536,7 +1536,7 @@ padding:0px;
 </div>
 <h4 class="text-left mt-4" style="color:#a54eee;">Creating Series in Pandas</h4>
 <p style="text-align:justify;"><b>Creating a Series using an Array:</b>In this section we are going to see that how can we create a Series using a NumPy Array.In order to create a series from array, we have to import a numpy module and have to use <code>array()</code> function.</p>
-    <div data-datacamp-exercise data-lang="python">
+    <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 import pandas as pd
 import numpy as np
@@ -1547,7 +1547,7 @@ print(pd.Series(np.array([1,2,3,4,5])))
 <img src="series_pandas1.png" class="img-fluid">
 
 <p style="text-align:justify;"><b>Creating a Series using a List:</b>In this section we are going to see that how can we create a Series using a List in Python.In order to create a series from a List, we have to create a List first.</p>
-    <div data-datacamp-exercise data-lang="python">
+    <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 import pandas as pd
 import numpy as np
@@ -1566,7 +1566,7 @@ print(pd.Series(list1))
 </ol>
 <p style="text-align:justify;" class="mt-4"><b>Accessing using the index number:</b>Now we will see how to access the elements of a Series using the index number of array.Use the index operator [ ] to access an element in a series. The index must be an integer. In order to access multiple elements from a series, we use Slice operation.</p>
 
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 import pandas as pd
 import numpy as np
@@ -1580,7 +1580,7 @@ print(array2[0][0])#printing the first element of the first array
   </div>
 <p style="text-align:justify;" class="mt-4"><b>Accessing using the Label:</b>In order to access an element from series, we have to set values by index label. A Series is like a fixed-size dictionary in that you can get and set values by index label.</p>
 
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 import pandas as pd
 import numpy as np
@@ -1596,7 +1596,7 @@ print(array1[12])#printing r
 <p style="text-align:justify;">In this section we are going to see the indexing and slicing a series in pandas using normal index number method and the special methods such as <code>loc()</code> and <code>iloc()</code>.</p>
 
 <h5 class="text-left mt-4" style="color:#a54eee;">Indexing using the index operator []</h5>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 import pandas as pd
 import numpy as np
@@ -1607,8 +1607,8 @@ print(array1[:13])#printing all elements from end
 </code>
   </div>
 <h5 class="text-left mt-4" style="color:#a54eee;">Indexing using the <code>loc()</code> method</h5>
-<p style="text-align:justify;">This function selects data by refering the explicit index . The <code>df.loc</code> indexer selects data in a different way than just the indexing operator. It can select subsets of data.</p>
-<div data-datacamp-exercise data-lang="python">
+<p style="text-align:justify;">This function selects data by referring the explicit index . The <code>df.loc</code> indexer selects data in a different way than just the indexing operator. It can select subsets of data.</p>
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 import pandas as pd
 import numpy as np
@@ -1620,7 +1620,7 @@ data.loc[3:6]
   </div>
 <h5 class="text-left mt-4" style="color:#a54eee;">Indexing using the <code>iloc()</code> method</h5>
 <p style="text-align:justify;">This function allows us to retrieve data by position. In order to do that, we’ll need to specify the positions of the data that we want. The df.iloc indexer is very similar to df.loc but only uses integer locations to make its selections.</p>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 import pandas as pd
 import numpy as np

@@ -1496,7 +1496,7 @@ function googleTranslateElementInit() {
 <div id="main">
 <p style="text-align:justify;" class="mt-4">In the previous chapter we have learned about the Matrix Library and Linear Algebra Library in NumPy and we have also discussed some basic operations on Matrices.Now we will look at these operations in detail.</p>
 
-<p style="text-align:justify;">Matrix Operations are basic operations such as addition of matrix,product of matrix and diffrence of matrix.</p>
+<p style="text-align:justify;">Matrix Operations are basic operations such as addition of matrix,product of matrix and difference of matrix.</p>
 <div style="overflow:scroll;">
   <table>
     <tr>
@@ -1541,7 +1541,7 @@ function googleTranslateElementInit() {
 
 <h4 class="text-left mt-5" style="color:#a54eee;">EXAMPLE</h4>
 
-<div data-datacamp-exercise data-lang="python" style="z-index:0;">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python" style="z-index:0;">
   <code data-type="sample-code"> 
 import numpy as np
  

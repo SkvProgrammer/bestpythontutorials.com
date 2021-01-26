@@ -1877,7 +1877,7 @@ This expression is usually written with the summation operator:
 <p style="text-align: justify;">In Python we can easily implement a polynomial function.we will be implement a polynomial function i.e.</p>
 <a href="https://www.codecogs.com/eqnedit.php?latex=p(x)=x4-4x^{2}&plus;3x" target="_blank"><img src="https://latex.codecogs.com/png.latex?p(x)=x4-4x^{2}&plus;3x" title="p(x)=x4-4x^{2}+3x" /></a>
 <div class="text-left mt-2">
-   <div data-datacamp-exercise data-lang="python">
+   <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 def p(x):
   return x**4 - 4 * x **2 + 3 * x
@@ -1896,7 +1896,7 @@ print(p(2))
 <h3 style="text-align:left;color:#a54eee;" class="mt-5">Polynomial Class</h3>
 <p style="text-align:justify;">Now,We will see how to implement a Polynomial Class in Python.</p>
 <div class="text-left mt-2">
-   <div data-datacamp-exercise data-lang="python">
+   <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 class Polynomial:
     
@@ -1927,7 +1927,7 @@ print(p1)
 
 <p style="text-align:justify;" class="mt-4">Now,we will plot the above equation...</p>
 <div class="text-left mt-2">
-   <div data-datacamp-exercise data-lang="python">
+   <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 import matplotlib.pyplot as plt
 import numpy as np

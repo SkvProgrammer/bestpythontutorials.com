@@ -1873,7 +1873,7 @@ function googleTranslateElementInit() {
         </b></p>
 
 
- <div data-datacamp-exercise data-lang="python">
+ <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 from math import sqrt
 n = 100
@@ -1893,7 +1893,7 @@ print(primes)
 <p style="text-align:left;">Set inside Another Set are termed as <code>Nested Sets</code>.In Python if we use nested Sets we have to declare the inner set as <code>frozenset</code> or python will generate an error.Sets are mutable, which makes them unhashable, and therefore they cannot exist as elements within a larger set unless they are frozen. Fortunately, we can easily make sets into frozen sets by wrapping them in the frozenset() function.</p>
 
 
- <div data-datacamp-exercise data-lang="python">
+ <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 sentence = "I am Skv a great developer and programmer"
 words = sentence.lower().replace('.', '').replace(',', '').split()

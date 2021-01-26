@@ -1898,7 +1898,7 @@ function googleTranslateElementInit() {
        <a href="https://partners.hostgator.com/c/2548499/178160/3094" target="_top" id="178160"><img src="//a.impactradius-go.com/display-ad/3094-178160" border="0" alt="" width="336" height="280"/></a><img height="0" width="0" src="https://partners.hostgator.com/i/2548499/178160/3094" style="position:absolute;visibility:hidden;" border="0" /><br>
            </div>
 <h5 class="text-left mt-3 mb-0">Code #1(A basic if-else program)</h5>
- <div data-datacamp-exercise data-lang="python">
+ <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 rohans_age = 19
 if rohans_age < 18:
@@ -1922,8 +1922,8 @@ else:
        <a href="https://partners.hostgator.com/c/2548499/178160/3094" target="_top" id="178160"><img src="//a.impactradius-go.com/display-ad/3094-178160" border="0" alt="" width="336" height="280"/></a><img height="0" width="0" src="https://partners.hostgator.com/i/2548499/178160/3094" style="position:absolute;visibility:hidden;" border="0" /><br>
            </div>
         
-        <h5 class="text-left mt-5 mb-0">Code #2(Comapring Numbers)</h5>
- <div data-datacamp-exercise data-lang="python">
+        <h5 class="text-left mt-5 mb-0">Code #2(comparing Numbers)</h5>
+ <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 a = 19
 if a > 18:

@@ -1502,7 +1502,7 @@ function googleTranslateElementInit() {
 <h4 class="text-left mt-4" style="color:#a54eee;">Sorting the array numerically</h4>
 <p style="text-align:justify;">In this section we will see how to use the <code>sort()</code> method for sorting an array containing numerical value.</p>
 
-<div data-datacamp-exercise data-lang="python" style="z-index:0;">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python" style="z-index:0;">
   <code data-type="sample-code"> 
 import numpy as np
 array1 = np.array([[11,2,13,44,5]])
@@ -1516,7 +1516,7 @@ print(np.sort(array1))
 
 <h4 class="text-left mt-5" style="color:#a54eee;">Sorting the array alphabetically</h4>
 <p style="text-align:justify;">Now we will see how we can sort an array containing alphabets or letters.</p>
-<div data-datacamp-exercise data-lang="python" style="z-index:0;">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python" style="z-index:0;">
   <code data-type="sample-code"> 
 import numpy as np
 array1 = np.array([["A","B","C","a","b","c"]])
@@ -1527,7 +1527,7 @@ print(np.sort(array2))
   </div>
 <h4 class="text-left mt-4" style="color:#a54eee;">Sorting a 2-D Array</h4>
 <p style="text-align:justify;">Now we will how we can sort a 2-D array in NumPy.2-D is 2 Dimensional Array.</p>
-<div data-datacamp-exercise data-lang="python" style="z-index:0;">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python" style="z-index:0;">
   <code data-type="sample-code"> 
 import numpy as np
 array1 = np.array([[2,3,10,1,3],[8,3,5,9,3]])
@@ -1537,7 +1537,7 @@ print(np.sort(array1))
 
 <h4 class="text-left mt-4" style="color:#a54eee;">Sorting based on Array's Axis</h4>
 <p style="text-align:justify;">Axis along which we need array to be started is taken as parameter <b>axis</b>.</p>
-<div data-datacamp-exercise data-lang="python" style="z-index:0;">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python" style="z-index:0;">
   <code data-type="sample-code"> 
 import numpy as np
 array1 = np.array([[2,3,10,1,3],[8,3,5,9,3]])

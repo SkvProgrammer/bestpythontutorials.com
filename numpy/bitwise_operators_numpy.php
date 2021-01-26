@@ -1564,7 +1564,7 @@ function googleTranslateElementInit() {
 </div>
 <p style="text-align:justify;" class="mt-4">Now we are going to discuss them one by one.</p>
   <h3 style="text-align:justify;color:#a54eee;" class="mt-4">bitwise_and</h3>
-<div data-datacamp-exercise data-lang="python" style="z-index:0;">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python" style="z-index:0;">
   <code data-type="sample-code"> 
 import numpy as np  
   
@@ -1576,7 +1576,7 @@ print(np.bitwise_and(x,y))
   </div>
 
    <h3 style="text-align:justify;color:#a54eee;" class="mt-4">bitwise_or</h3>
-<div data-datacamp-exercise data-lang="python" style="z-index:0;">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python" style="z-index:0;">
   <code data-type="sample-code"> 
 import numpy as np  
   
@@ -1588,7 +1588,7 @@ print(np.bitwise_or(x,y))
   </div>
 
    <h3 style="text-align:justify;color:#a54eee;" class="mt-4">invert</h3>
-<div data-datacamp-exercise data-lang="python" style="z-index:0;">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python" style="z-index:0;">
   <code data-type="sample-code"> 
 import numpy as np  
 
@@ -1597,7 +1597,7 @@ print(np.invert(2))
   </div>
 
    <h3 style="text-align:justify;color:#a54eee;" class="mt-4">left_shift</h3>
-<div data-datacamp-exercise data-lang="python" style="z-index:0;">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python" style="z-index:0;">
   <code data-type="sample-code"> 
 import numpy as np  
 #left shift by 3 bits from 12 
@@ -1605,7 +1605,7 @@ print(np.left_shift(12,3))
 </code>
   </div>
    <h3 style="text-align:justify;color:#a54eee;" class="mt-4">right_shift</h3>
-<div data-datacamp-exercise data-lang="python" style="z-index:0;">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python" style="z-index:0;">
   <code data-type="sample-code"> 
 import numpy as np  
 #right shift by 3 bits from 12 

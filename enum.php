@@ -1898,7 +1898,7 @@ function googleTranslateElementInit() {
   <p style="text-align:justify;">In this example we will try to find out the number of iterations for a List</p>
 
 
-  <div data-datacamp-exercise data-lang="python">
+  <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 """enumerate function for counting the number of iterations of a List"""
 
@@ -1929,7 +1929,7 @@ print(list(enumerate(list1,100)))
   <div class="text-left mt-5">
   <h3 style="text-align:left;color: #a54eee;">Using enumerate() function in a for loop</h3>
   <p style="text-align:justify;">In this example we will try to find out the number of iterations directly in a for loop</p>
-   <div data-datacamp-exercise data-lang="python">
+   <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 list1 = ["Satyam","SkvProgrammer","Skv2"] 
   

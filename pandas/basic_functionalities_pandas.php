@@ -1493,10 +1493,10 @@ padding:0px;
 <p style="text-align:justify;" class="mt-4">Till now we have learned about all the three Data Structures in Pandas that are Panel , Series and Data Frame.Now we will learn some basic functionalities of these Data Structures.You should know that DataFrame is the most used and popular Data Structure for real time data processing.So in this chapter we are going to cover the basic functionalities of DataFrame Data Structure.</p>
 
 <h4 class="text-left mt-4" style="color:#a54eee;">Head & Tail</h4>
-<p style="text-align:justify;">Suppose you are working with a small Data Sets of let's say 10 rows,now to manage this data we don't need <i>Head & Tail</i> Methods because the data is in very low amount but incase of thousand or ten thousand of Such rows it's not easy to work with them in a real time.So we first work with the intial 10 rows then the next 10 rows and so on,which makes it easy to deal with the Data.</p>
+<p style="text-align:justify;">Suppose you are working with a small Data Sets of let's say 10 rows,now to manage this data we don't need <i>Head & Tail</i> Methods because the data is in very low amount but incase of thousand or ten thousand of Such rows it's not easy to work with them in a real time.So we first work with the initial 10 rows then the next 10 rows and so on,which makes it easy to deal with the Data.</p>
 <p style="text-align:justify;">To view a small sample of a Series or DataFrame object, use the <code>head()</code> and <code>tail()</code> methods. The default number of elements to display is five, but you may pass a custom number.The major difference between the <code>head()</code> and <code>tail()</code> method is that the <code>head()</code> returns the element from starting whereas the <code>tail()</code> method returns the element from the end of the table.</p>
 <h5 class="text-left mt-4" style="color:#a54eee;">EXAMPLE</h5>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 import pandas as pd
 import numpy as np
@@ -1510,8 +1510,8 @@ print("printing first 5 elements:",s.head())
 print("printing last 5 elements:",s.tail())
 #printing first 12 elements
 print("printing first 12 elements",s.head(12))
-#priting last 12 elements
-print("priting last 12 elements",s.tail(12))
+#printing last 12 elements
+print("printing last 12 elements",s.tail(12))
 </code>
   </div>
 <h4 class="text-left mt-4" style="color:#a54eee;">Attributes and Underlying Data</h4>
@@ -1527,7 +1527,7 @@ print("priting last 12 elements",s.tail(12))
 </li>
 </ol>
 <h5 class="text-left mt-4 mb-1" style="color:#a54eee;">Axis Labels</h5>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 import pandas as pd
 import numpy as np
@@ -1543,7 +1543,7 @@ print(df.axes)
 </code>
   </div>
 <h5 class="text-left mt-4 mb-1" style="color:#a54eee;">shape</h5>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 import pandas as pd
 import numpy as np
@@ -1621,7 +1621,7 @@ Method &amp; Description</th>
 </div>
 
 <h5 class="text-left mt-5" style="color:#a54eee;">EXAMPLE</h5>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 import pandas as pd
 import numpy as np
@@ -1632,7 +1632,7 @@ df = pd.DataFrame({"one":[1,2,3,4],
 })
 print ("Transpose:")
 print(df.T)
-print ("The dimesions are:")
+print ("The dimensions are:")
 print(df.ndim)
 print ("Size:")
 print(df.size)

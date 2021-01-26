@@ -1884,7 +1884,7 @@ function googleTranslateElementInit() {
 </p>
 
 
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 x = 'outer variable'
 
@@ -1937,7 +1937,7 @@ print(x)
 <p style="text-align:justify;" class="mt-4">Let's discuss them in more depth:</p>   
 <h2 class="text-left mt-4" style="color:#a54eee;">Local Scope</h2>
 <p style="text-align:justify;">Local (or function) scope is the code block or body of any Python function or lambda expression. This Python scope contains the names that you define inside the function. These names will only be visible from the code of the function. It’s created at function call, not at function definition, so you’ll have as many different local scopes as function calls. This is true even if you call the same function multiple times, or recursively. Each call will result in a new local scope being created.</p>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 scope_x = 10
 def function_scope():
@@ -1973,7 +1973,7 @@ function_scope()
 
 <h2 class="text-left mt-4" style="color:#a54eee;">Enclosing Scope</h2>
 <p style="text-align:justify;">It is a special scope that only exists for nested functions. If the local scope is an inner or nested function, then the enclosing scope is the scope of the outer or enclosing function. This scope contains the names that you define in the enclosing function. The names in the enclosing scope are visible from the code of the inner and enclosing functions.</p>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 def outer(): 
     x = 10
@@ -1995,7 +1995,7 @@ outer()
            </div>
 <h2 class="text-left mt-4" style="color:#a54eee;">Global Scope</h2>
 <p style="text-align:justify;">It is the top-most scope in a Python program, script, or module. This Python scope contains all of the names that you define at the top level of a program or a module. Names in this Python scope are visible from everywhere in your code.</p>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 x = 0
 def global_x():

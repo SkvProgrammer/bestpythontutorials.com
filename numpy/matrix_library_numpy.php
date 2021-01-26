@@ -1522,7 +1522,7 @@ function googleTranslateElementInit() {
   </table>
 </div>
 <h4 class="text-left mt-3" style="color:#a54eee;">EXAMPLE</h4>
-<div data-datacamp-exercise data-lang="python" style="z-index:0;">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python" style="z-index:0;">
   <code data-type="sample-code"> 
 import numpy as np
 import numpy.matlib
@@ -1533,8 +1533,8 @@ print(array1)
   </div>
 
 <h4 class="text-left mt-4" style="color:#a54eee;">numpy.matlib.zeros()</h4>
-<p style="text-align:justify;">This function returns an uninitilized matrix having all values 0.</p>
-<div data-datacamp-exercise data-lang="python" style="z-index:0;">
+<p style="text-align:justify;">This function returns an uninitialized matrix having all values 0.</p>
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python" style="z-index:0;">
   <code data-type="sample-code"> 
 import numpy as np
 import numpy.matlib
@@ -1546,8 +1546,8 @@ print(array1)
 
 
 <h4 class="text-left mt-4" style="color:#a54eee;">numpy.matlib.ones()</h4>
-<p style="text-align:justify;">This function returns an uninitilized matrix having all values 1.</p>
-<div data-datacamp-exercise data-lang="python" style="z-index:0;">
+<p style="text-align:justify;">This function returns an uninitialized matrix having all values 1.</p>
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python" style="z-index:0;">
   <code data-type="sample-code"> 
 import numpy as np
 import numpy.matlib
@@ -1589,7 +1589,7 @@ print(array1)
 </div>
 
 <h4 class="text-left mt-4" style="color:#a54eee;">EXAMPLES</h4>
-<div data-datacamp-exercise data-lang="python" style="z-index:0;">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python" style="z-index:0;">
   <code data-type="sample-code"> 
 import numpy as np
 import numpy.matlib
@@ -1606,7 +1606,7 @@ print(array1)
 This function is used to return an identity matrix of the given size. An identity matrix is the one with diagonal elements initializes to 1 and all other elements to zero.
 </p>
 
-<div data-datacamp-exercise data-lang="python" style="z-index:0;">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python" style="z-index:0;">
   <code data-type="sample-code"> 
 import numpy as np
 import numpy.matlib
@@ -1619,7 +1619,7 @@ print(array1)
 <h4 style="color:#a54eee;text-align:justify;color:#a54eee;" class="mt-5">numpy.matlib.rand()</h4>
 <p style="text-align:justify;">This function is used to generate a matrix where all the entries are initialized with random values.
 </p>
-<div data-datacamp-exercise data-lang="python" style="z-index:0;">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python" style="z-index:0;">
   <code data-type="sample-code"> 
 import numpy as np
 import numpy.matlib

@@ -1523,7 +1523,7 @@ padding:0px;
 <h4 class="text-left mt-4" style="color:#a54eee;">EXAMPLES</h4>
 
 <h5 class="text-left mt-4">code #1( Normal Bar Plot )</h5>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code"> 
 import numpy as np 
 import matplotlib.pyplot as plt  
@@ -1553,7 +1553,7 @@ plt.show()
 
 
 <h5 class="text-left mt-4">code #2( Horizontal Bar Plot )</h5>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code"> 
 import numpy as np 
 import matplotlib.pyplot as plt  
@@ -1581,7 +1581,7 @@ plt.show()
   <img src="bar2.png" class="img-fluid">
 
 <h5 class="text-left mt-4">code #3( Multiple Bar Plot )</h5>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code"> 
 import matplotlib.pyplot as plt
 import numpy as np
@@ -1613,7 +1613,7 @@ plt.show()
 
 
 <h5 class="text-left mt-4">code #4( Stacked Bar Blot )</h5>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code"> 
 import numpy as np 
 import matplotlib.pyplot as plt 

@@ -1484,7 +1484,7 @@ padding:0px;
 
 
 <h5 class="text-left mt-4">code #1</h5>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code"> 
 import matplotlib.pyplot as plt
 from matplotlib.path import Path
@@ -1521,7 +1521,7 @@ plt.show()
 <img src="path1.svg" style="height:400px;" class="img-fluid">
 
 <h5 class="text-left mt-4">code #2</h5>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code"> 
 import matplotlib.pyplot as plt
 from matplotlib.path import Path

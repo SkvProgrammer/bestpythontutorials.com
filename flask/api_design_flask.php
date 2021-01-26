@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-Us">
     <head>
-        <title>WTF in Flask - BestPythonTutorials.com</title>
+        <title>API Design in Flask - BestPythonTutorials.com</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <script charset="UTF-8" src="//web.webpushs.com/js/push/21f7140e081ac8d7144ec5c3ffb92c8c_1.js" async></script>
@@ -18,7 +18,7 @@
           <script src="../codemirror/mode/javascript/javascript.js"></script>
           <script src="../codemirror/mode/sql/sql.js"></script>
            <script src="../codemirror/mode/xml/xml.js"></script> 
-           <meta name="description" content="WTF in Flask - BestPythonTutorials.com" />
+           <meta name="description" content="Designing API in Flask - What are APIs - BestPythonTutorials.com" />
            <script src="https://unpkg.com/applause-button/dist/applause-button.js" type="text/javascript"></script>
         <link rel="stylesheet" type="text/css" href="https://unpkg.com/applause-button/dist/applause-button.css">
          <!-- add the button style & script -->
@@ -1369,11 +1369,11 @@ padding:0px;
       <li><a href="message_flashing_flask.php"  target="_self">Message Flashing</a></li>
       <li><a href="sqlite_flask.php"  target="_self">SQLite</a></li>
       <li><a href="sqlalchemy_flask.php"  target="_self">SQLAlchemy</a></li>
-      <li style="background-image:linear-gradient(#4537d1,#4537d1);border-top:1px solid white;border-bottom:1px solid white;"><a href="wtf_flask.php"  target="_self">WTF</a></li>
+      <li><a href="wtf_flask.php"  target="_self">WTF</a></li>
       <li><a href="fast_cji_flask.php"  target="_self">Fast CGI</a></li>
       <li><a href="deployment_flask.php"  target="_self">Deploying</a></li>
       <li><a href="caching_flask.php"  target="_self">Caching</a></li>
-      <li><a href="api_design_flask.php"  target="_self">API Design</a></li>
+      <li style="background-image:linear-gradient(#4537d1,#4537d1);border-top:1px solid white;border-bottom:1px solid white;"><a href="api_design_flask.php"  target="_self">API Design</a></li>
     </ul>
       
   
@@ -1403,11 +1403,11 @@ padding:0px;
       <a href="message_flashing_flask.php"  target="_self">Message Flashing</a>
       <a href="sqlite_flask.php"  target="_self">SQLite</a>
       <a href="sqlalchemy_flask.php"  target="_self">SQLAlchemy</a>
-      <a href="wtf_flask.php"  target="_self" style="color:white;">WTF</a>
+      <a href="wtf_flask.php"  target="_self">WTF</a>
       <a href="fast_cji_flask.php"  target="_self">Fast CGI</a>
       <a href="deployment_flask.php"  target="_self">Deploying</a>
       <a href="caching_flask.php"  target="_self">Caching</a>
-      <a href="api_design_flask.php"  target="_self">API Design</a>
+      <a href="api_design_flask.php"  target="_self" style="color:white;">API Design</a>
   </div>
 </div>
 </div>
@@ -1426,7 +1426,7 @@ padding:0px;
     </div>
     <!-------------------------------ADS---------------->
            <button class="btn newcolorbtn" onclick="prev()" id="prev" style="color:white;position:absolute;left:15%;border-radius:1px!important;font-family: 'Roboto Condensed', sans-serif;"><i class=" fa fa-chevron-left"></i>  Previous</button>
-           <button class="btn newcolorbtn" id="next" style="color:white;position:absolute;right:15%;border-radius:1px!important;font-family: 'Roboto Condensed', sans-serif;" onclick="next()">Next  <i class=" fa fa-chevron-right"></i></button><br><br>
+           <!--<button class="btn newcolorbtn" id="next" style="color:white;position:absolute;right:15%;border-radius:1px!important;font-family: 'Roboto Condensed', sans-serif;" onclick="next()">Next  <i class=" fa fa-chevron-right"></i></button>--><br><br>
 <div style="padding:10px;">
   
   
@@ -1458,10 +1458,10 @@ padding:0px;
    <gcse:search></gcse:search>
 </div><br>
 <!--search ends-->
-    <h2 style="text-align:left;color:#a54eee;">WTF in Flask</h2>
+    <h2 style="text-align:left;color:#a54eee;">APIs</h2>
 <div class="row ml-auto mr-auto" style="width:40%!important;">
-<a href="https://www.facebook.com/sharer/sharer.php?u=http%3A//bestpythontutorials.com/flask/wtf_flask.php" style="background-color:#3377ff;color:white;border-radius:1px;padding:1px;font-size:15px;" id="facebookshare" class="col-lg-3 col-sm-3 col-md-3 mb-1" class="col-lg-3 col-sm-3 col-md-3 mb-1"> <i class="fa fa-facebook-f"></i> Share </a>
-<a href="https://twitter.com/intent/tweet?text=http%3A//bestpythontutorials.com/flask/wtf_flask.php" style="background-color:#1ac6ff;color:white;border-radius:1px;padding:1px;font-size:15px;" id="facebookshare" class="col-lg-3 col-sm-3 col-md-3 mb-1"> <i class="fa fa-twitter"></i> Tweet </a>
+<a href="https://www.facebook.com/sharer/sharer.php?u=http%3A//bestpythontutorials.com/flask/caching_flask.php" style="background-color:#3377ff;color:white;border-radius:1px;padding:1px;font-size:15px;" id="facebookshare" class="col-lg-3 col-sm-3 col-md-3 mb-1" class="col-lg-3 col-sm-3 col-md-3 mb-1"> <i class="fa fa-facebook-f"></i> Share </a>
+<a href="https://twitter.com/intent/tweet?text=http%3A//bestpythontutorials.com/flask/caching_flask.php" style="background-color:#1ac6ff;color:white;border-radius:1px;padding:1px;font-size:15px;" id="facebookshare" class="col-lg-3 col-sm-3 col-md-3 mb-1"> <i class="fa fa-twitter"></i> Tweet </a>
 <a href="https://www.youtube.com/channel/UC_pPPgwvndi8f2RkbkbvOIA" target="_blank" style="background-color:red;color:white;border-radius:1px;padding:1px;font-size:15px;" class="col-lg-3 col-sm-3 col-md-3 mb-1" id="facebookshare">   <i class="fa fa-youtube"></i> Youtube </a>
 <a style="background-color:orangered;color:white;border-radius:1px;padding:1px;font-size:15px;" class="col-lg-3 col-sm-3 col-md-3 mb-1" id="facebookshare" onclick="languagedisplay()">   <i class="fa fa-language"></i><text>Language</text> </a></button>
 
@@ -1490,90 +1490,46 @@ function googleTranslateElementInit() {
 <!-----------------------Google Translate API ends----------------->
 <!--content goes here-->
 <div id="main">
-<p style="text-align:justify;" class="mt-4">In any Web Application forms are a essential part to autheticate user and there are various ways by which we can build a form from normally building it in the templates but Flask also provides a way to build form using the WTF or WTForms.</p>
+<p style="text-align:justify;" class="mt-4">APIs are something awesome.I personally love to talk about it.API are nothing but a piece of code which eases the software development process.On this you may think how this happens.So if you look at our website we have also use many APIs such as the Chat System , Push Notification - What are these - These are nothing but the examples of API.If you still are not able to grab it , So for you I am going to narrate a story to you:</p>
+<p style="text-align:justify;">You might have heard about third party applications like goibibo and makemytrip both are Flight Booking's site.Suppose when you search for a flight between City A to City B you are presented with many results from different airlines.So how this happens.Does goibibo or makemytrip has the permission to access the databases of indigo or air india.The answer is absolutely no.As no such reputed company would take a risk of giving the access to it's databases to such third parties.So again the question arises how these sites gets the results of flights arrival and departure do they make this by their own.Seriously talking it can't happen they actually uses the APIs generated or created by Indigo or Air India to access the information without having the control on there databases.Below I have put an image that will help you to understand the use of APIs.</p>
+<img src="api_design1.jpg" class="img-fluid" style="width:80%;">
 
-<h3 class="text-left mt-4" style="color:#a54eee;">Why WTF is useful?</h3>
-<p style="text-align:justify;">WTF is useful due to the following factors:</p>
-<ul style="text-align:justify;list-style:square;">
-  <li>We can't render the HTML form data at real time.HTML itself provides no way to validate a user’s input.It's really an annoying thing.</li>
-  <li>The Server side script has to recreate the form elements from http request data. So in effect, form elements have to be defined twice – once in HTML and again in the server side script.</li>
-</ul>
-<h3 class="text-left mt-4">Installing Flask-WTF</h3>
+<h3 class="text-left mt-4" style="color:#a54eee;">Building REST API in Flask</h3>
+
+<p style="text-align:justify;">REST APIs are nothing but a type or classification of API.REST means REpresentational State Transfer.In flask we have to install a package called <b>flask-restful</b> to start developing REST APIs. </p>
 <div class="container p-1" style="background-color:#f2f2f2;border:1px solid lightgrey;text-align:justify;">
-  pip install flask-wtf
-</div>
-<p style="text-align:justify;" class="mt-4">Now this Library provides a lot of form fields such as:</p>
-<div style="overflow:scroll;">
-  <table class="alt">
-<tbody><tr>
-  <th>S.no.</th>
-  <th>Form Field</th>
-  <th>Description</th>
-</tr>
-<tr>
-  <td>1</td>
-  <td>TextField</td>
-  <td>It is used to represent the text filed HTML form element.</td>
-</tr>
-<tr>
-  <td>2</td>
-  <td>BooleanField</td>
-  <td>It is used to represent the checkbox HTML form element.</td>
-</tr>
-<tr>
-  <td>3</td>
-  <td>DecimalField</td>
-  <td>It is used to represent the text field to display the numbers with decimals.</td>
-</tr>
-<tr>
-  <td>4</td>
-  <td>IntegerField</td>
-  <td>It is used to represent the text field to display the integer values.</td>
-</tr>
-<tr>
-  <td>5</td>
-  <td>RadioField</td>
-  <td>It is used to represent the radio button HTML form element.</td>
-</tr>
-<tr>
-  <td>6</td>
-  <td>SelectField</td>
-  <td>It is used to represent the select form element.</td>
-</tr>
-<tr>
-  <td>7</td>
-  <td>TextAreaField</td>
-  <td>It is used to represent text area form element.</td>
-</tr>
-<tr>
-  <td>8</td>
-  <td>PasswordField</td>
-  <td>It is used to take the password as the form input from the user.</td>
-</tr>
-<tr>
-  <td>9</td>
-  <td>SubmitField</td>
-  <td>It provides represents the &lt;input type = 'submit' value = 'Submit'&gt; html form element.</td>
-</tr>
-</tbody></table>
+  pip install flask-restful
 </div>
 
-<h3 class="text-left mt-4" style="color:#a54eee;">EXAMPLE</h3>
-<p style="text-align:justify;">Now we will create a simple form using flask-wtf which will input the name and roll number of the student.For this example we have to make three python files and one html file for the view.</p>
+<p style="text-align:justify;" class="mt-3">But wait you can also build REST APIs without using any third party packages.So first of all we will try to make the REST API using Flask only.</p>
 <div class="text-left mt-0 mb-1">
-  <p class="text-left" class="mb-0">forms.py</p>
+  <p class="text-left" class="mb-0">//api.py</p>
  <form action="" method="post" target="_blank">
  <textarea id="editor1" name="initScript" style="height:20vh!important;text-align:justify;overflow:hidden;-webkit-border-radius: 5px;
     -moz-border-radius: 5px;border-radius: 5px;z-index:0;" readOnly = 'nocursor'>
-from flask_wtf import Form  
-from wtforms import TextField,IntegerField,SubmitField
-from wtforms import validators, ValidationError  
+from flask import Flask, jsonify, request 
+
+# creating a Flask app 
+app = Flask(__name__) 
 
 
-class ContactForm(Form):  
-   name = TextField("Name ",[validators.DataRequired("Please enter your name.")])
-   roll = IntegerField("Roll no.",[validators.DataRequired("Please enter your roll no.")])
-   submit = SubmitField("Submit")   </textarea>
+@app.route('/', methods = ['GET', 'POST']) 
+def home(): 
+  if(request.method == 'GET'): 
+
+    data = "I am a REST API"
+    return jsonify({'data': data}) 
+
+
+@app.route('/home/<int:num>', methods = ['GET']) 
+def square(num): 
+
+  return jsonify({'data': num**num}) 
+
+
+# driver function 
+if __name__ == '__main__':
+    app.run()  </textarea>
               <!--<button type="submit" style="background-color:white;border:none;outline:none;box-shadow:none;" class="mt-3">
               <a type="submit" class="pl-4 pr-4" style="border:2px solid #3399ff;border-radius:4px;color:#1aa3ff;">Run it    <i class="fa fa-angle-right"></i><i class="fa fa-angle-right"></i></a>
              </button>
@@ -1589,32 +1545,49 @@ class ContactForm(Form):
   
   </script>      
 </div>
+<h3 class="text-left mt-4">Output of the above code</h3>
+<img src="api1.png" style="border:1px solid black;" alt="Output" class="img-fluid">
 
+<p style="text-align:justify;" class="mt-3">That's awesome We have build an API in Flask and it's looks nice you can make simple changes to and you can make it for useful.</p>
+<p style="text-align:justify;">Now we will try to create an API using the <b>flask-restful</b> package.</p>
 <div class="text-left mt-0 mb-1">
-  <p class="text-left" class="mb-0 mt-1">formvalidation.py</p>
+  <p class="text-left" class="mb-0">//api.py</p>
  <form action="" method="post" target="_blank">
  <textarea id="editor2" name="initScript" style="height:20vh!important;text-align:justify;overflow:hidden;-webkit-border-radius: 5px;
     -moz-border-radius: 5px;border-radius: 5px;z-index:0;" readOnly = 'nocursor'>
-from flask import Flask, render_template, request, flash  
-from forms import ContactForm  
+from flask import Flask, jsonify, request 
+from flask_restful import Resource, Api
+
 app = Flask(__name__)  
-app.secret_key = '12345'  
-  
-@app.route('/contact', methods = ['GET', 'POST'])  
-def contact():  
-   form = ContactForm()  
-   if form.validate() == False:  
-      flash('All fields are required.')  
-   return render_template('contact.html', form = form)  
-  
-  
-  
-@app.route('/success',methods = ['GET','POST'])  
-def success():  
-   return render_template("success.html")  
-  
-if __name__ == '__main__':  
-   app.run()      </textarea>
+api = Api(app) 
+
+class Greet(Resource): 
+  def get(self): 
+
+    return jsonify({'message': 'Hello REST API'}) 
+
+  # Corresponds to POST request 
+  def post(self): 
+    
+    data = request.get_json()  # status code - OK
+    return jsonify({'data': data}), 201
+
+
+# another resource to calculate the square of a number 
+class Square(Resource): 
+
+  def get(self, num): 
+
+    return jsonify({'square': num**num}) 
+
+
+# adding the defined resources along with their corresponding urls 
+api.add_resource(Greet, '/') 
+api.add_resource(Square, '/square/<int:num>') 
+
+
+if __name__ == '__main__': 
+  app.run()  </textarea>
               <!--<button type="submit" style="background-color:white;border:none;outline:none;box-shadow:none;" class="mt-3">
               <a type="submit" class="pl-4 pr-4" style="border:2px solid #3399ff;border-radius:4px;color:#1aa3ff;">Run it    <i class="fa fa-angle-right"></i><i class="fa fa-angle-right"></i></a>
              </button>
@@ -1630,99 +1603,8 @@ if __name__ == '__main__':
   
   </script>      
 </div>
-
-
-<div class="text-left mt-0 mb-0">
-  <p class="text-left" class="mb-1 mt-1">contact.html</p>
- <form action="" method="post" target="_blank">
- <textarea id="editor3" name="initScript" style="height:20vh!important;text-align:justify;overflow:hidden;-webkit-border-radius: 5px;
-    -moz-border-radius: 5px;border-radius: 5px;z-index:0;" readOnly = 'nocursor'>
-<!doctype html>  
-<html>  
-   <body>  
-      <h2 style = "text-align: center;">Student Info</h2>  
-          
-      {% for message in form.name.errors %}  
-         <div>{{ message }}</div>  
-      {% endfor %}  
-        
-      {% for message in form.email.errors %}  
-         <div>{{ message }}</div>  
-      {% endfor %}  
-        
-      <form action = "http://localhost:5000/success" method = "POST">  
-           
-            {{ form.hidden_tag() }}  
-              
-            <div>  
-               {{ form.name.label }}<br>  
-               {{ form.name }}  
-               <br>       
-               {{ form.roll.label }}<br>  
-               {{ form.roll }}  
-               <br><br>  
-               {{ form.submit }}  
-            </div>  
-      </form>  
-   </body>  
-</html>              </textarea>
-              <!--<button type="submit" style="background-color:white;border:none;outline:none;box-shadow:none;" class="mt-3">
-              <a type="submit" class="pl-4 pr-4" style="border:2px solid #3399ff;border-radius:4px;color:#1aa3ff;">Run it    <i class="fa fa-angle-right"></i><i class="fa fa-angle-right"></i></a>
-             </button>
-             -->
-            
-           </form>
-                     <script>
-            
-    var editor = CodeMirror.fromTextArea(document.getElementById('editor3'),{
-      mode:"xml",
-      lineNumbers:true
-    });
-  
-  </script>      
-</div>
-
-<p class="mt-3">Now the last thing is to make a page which will print a message when the info is filled and submitted.</p>
-
-<div class="text-left mt-0 mb-1">
-  <p class="text-left" class="mb-0 mt-1">success.html</p>
- <form action="" method="post" target="_blank">
- <textarea id="editor4" name="initScript" style="height:20vh!important;text-align:justify;overflow:hidden;-webkit-border-radius: 5px;
-    -moz-border-radius: 5px;border-radius: 5px;z-index:0;" readOnly = 'nocursor'>
-<!DOCTYPE html>  
-<html>  
-<head>  
-    <title></title>  
-</head>  
-<body>  
-<h1>Form is submitted successfully</h1>  
-</body>  
-</html>               </textarea>
-              <!--<button type="submit" style="background-color:white;border:none;outline:none;box-shadow:none;" class="mt-3">
-              <a type="submit" class="pl-4 pr-4" style="border:2px solid #3399ff;border-radius:4px;color:#1aa3ff;">Run it    <i class="fa fa-angle-right"></i><i class="fa fa-angle-right"></i></a>
-             </button>
-             -->
-            
-           </form>
-                     <script>
-            
-    var editor = CodeMirror.fromTextArea(document.getElementById('editor4'),{
-      mode:"xml",
-      lineNumbers:true
-    });
-  
-  </script>      
-</div>
-
-
-
-
-
-
-
-
-
-
+<h3 class="text-left mt-4">Output of the above</h3>
+<img src="api2.png" style="border:1px solid black;" class="img-fluid">
 
 
 </div>
@@ -1882,7 +1764,7 @@ s0.parentNode.insertBefore(s1,s0);
 
         
              <button class="btn newcolorbtn" onclick="prev()" id="prev" style="color:white;position:absolute;left:10%;border-radius:1px!important;font-family: 'Roboto Condensed', sans-serif;"><i class=" fa fa-chevron-left"></i> Previous</button>
-           <button class="btn newcolorbtn" id="next" style="color:white;position:absolute;right:10%;border-radius:1px!important;font-family: 'Roboto Condensed', sans-serif;" onclick="next()">Next  <i class=" fa fa-chevron-right"></i></button><br>
+           <!--<button class="btn newcolorbtn" id="next" style="color:white;position:absolute;right:10%;border-radius:1px!important;font-family: 'Roboto Condensed', sans-serif;" onclick="next()">Next  <i class=" fa fa-chevron-right"></i></button>--><br>
            <!------------------------ADS----------------->
            <div class="container-fluid mt-3 mb-1" style="height:30vh;width:100%;">
 
@@ -2067,11 +1949,11 @@ function closeNav() {
 /*function funxopen(){
   window.open("installation.php");
 }*/
-function next(){
-  window.open("fast_cji_flask.php","_self");
-}
+/*function next(){
+  window.open("api_design_flask.php","_self");
+}*/
 function prev(){
-  window.open("sqlalchemy_flask.php","_self");
+  window.open("caching_flask.php","_self");
 }
 
 /**********scroll functionality*********/

@@ -1494,7 +1494,7 @@ function googleTranslateElementInit() {
   
 <!--content goes here-->
 <div id="main">
-<p style="text-align:justify;" class="mt-4">Searching is the major operation which is supported by the numpy array.NumPy provides many search function for serching any element in the array.A List of possible functions is given below:</p>
+<p style="text-align:justify;" class="mt-4">Searching is the major operation which is supported by the numpy array.NumPy provides many search function for searching any element in the array.A List of possible functions is given below:</p>
 <div style="overflow:scroll;">
   <table class="numpy-table">
 <tbody><tr>
@@ -1534,7 +1534,7 @@ function googleTranslateElementInit() {
 
 <p style="text-align:justify;" class="mt-5"><b>numpy.where()</b> is the most commonly used method for searching an element in the numpy array.</p>
 <p class="text-left mb-0">code #1</p>
-<div data-datacamp-exercise data-lang="python" style="z-index:0;">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python" style="z-index:0;">
   <code data-type="sample-code"> 
 import numpy as np
 array1 = np.array([2,3,10,1,3])
@@ -1545,7 +1545,7 @@ print(x)
 <p style="text-align:justify;">The above code will return a tuple <code>(array([2], dtype=int32),)</code> which indicates that 10 is at position 2 i.e. the index of 10.</p>
 
 <p class="text-left mb-0">code #2</p>
-<div data-datacamp-exercise data-lang="python" style="z-index:0;">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python" style="z-index:0;">
   <code data-type="sample-code"> 
 import numpy as np
 array1 = np.array([2,3,10,1,3])
@@ -1560,9 +1560,9 @@ print(x)
 
 <h4 class="text-left mt-4" style="color:#a54eee;">numpy.searchsorted()</h4>
 
-<p style="text-align:justify;">This method sorts the array using the binary search method , if you don't know what is binary search.So for you all I would explain a bit about the Binary Search.The <b>where()</b> which we are working with till now and have seen many examples works on linear search.So first I would like explain what is linear search.Linear Search is sarching the element straightforward in a linear passion.This method takes a lot of time as if the element is in the end of the array.It's just waste of time to search the entire array.Now what happens in Binary Search.In binary search we first require a sorted array and suppose we know that we are looking for an element and we start with the median or the middle element and if the middle element is greater than the element we are looking for we will start searching to right side leaving the left side and do the same thing but instead right side we will went to left side if the element is smaller than the desired element. </p>
+<p style="text-align:justify;">This method sorts the array using the binary search method , if you don't know what is binary search.So for you all I would explain a bit about the Binary Search.The <b>where()</b> which we are working with till now and have seen many examples works on linear search.So first I would like explain what is linear search.Linear Search is searching the element straightforward in a linear passion.This method takes a lot of time as if the element is in the end of the array.It's just waste of time to search the entire array.Now what happens in Binary Search.In binary search we first require a sorted array and suppose we know that we are looking for an element and we start with the median or the middle element and if the middle element is greater than the element we are looking for we will start searching to right side leaving the left side and do the same thing but instead right side we will went to left side if the element is smaller than the desired element. </p>
 
-<div data-datacamp-exercise data-lang="python" style="z-index:0;">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python" style="z-index:0;">
   <code data-type="sample-code"> 
 import numpy as np
 
@@ -1576,7 +1576,7 @@ print(x)
   </div>
 <h4 class="text-left mt-4" style="color:#a54eee;">Searching Left and Right in the Array</h4>
 <p style="text-align:justify;">By default the left most index is returned, but we can give <code>side='right'</code> to return the right most index instead.</p>
-<div data-datacamp-exercise data-lang="python" style="z-index:0;">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python" style="z-index:0;">
   <code data-type="sample-code"> 
 import numpy as np
 

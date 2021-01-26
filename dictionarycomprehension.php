@@ -1872,7 +1872,7 @@ function googleTranslateElementInit() {
           A <b>Dictionary Comprehension</b> takes the form <b>{key: value for (key, value) <keyword>in</keyword> iterable}</b>.Now we will see a Simple Example of creating a Dictionary using this method.
           </p>
 
- <div data-datacamp-exercise data-lang="python">
+ <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 key_list = ['A','B','C','D','E']
 value_list = [1,2,3,4,5]
@@ -1887,7 +1887,7 @@ print (Dict1)
 
 <h3 style="text-align:left;color:#a54eee;" class="mt-4">MORE EXAMPLES</h3>
 <p style="text-align:justify;">Creating a Dictionary using a List</p>
- <div data-datacamp-exercise data-lang="python">
+ <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 dict1 = {a : a**2 for a in [2,3,4,5]}
 print(dict1)
@@ -1900,7 +1900,7 @@ print(dict1)
 <p style="text-align:justify;" class="mt-2">We can use Dictionary comprehensions with if and else statements and with other expressions too.This example below maps the numbers to their cubes that are not divisible by 2</p>
 
 
- <div data-datacamp-exercise data-lang="python">
+ <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 dict_1 = {x: x**3 for x in range(20) if x**3 % 3 == 0}
 print(dict_1) 

@@ -1501,7 +1501,7 @@ padding:0px;
 
 <h5 class="text-left mt-4" style="color:#a54eee;">Unsorted DataFrame</h5>
 
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 # importing pandas as pd 
 import pandas as pd 
@@ -1521,7 +1521,7 @@ print(df)
 <h3 class="text-left mt-4" style="color:#a54eee;">Sort - By Label</h3>
 <p style="text-align:justify;">Now in this section we are going to sort the DataFrame using the Label of Columns.</p>
 <p style="text-align:justify;">Using the <code>sort_index()</code> method, by passing the axis arguments and the order of sorting, DataFrame can be sorted. By default, sorting is done on row labels in ascending order.</p>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 # importing pandas as pd 
 import pandas as pd 
@@ -1540,7 +1540,7 @@ print(sorted_df)
 
 <h4 class="text-left mt-4" style="color:#a54eee;">Order of Sorting</h4>
 <p style="text-align:justify;">The <code>sort_index()</code> method has a parameter called <i>Ascending</i>,if it's value is <b>True</b> , It returns the Data in Ascending Order or if <b>False</b>,the Data is returned in Descending Order.</p>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 # importing pandas as pd 
 import pandas as pd 
@@ -1558,7 +1558,7 @@ print(sorted_df)
   </div>
 
 <p style="text-align:justify;">Now we will see an example where we will sort the columns.</p>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 # importing pandas as pd 
 import pandas as pd 
@@ -1582,7 +1582,7 @@ print(sorted_df)
 <p style="text-align:justify;">In the previous section we have seen that how we can sort a DataFrame using it's Labels.So in this section we are going to see that how we can do the same using the <i>index value</i>.Since we have <code>sort_index()</code> for sorting by label now we will see the use of <code>sort_values()</code>.</p>
 <p style="text-align:justify;">Like index sorting, <code>sort_values()</code> is the method for sorting by values. It accepts a <b>'by'</b> argument which will use the column name of the DataFrame with which the values are to be sorted.</p>
 <h5 class="text-left mt-4 mb-0" style="color:#a54eee;">Unsorted DataFrame</h5>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 # importing pandas as pd 
 import pandas as pd 
@@ -1598,7 +1598,7 @@ print(df)
 </code>
   </div>
 <p style="text-align:justify;">Now we will to try sort the DataFrame using Index</p>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 #importing pandas as pd 
 import pandas as pd 

@@ -1873,7 +1873,7 @@ function googleTranslateElementInit() {
 <h3 class="text-left mt-4" style="color: #a54eee;">dir() method</h3>
 <p style="text-align:justify;">This function return list of methods and attributes associated with that object.</p>
 
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 import math 
 print(dir(math))
@@ -1890,7 +1890,7 @@ print(dir(math))
  <h3 class="text-left mt-4" style="color: #a54eee;">type() method</h3>
 <p style="text-align:justify;">This function returns the datatype of the object.</p>
 
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 x = 10
 print(type(x))
@@ -1904,7 +1904,7 @@ print(type(x))
  <h3 class="text-left mt-4" style="color: #a54eee;">str() method</h3>
 <p style="text-align:justify;">This function returns string object.</p>
 
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 x = 10
 print(str(x))

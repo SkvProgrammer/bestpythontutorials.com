@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-Us">
     <head>
-        <title>Static Files in Flask - BestPythonTutorials.com</title>
+        <title>Sessions in Flask - BestPythonTutorials.com</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <script charset="UTF-8" src="//web.webpushs.com/js/push/21f7140e081ac8d7144ec5c3ffb92c8c_1.js" async></script>
@@ -18,7 +18,7 @@
           <script src="../codemirror/mode/javascript/javascript.js"></script>
           <script src="../codemirror/mode/sql/sql.js"></script>
            <script src="../codemirror/mode/xml/xml.js"></script> 
-           <meta name="description" content="Static Files in Flask - A web application often requires a static file such as a javascript file or a CSS file supporting the display of a web page - BestPythonTutorials.com" />
+           <meta name="description" content="Sessions in Flask - Login and Logout Functionality in Flask - BestPythonTutorials.com" />
            <script src="https://unpkg.com/applause-button/dist/applause-button.js" type="text/javascript"></script>
         <link rel="stylesheet" type="text/css" href="https://unpkg.com/applause-button/dist/applause-button.css">
          <!-- add the button style & script -->
@@ -1359,10 +1359,10 @@ padding:0px;
       <li><a href="http_flask.php"  target="_self">HTTP Methods</a></li>
       <li><a href="templates_flask.php"  target="_self">Templates</a></li>
       <li><a href="cookies_flask.php"  target="_self">Cookies</a></li>
-      <li style="background-image:linear-gradient(#4537d1,#4537d1);border-top:1px solid white;border-bottom:1px solid white;"><a href="static_files_flask.php"  target="_self">Static Files</a></li>
+      <li><a href="static_files_flask.php"  target="_self">Static Files</a></li>
       <li><a href="request_object_flask.php"  target="_self">Request Object</a></li>
       <li><a href="file_upload_flask.php"  target="_self">File Upload</a></li>
-      <li><a href="sessions_flask.php"  target="_self">Sessions</a></li>
+      <li style="background-image:linear-gradient(#4537d1,#4537d1);border-top:1px solid white;border-bottom:1px solid white;"><a href="sessions_flask.php"  target="_self">Sessions</a></li>
       <li><a href="redirect_errors_flask.php"  target="_self">Redirect and Errors</a></li>
       <li><a href="message_flashing_flask.php"  target="_self">Message Flashing</a></li>
       <li><a href="sqlite_flask.php"  target="_self">SQLite</a></li>
@@ -1393,10 +1393,10 @@ padding:0px;
       <a href="http_flask.php"  target="_self">HTTP Methods</a>
       <a href="templates_flask.php"  target="_self">Templates</a>
       <a href="cookies_flask.php"  target="_self">Cookies</a>
-      <a href="static_files_flask.php"  target="_self" style="color:white;">Static Files</a>
+      <a href="static_files_flask.php"  target="_self">Static Files</a>
       <a href="request_object_flask.php"  target="_self">Request Object</a>
       <a href="file_upload_flask.php"  target="_self">File Upload</a>
-      <a href="sessions_flask.php"  target="_self">Sessions</a>
+      <a href="sessions_flask.php"  target="_self" style="color:white;">Sessions</a>
       <a href="redirect_errors_flask.php"  target="_self">Redirect and Errors</a>
       <a href="message_flashing_flask.php"  target="_self">Message Flashing</a>
       <a href="sqlite_flask.php"  target="_self">SQLite</a>
@@ -1456,10 +1456,10 @@ padding:0px;
    <gcse:search></gcse:search>
 </div><br>
 <!--search ends-->
-    <h2 style="text-align:left;color:#a54eee;">Static Files in Flask</h2>
+    <h2 style="text-align:left;color:#a54eee;">Sessions in Flask</h2>
 <div class="row ml-auto mr-auto" style="width:40%!important;">
-<a href="https://www.facebook.com/sharer/sharer.php?u=http%3A//bestpythontutorials.com/flask/static_files_flask.php" style="background-color:#3377ff;color:white;border-radius:1px;padding:1px;font-size:15px;" id="facebookshare" class="col-lg-3 col-sm-3 col-md-3 mb-1" class="col-lg-3 col-sm-3 col-md-3 mb-1"> <i class="fa fa-facebook-f"></i> Share </a>
-<a href="https://twitter.com/intent/tweet?text=http%3A//bestpythontutorials.com/flask/static_files_flask.php" style="background-color:#1ac6ff;color:white;border-radius:1px;padding:1px;font-size:15px;" id="facebookshare" class="col-lg-3 col-sm-3 col-md-3 mb-1"> <i class="fa fa-twitter"></i> Tweet </a>
+<a href="https://www.facebook.com/sharer/sharer.php?u=http%3A//bestpythontutorials.com/flask/sessions_flask.php" style="background-color:#3377ff;color:white;border-radius:1px;padding:1px;font-size:15px;" id="facebookshare" class="col-lg-3 col-sm-3 col-md-3 mb-1" class="col-lg-3 col-sm-3 col-md-3 mb-1"> <i class="fa fa-facebook-f"></i> Share </a>
+<a href="https://twitter.com/intent/tweet?text=http%3A//bestpythontutorials.com/flask/sessions_flask.php" style="background-color:#1ac6ff;color:white;border-radius:1px;padding:1px;font-size:15px;" id="facebookshare" class="col-lg-3 col-sm-3 col-md-3 mb-1"> <i class="fa fa-twitter"></i> Tweet </a>
 <a href="https://www.youtube.com/channel/UC_pPPgwvndi8f2RkbkbvOIA" target="_blank" style="background-color:red;color:white;border-radius:1px;padding:1px;font-size:15px;" class="col-lg-3 col-sm-3 col-md-3 mb-1" id="facebookshare">   <i class="fa fa-youtube"></i> Youtube </a>
 <a style="background-color:orangered;color:white;border-radius:1px;padding:1px;font-size:15px;" class="col-lg-3 col-sm-3 col-md-3 mb-1" id="facebookshare" onclick="languagedisplay()">   <i class="fa fa-language"></i><text>Language</text> </a></button>
 
@@ -1488,28 +1488,66 @@ function googleTranslateElementInit() {
 <!-----------------------Google Translate API ends----------------->
 <!--content goes here-->
 <div id="main">
+<p style="text-align:justify;" class="mt-4">The concept of sessions is almost similar to that of the cookies.So if you have the knowledge of Cookies then It will be a plus point in this chapter.</p>
+<p style="text-align:justify;">The session can be defined as the duration for which a user logs into the server and logs out. The data which is used to track this session is stored into the temporary directory on the server.</p>
+<p style="text-align:justify;">A session with each client is assigned a <b>Session ID</b>. The Session data is stored on top of cookies and the server signs them cryptographically. For this encryption, a Flask application needs a defined <b>SECRET_KEY</b>.
+</p>
+<p style="text-align:justify;">
+Session object is also a dictionary object containing key-value pairs of session variables and associated values.
+</p>
+<p style="text-align:justify;">To set the user name we have to write as following:</p>
+<div class="container p-1" style="text-align:justify;background-color:#f2f2f2;border:1px solid lightgrey;">
+Session['username'] = 'value'
+ </div>
+ <p style="text-align:justify;" class="mt-2">To release a session variable use <code>pop()</code> method.
+</p>
+<div class="container p-1" style="text-align:justify;background-color:#f2f2f2;border:1px solid lightgrey;">
+session.pop(&lt;variable_name&gt;, none)  
+ </div>
 
-<p style="text-align:justify;" class="mt-4">The first and foremost thing is to know what are static files in an Web Application.If you have been using different web applications then you might be knowing that there are different components of an Web Applications that are images , javascript files and css files.</p>
+<p style="text-align:justify;" class="mt-3">To demonstrate the use of sessions we are going to create a simple login and logout app using sessions which will be awesome.</p>
 
-<p style="text-align:justify;">Now we will see an example of using staic files in the form javascript file.</p>
+<h3 class="text-left mt-4" style="color:#a54eee;">EXAMPLE</h3>
 <div class="text-left mt-0 mb-1">
-  <p class="text-left mb-0">static.py</p>
+  <p class="text-left mb-0">So guys below I have written the code for a simple login and logout application
+    in Flask using sessions.
+  </p>
  <form action="" method="post" target="_blank">
  <textarea id="editor1" name="initScript" style="height:20vh!important;text-align:justify;overflow:hidden;-webkit-border-radius: 5px;
     -moz-border-radius: 5px;border-radius: 5px;z-index:0;" readOnly = 'nocursor'>
-from flask import Flask, render_template
+from flask import Flask, session, redirect, url_for, escape, request
 app = Flask(__name__)
-
-@app.route("/")
+app.secret_key = 'any random string'
+@app.route('/')
 def index():
-   return render_template("static.html")
+   if 'username' in session:
+      username = session['username']
+      return 'Logged in as ' + username + '<br>' + "<b><a href = '/logout'>click here to log out</a></b>"
+   return "You are not logged in <br><a href = '/login'>" + "click here to log in</a>"
+@app.route('/login', methods = ['GET', 'POST'])
+def login():
+   if request.method == 'POST':
+      session['username'] = request.form['username']
+      return redirect(url_for('index'))
+   return '''
+	
+   <form action = "" method = "post">
+      <p><input type = text name = username/></p>
+      <p><input type = submit value = Login></p>
+   </form>	
+'''
 
-if __name__ == '__main__':
-   app.run()</textarea>
-              <!--<button type="submit" style="background-color:white;border:none;outline:none;box-shadow:none;" class="mt-3">
-              <a type="submit" class="pl-4 pr-4" style="border:2px solid #3399ff;border-radius:4px;color:#1aa3ff;">Run it    <i class="fa fa-angle-right"></i><i class="fa fa-angle-right"></i></a>
-             </button>
-             -->
+
+@app.route('/logout')
+def logout():
+   # remove the username from the session if it is there
+   session.pop('username', None)
+   return redirect(url_for('index'))
+
+if __name__ == "__main__":
+    app.run(debug = False)
+
+</textarea>
             
            </form>
                      <script>
@@ -1521,65 +1559,12 @@ if __name__ == '__main__':
   
   </script>      
 </div>
-<div class="text-left mt-0 mb-1">
-  <p class="text-left mb-0">static.html</p>
- <form action="" method="post" target="_blank">
- <textarea id="editor2" name="initScript" style="height:20vh!important;text-align:justify;overflow:hidden;-webkit-border-radius: 5px;
-    -moz-border-radius: 5px;border-radius: 5px;z-index:0;" readOnly = 'nocursor'>
-<html>
-   <head>
-      <script type = "text/javascript" 
-         src = "{{ url_for('static', filename = 'script.js') }}" ></script>
-   </head>
-   
-   <body>
-      <input type = "button" onclick = "greetings()" value = "Start Greeting" />
-   </body>
-</html></textarea>
-              <!--<button type="submit" style="background-color:white;border:none;outline:none;box-shadow:none;" class="mt-3">
-              <a type="submit" class="pl-4 pr-4" style="border:2px solid #3399ff;border-radius:4px;color:#1aa3ff;">Run it    <i class="fa fa-angle-right"></i><i class="fa fa-angle-right"></i></a>
-             </button>
-             -->
-            
-           </form>
-                     <script>
-            
-    var editor = CodeMirror.fromTextArea(document.getElementById('editor2'),{
-      mode:"xml",
-      lineNumbers:true
-    });
-  
-  </script>      
-</div>
-<div class="text-left mt-0 mb-1">
-  <p class="text-left mb-0">script.js</p>
- <form action="" method="post" target="_blank">
- <textarea id="editor3" name="initScript" style="height:20vh!important;text-align:justify;overflow:hidden;-webkit-border-radius: 5px;
-    -moz-border-radius: 5px;border-radius: 5px;z-index:0;" readOnly = 'nocursor'>
-function greetings(){
-alert("Hello Flask");
-}
-</textarea>
-              <!--<button type="submit" style="background-color:white;border:none;outline:none;box-shadow:none;" class="mt-3">
-              <a type="submit" class="pl-4 pr-4" style="border:2px solid #3399ff;border-radius:4px;color:#1aa3ff;">Run it    <i class="fa fa-angle-right"></i><i class="fa fa-angle-right"></i></a>
-             </button>
-             -->
-            
-           </form>
-                     <script>
-            
-    var editor = CodeMirror.fromTextArea(document.getElementById('editor3'),{
-      mode:"javascript",
-      lineNumbers:true
-    });
-  
-  </script>      
-</div>
-<p style="text-align:justify;" class="mt-3">Your app is ready test it out.</p>
 
 
+<h4 class="text-left" style="color: #a54eee;">Output</h4>
+<img src="session_example.png" class="img-fluid" style="border:1px solid black;">
 
-     
+
 </div>
 <br><br>
 <button class="btn btn-default" style="border-radius:50px;background-color:orangered;color:white;padding-left:63px;padding-right:63px;" id="skvspatron" onclick="window.open('https://www.patreon.com/skvprogrammer','_self')">Become a Patron</button><br> 
@@ -1923,10 +1908,10 @@ function closeNav() {
   window.open("installation.php");
 }*/
 function next(){
-  window.open("request_object_flask.php","_self");
+  window.open("redirect_errors_flask.php","_self");
 }
 function prev(){
-  window.open("cookies_flask.php","_self");
+  window.open("file_upload_flask.php","_self");
 }
 
 /**********scroll functionality*********/

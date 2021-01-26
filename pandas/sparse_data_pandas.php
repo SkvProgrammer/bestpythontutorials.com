@@ -1497,7 +1497,7 @@ padding:0px;
 
 </p>
 <p class="text-left mb-0">code #1</p>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 import pandas as pd  
 import numpy as np  
@@ -1513,7 +1513,7 @@ print(sparse_data)
 <h4 class="text-left mt-4" style="color:#a54eee;">Sparse Accessor </h4>
 <p style="text-align:justify;">Pandas provides a <code>.sparse</code> accessor, similar to <code>.str</code> for string data, <code>.cat</code> for categorical data, and <code>.dt</code> for datetime-like data. This namespace provides attributes and methods that are specific to sparse data such as density,fill_value</p>
 <p class="text-left mb-0">code #2</p>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 import pandas as pd  
 import numpy as np  
@@ -1538,7 +1538,7 @@ print(sparse_data.fill_value)
 <li>bool − False
 </ol>
 <p class="text-left mb-0">code #3</p>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 import pandas as pd  
 import numpy as np  

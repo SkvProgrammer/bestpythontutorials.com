@@ -4,7 +4,7 @@
 <p style="text-align:justify;">In Python, these non-local variables are read only by default and we must declare them explicitly as non-local (using nonlocal keyword) in order to modify them.</p>
 <div class="text-left mt-5">
 <h3 style="text-align:left;">EXAMPLE</h3>
-  <div data-datacamp-exercise data-lang="python">
+  <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
 <!--  <code data-type="pre-exercise-code">
     # This will get executed each time the exercise gets initialized
     b = 6

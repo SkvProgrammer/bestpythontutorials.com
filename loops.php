@@ -1886,7 +1886,7 @@ function googleTranslateElementInit() {
       <h4 class="text-left mt-4" style="color:#a54eee;">EXAMPLE</h4>
 
 <h5 class="text-left mt-2 mb-0">Code #1(A simple loop program)</h5>
- <div data-datacamp-exercise data-lang="python">
+ <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 list1 = ["India","USA","France"]
 for i in list1:
@@ -1906,7 +1906,7 @@ France
 
 
 <h5 class="text-left mt-5 mb-0">Code #2(Looping through a String)</h5>
- <div data-datacamp-exercise data-lang="python">
+ <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 string1 = "Satyam"
 for i in string1: 
@@ -1933,7 +1933,7 @@ m<br>
 
 
 <h5 class="text-left mt-5 mb-0">Code #3(Printing the table of 2 using for loop)</h5>
- <div data-datacamp-exercise data-lang="python">
+ <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 n = 2
 for i in range(1,11):
@@ -2011,7 +2011,7 @@ statement(s)
              <h3 style="text-align:justify;color:#a54eee;" class="mt-4">EXAMPLE</h3>
 
 <h5 class="text-left mt-2 mb-0">Code #1(A simple while loop program)</h5>
- <div data-datacamp-exercise data-lang="python">
+ <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 i = 1
 while(i < 11):
@@ -2042,7 +2042,7 @@ while(i < 11):
            </div>
 
 <h5 class="text-left mt-5 mb-0">Code #2(Sum of numbers)</h5>
- <div data-datacamp-exercise data-lang="python">
+ <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 i = 1
 while(i < 11):

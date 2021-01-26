@@ -1557,7 +1557,7 @@ function googleTranslateElementInit() {
 
 <h4 class="text-left mt-4" style="color:#a54eee;">EXAMPLES</h4>
 <p class="text-left mb-0">code #1</p>
-<div data-datacamp-exercise data-lang="python" style="z-index:0;">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python" style="z-index:0;">
   <code data-type="sample-code"> 
 import numpy as np
  
@@ -1603,7 +1603,7 @@ print("\nMatrix a raised to power 3:\n",
 
 
 <p class="text-left mb-0">code #1</p>
-<div data-datacamp-exercise data-lang="python" style="z-index:0;">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python" style="z-index:0;">
   <code data-type="sample-code"> 
  
 import numpy as np
@@ -1621,7 +1621,7 @@ print("Eigen value is :", d)
 </code>
   </div>
   <p class="text-left mb-0">code #2</p>
-<div data-datacamp-exercise data-lang="python" style="z-index:0;">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python" style="z-index:0;">
   <code data-type="sample-code"> 
  
 import numpy as np 
@@ -1687,7 +1687,7 @@ print("Eigen value is :",d)
 
 <h4 class="text-left mt-5">EXAMPLES</h4>
   <p class="text-left mb-0">code #1</p>
-<div data-datacamp-exercise data-lang="python" style="z-index:0;">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python" style="z-index:0;">
   <code data-type="sample-code"> 
 import numpy as np
  
@@ -1703,7 +1703,7 @@ print("Dot Product of vectors is : ", product)
 </code>
   </div>
   <p class="text-left mb-0">code #2</p>
-<div data-datacamp-exercise data-lang="python" style="z-index:0;">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python" style="z-index:0;">
   <code data-type="sample-code"> 
 import numpy as np
 vector_a = 10 + 2j
@@ -1718,7 +1718,7 @@ print("Dot Product is : ", product)
 <h4 class="text-left mt-5" style="color:#a54eee;">Basic Plotting</h4>
 <p style="text-align:justify;">Now we will some basic plotting using matplotlib module in NumPy.</p>
 
-<div data-datacamp-exercise data-lang="python" style="z-index:0;">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python" style="z-index:0;">
   <code data-type="sample-code"> 
 import numpy as np
 import matplotlib.pyplot as plt

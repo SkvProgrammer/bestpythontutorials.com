@@ -1494,7 +1494,7 @@ function googleTranslateElementInit() {
   
 <!--content goes here-->
 <div id="main">
-<p style="text-align:justify;" class="mt-4">In this chapter we are going to see how we cam create an array from existing data(particularly another array or list).We have functions like <code>asarray()</code> for doing this.</p>
+<p style="text-align:justify;" class="mt-4">In this chapter we are going to see how we can create an array from existing data(particularly another array or list).We have functions like <code>asarray()</code> for doing this.</p>
 
 <h4 class="text-left mt-4" style="color:#a54eee;">SYNTAX</h4>
 <div class="container p-1" style="background-color:#f2f2f2;border:1px solid lightgrey;text-align:justify;">
@@ -1530,7 +1530,7 @@ function googleTranslateElementInit() {
 </div>
 <h4 class="text-left mt-4" style="color:#a54eee;">EXAMPLE</h4>
 <h6 style="text-align:justify;"> Converting a List to Array</h6>
-<div data-datacamp-exercise data-lang="python" style="z-index:0;">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python" style="z-index:0;">
   <code data-type="sample-code"> 
 import numpy as np 
 
@@ -1540,7 +1540,7 @@ print(a)
 </code>
   </div>
 <h6 style="text-align:justify;"> Setting the Data Type</h6>
-<div data-datacamp-exercise data-lang="python" style="z-index:0;">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python" style="z-index:0;">
   <code data-type="sample-code"> 
 import numpy as np 
 
@@ -1550,7 +1550,7 @@ print(a)
 </code>
   </div>
   <h6 style="text-align:justify;">Converting a Tuple to Array</h6>
-<div data-datacamp-exercise data-lang="python" style="z-index:0;">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python" style="z-index:0;">
   <code data-type="sample-code"> 
 import numpy as np 
 
@@ -1562,7 +1562,7 @@ print(a)
 
 
 <h4 class="text-left mt-4" style="color:#a54eee;">numpy.fromiter()</h4>
-<p style="text-align: justify;">Now we will do a bit of iteration work on the array but this is not a complete refrence.For complete reference <a href="iterating_over_array_numpy.php" target="_blank" style="color:grey;text-decoration:none;">Click Here <img src="../django/link.png" style="height:10px;"></a></p>
+<p style="text-align: justify;">Now we will do a bit of iteration work on the array but this is not a complete reference.For complete reference <a href="iterating_over_array_numpy.php" target="_blank" style="color:grey;text-decoration:none;">Click Here <img src="../django/link.png" style="height:10px;"></a></p>
 
 <h5 class="text-left mt-4" style="color:#a54eee;">SYNTAX</h4>
 <div class="container p-1" style="background-color:#f2f2f2;border:1px solid lightgrey;text-align:justify;">numpy.fromiter(iterable, dtype, count = -1)</div>
@@ -1594,7 +1594,7 @@ print(a)
 </tbody></table>
 </DIV>
 <h5 class="text-left mt-4" style="color:#a54eee;">EXAMPLE</h5>
-<div data-datacamp-exercise data-lang="python" style="z-index:0;">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python" style="z-index:0;">
   <code data-type="sample-code"> 
 # obtain iterator object from list 
 import numpy as np 
@@ -1649,7 +1649,7 @@ print(x)
 </tbody></table>
 </DIV>
 <h5 class="text-left mt-4" style="color:#a54eee;">EXAMPLE</h5>
-<div data-datacamp-exercise data-lang="python" style="z-index:0;">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python" style="z-index:0;">
   <code data-type="sample-code"> 
 import numpy as np 
 s = 'SkvProgrammer' 

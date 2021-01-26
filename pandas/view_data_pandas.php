@@ -1493,7 +1493,7 @@ padding:0px;
 
 <p style="text-align:justify;">Now,We will try to grab the concept of Exploring Data in Pandas with some examples...</p>
 <h5 class="text-left mb-0 mt-3">code #1( Creating a DataFrame )</h5>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 import pandas as pd
 import numpy as np
@@ -1506,7 +1506,7 @@ print(s)
 </code>
   </div>
 <h5 class="text-left mb-0 mt-5">code #2( Selecting Particular Columns )</h5>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 import pandas as pd
 import numpy as np
@@ -1521,7 +1521,7 @@ print(s)
   </div>
 
 <h5 class="text-left mb-0 mt-5">code #3( Selecting Particular Columns and creating a new DataFrame with it )</h5>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 import pandas as pd
 import numpy as np

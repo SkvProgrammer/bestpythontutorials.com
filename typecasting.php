@@ -1891,7 +1891,7 @@ function googleTranslateElementInit() {
 
 <h4 class="text-left mt-4" style="color:#a54eee;">Basic Type Casting</h4>
 
- <div data-datacamp-exercise data-lang="python">
+ <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 a = int(2.1)
 b = float(2)

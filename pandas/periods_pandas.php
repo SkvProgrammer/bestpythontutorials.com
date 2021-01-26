@@ -1537,7 +1537,7 @@ padding:0px;
 </table>
 <h4 style="text-align:justify;color:#a54eee;" class="mt-4">EXAMPLES</h4>
 <h5 class="text-left mb-0 mt-3">code #1( Creating a simple period )</h5>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 # importing pandas as pd 
 import pandas as pd 
@@ -1553,7 +1553,7 @@ print(prd)
 </code>
   </div>
 <h5 class="text-left mb-0 mt-3">code #2( Using the Attributes )</h5>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 # importing pandas as pd 
 import pandas as pd 

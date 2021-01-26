@@ -1494,7 +1494,7 @@ padding:0px;
 
 <h4 style="text-align: justify; color:#a54eee;" class="mt-4">Historgram</h4>
 <p style="text-align:justify;">A histogram is an approximate representation of the distribution of numerical or categorical data. It was first introduced by Karl Pearson.</p>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 import pandas as pd  
 import numpy as np  
@@ -1508,7 +1508,7 @@ a.plot(kind="hist")
   </div>
 <h4 style="text-align: justify; color:#a54eee;" class="mt-4">Area Chart</h4>
 <p style="text-align:justify;">Now we are going to see that how we can plot area chart in Pandas</p>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 import pandas as pd  
 import numpy as np  

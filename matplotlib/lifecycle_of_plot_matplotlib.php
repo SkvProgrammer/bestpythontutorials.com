@@ -1483,7 +1483,7 @@ padding:0px;
 <p style="text-align:justify;" class="mt-4">In this chapter we are going to see the beginning, middle, and end of a single visualization using Matplotlib.We will start with some raw data and will end up with a fully customized plot.</p>
 
 <h4 class="text-left mt-4" style="color:#a54eee;">Data Used in this Chapter</h4>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 import numpy as np
 import matplotlib.pyplot as plt
@@ -1504,7 +1504,7 @@ group_mean = np.mean(group_data)
 <h4 class="text-left mt-4" style="color:#a54eee;">Basic Plot</h4>
 <p style="text-align:justify;">The very first stage in the lifecycle of the Plot is one and one the basic plot of the desired data.</p>
 
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 import numpy as np
 import matplotlib.pyplot as plt
@@ -1525,7 +1525,7 @@ ax.barh(group_names, group_data)
   </div>
 <h4 class="text-left mt-4" style="color:#a54eee;">Controlling the Styles</h4>
 <p style="text-align:justify;">The second stage in the lifecycle of a plot is the styles of the plot.To find out all the possible styles type the code after importing matplotlib : <code>print(plt.style.available)</code> </p>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 import numpy as np
 import matplotlib.pyplot as plt
@@ -1548,9 +1548,9 @@ ax.barh(group_names, group_data)
 
 <h4 class="text-left mt-4" style="color:#a54eee;">Customizing the Plot</h4>
 <p style="text-align:justify;"> Now we've got a plot with the general look that we want, so let's fine-tune it so that it's ready for print. First let's rotate the labels on the x-axis so that they show up more clearly. We can gain access to these labels with the <code>axes.Axes.get_xticklabels()</code> method: </p>
-<p style="text-align:justify;">If we'd like to set the property of many items at once, it's useful to use the <code>pyplot.setp()</code> function. This will take a list (or many lists) of Matplotlib objects, and attempt to set some style element of each one.</p>
+<p style="text-align:justify;">If we'd like to set the property of many items at once, it's useful to use the <code>pyplot.setp()</code> function. This will take a list (or many lists) of Matplotlib objects, and attemptt to set some style element of each one.</p>
 <p style="text-align:justify;">It looks like this cut off some of the labels on the bottom. We can tell Matplotlib to automatically make room for elements in the figures that we create. To do this we'll set the autolayout value of our rcParams. For more information on controlling the style, layout, and other features of plots with rcParams.</p>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 import numpy as np
 import matplotlib.pyplot as plt

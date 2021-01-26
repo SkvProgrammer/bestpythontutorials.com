@@ -1482,7 +1482,7 @@ padding:0px;
 <div id="main">
 <p style="text-align:justify;" class="mt-4">In this chapter we are going to style our plot in a far better way using stylesheets and some built-in styles provided by matplotlib.First we will create a bar graph of <i>classic</i> style.</p>
 
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 import pandas as pd
 import numpy as np
@@ -1508,7 +1508,7 @@ print(imgplot)
 We'll start by saving a copy of the current rcParams dictionary, so we can easily reset these changes in the current session:
 </p>
 <div class="container p-2" style="background-color:"></div>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 import pandas as pd
 import numpy as np

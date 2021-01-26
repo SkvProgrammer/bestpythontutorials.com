@@ -1458,7 +1458,7 @@ padding:0px;
    <gcse:search></gcse:search>
 </div><br>
 <!--search ends-->
-    <h2 style="text-align:left;">Creating Our first App in Django</h2>
+    <h2 style="text-align:left;color:#a54eee;">Creating Our first App in Flask</h2>
 <div class="row ml-auto mr-auto" style="width:40%!important;">
 <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A//bestpythontutorials.com/flask/first_app_flask.php" style="background-color:#3377ff;color:white;border-radius:1px;padding:1px;font-size:15px;" id="facebookshare" class="col-lg-3 col-sm-3 col-md-3 mb-1" class="col-lg-3 col-sm-3 col-md-3 mb-1"> <i class="fa fa-facebook-f"></i> Share </a>
 <a href="https://twitter.com/intent/tweet?text=http%3A//bestpythontutorials.com/flask/first_app_flask.php" style="background-color:#1ac6ff;color:white;border-radius:1px;padding:1px;font-size:15px;" id="facebookshare" class="col-lg-3 col-sm-3 col-md-3 mb-1"> <i class="fa fa-twitter"></i> Tweet </a>
@@ -1594,7 +1594,7 @@ app.add_url_rule('/', 'hello_app’, hello_app) </textarea>
   </script>      
 </div>
 <div class="text-left mt-0 mb-1">
-  <p style="text-align:justify;">This is our main python where we have written the code actually needed for user authentication.</p>
+  <p style="text-align:justify;">This is our main python file where we have written the code actually needed for user authentication.</p>
   <form action="https://www.jdoodle.com/api/redirect-to-post/python3-programming-online" method="post" target="_blank">
  <textarea id="editor4" name="initScript" style="height:20vh!important;text-align:justify;overflow:hidden;-webkit-border-radius: 5px;
     -moz-border-radius: 5px;border-radius: 5px;z-index:0;" readOnly = 'nocursor'>

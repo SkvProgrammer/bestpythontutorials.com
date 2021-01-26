@@ -1859,7 +1859,7 @@ function googleTranslateElementInit() {
 
 class foo():</p>
 
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 class Chain():
     def __init__(self, kind=None):
@@ -1903,7 +1903,7 @@ assert obj.kind == 'fun'
 
 
 <h5 style="text-align:justify;" class="mt-4">Using <kbd style="background-color:#f2f2f2;color:black;">@property</kbd> to achieve Chain Propertes without using () calling syntax</h5>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 class Chain():
     def __init__(self, kind=None):

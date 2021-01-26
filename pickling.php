@@ -1878,7 +1878,7 @@ function googleTranslateElementInit() {
 </p>
 <p style="text-align:justify;">There are two methods available in <code>pickle</code> module that are <code>load </code> which is use to load objects and <code>dump</code> which is used to dump objects.</p>
 <p style="text-align:justify;">Unpickling is just opposite of pickling.Below I have provided a simple example to demonstrate Pickling and Unpickling in Python <img src="smile.svg" class="img-fluid" style="height:14px;width:14px;"></p>
-  <div data-datacamp-exercise data-lang="python">
+  <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
 <!--  <code data-type="pre-exercise-code">
     # This will get executed each time the exercise gets initialized
     b = 6
@@ -1900,7 +1900,7 @@ pickle_data()
   </code>
   </div>
   <h3 class="text-left mt-5">Unpickling Example</h3>
-    <div data-datacamp-exercise data-lang="python">
+    <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 import pickle
 

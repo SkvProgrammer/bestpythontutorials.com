@@ -1506,7 +1506,7 @@ The view does not own the data and any changes made to the view will affect the 
 </p>
 
 <h4 class="text-left mt-4" style="color:#a54eee;">Copy Example</h4>
-<div data-datacamp-exercise data-lang="python" style="z-index:0;">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python" style="z-index:0;">
   <code data-type="sample-code"> 
 import numpy as np
 

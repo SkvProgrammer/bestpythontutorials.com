@@ -1877,7 +1877,7 @@ function googleTranslateElementInit() {
 
 <div class="text-left mt-2">
   <h4 style="text-align:left;color:#a54eee;" class="mb-1 mt-3">EXAMPLE</h4>
-   <div data-datacamp-exercise data-lang="python">
+   <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 import abc
 class AbstractClass(abc.ABC):

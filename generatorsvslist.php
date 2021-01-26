@@ -1892,7 +1892,7 @@ The Generator Expression allows us to create a generator without the yield keywo
 <p class="mt-3" style="text-align:justify;"><b>Syntax Difference</b>: Parenthesis are used in place of square brackets.</p>
 
 <h4 class="text-left mt-4" style="color:#a54eee;">EXAMPLE</h4>
-    <div data-datacamp-exercise data-lang="python">
+    <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 # Generator Expression 
 generator_expression = (i for i in range(11) if i % 3 == 0) 
@@ -1916,7 +1916,7 @@ print(generator_expression)
 <h4 class="text-left mt-4" style="color:#a54eee;">Key Difference</h4>
 <p style="text-align:justify;">The generator yields one item at a time and generates item only when in demand. Whereas, in a list comprehension, Python reserves memory for the whole list. Thus we can say that the generator expressions are memory efficient than the lists.</p>
 
-    <div data-datacamp-exercise data-lang="python">
+    <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 # import getsizeof from sys module 
 from sys import getsizeof 

@@ -1905,7 +1905,7 @@ function googleTranslateElementInit() {
 <p style="text-align:justify;" class="mt-2">As we can see the function accepts a single parameter and is used to return the identity of an object. This identity has to be unique and constant for this object during the lifetime. Two objects with non-overlapping lifetimes may have the same <code>id()</code> value. If we relate this to C, then they are actually the memory address, here in Python it is the unique id. This function is generally used internally in Python.</p>
 
 
-    <div data-datacamp-exercise data-lang="python">
+    <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 x = 20
 y = 30
@@ -1927,7 +1927,7 @@ print(id(x),id(y))
 
 <h4 class="text-left mt-4" style="color:#a54eee;">is keyword</h4>
 <p style="text-align:justify;">This returns True if and only if two objects have the same memory address.</p>
-     <div data-datacamp-exercise data-lang="python">
+     <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 x = 20
 y = 30

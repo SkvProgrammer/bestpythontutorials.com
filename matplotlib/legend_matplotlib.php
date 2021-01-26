@@ -1513,7 +1513,7 @@ The attribute <code>bbox_to_anchor=(x, y)</code> of <code>legend()</code> functi
 <h3 class="text-left mt-4" style="color:#a54eee;">EXAMPLES</h3>
 <h5 class="text-left mb-0 mt-2">code #
 1( Single Element Legend )</h5>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 import matplotlib.pyplot as plt
 import numpy as np
@@ -1526,7 +1526,7 @@ plt.plot(x,y)
   </div>
 <h5 class="text-left mb-0 mt-5">code #
 2( Multiple Element Legend )</h5>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code"> 
 import numpy as np 
 import matplotlib.pyplot as plt 
@@ -1561,7 +1561,7 @@ plt.show()
 <p style="text-align:justify;">In this section we are going to discuss that how we can beautify the legends using some notations.A table of possible values is given below:</p>
 <h5 class="text-left mb-0 mt-5">code #
 3( Styled Legend )</h5>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code"> 
 import numpy as np 
 import matplotlib.pyplot as plt 
@@ -1579,7 +1579,7 @@ leg = ax.legend(loc ="lower left");
   </div>
 <h5 class="text-left mb-0 mt-5">code #
 4( More Styled Legend )</h5>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code"> 
 import numpy as np 
 import matplotlib.pyplot as plt 
@@ -1601,7 +1601,7 @@ leg = ax.legend(loc ="lower left");
 
 <h5 class="text-left mb-0 mt-5">code #
 5( Markers )</h5>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code"> 
 import matplotlib.lines as mlines
 import matplotlib.pyplot as plt

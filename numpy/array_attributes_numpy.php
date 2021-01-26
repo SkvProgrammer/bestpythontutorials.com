@@ -1502,11 +1502,11 @@ function googleTranslateElementInit() {
 <p style="text-align:justify;"><code>ndim</code> represents the number of dimensions (axes) of the ndarray.
 </p>
 
-<div data-datacamp-exercise data-lang="python" style="z-index:0;">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python" style="z-index:0;">
   <code data-type="sample-code">
 import numpy as np
 array1 = np.array([[1,2,3,4,5]])
-print("The dimesions of the array are:",np.ndim(array1))
+print("The dimensions of the array are:",np.ndim(array1))
 </code>
   </div>
 
@@ -1516,7 +1516,7 @@ print("The dimesions of the array are:",np.ndim(array1))
 <p style="text-align:justify;"><code>shape</code> is a tuple of integers representing the size of the ndarray in each dimension.
 </p>
 
-<div data-datacamp-exercise data-lang="python" style="z-index:0;">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python" style="z-index:0;">
   <code data-type="sample-code">
 import numpy as np 
 array1 = np.array([[1,2,3],[4,5,6]]) 
@@ -1528,7 +1528,7 @@ print(array1.shape)
 <p style="text-align:justify;">
 <code>size</code> is the total number of elements in the ndarray. It is equal to the product of elements of the shape. </p>
 
-<div data-datacamp-exercise data-lang="python" style="z-index:0;">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python" style="z-index:0;">
   <code data-type="sample-code">
 import numpy as np
 array1 = np.array([[1,2,3],[4,5,6]])
@@ -1541,7 +1541,7 @@ print(np.size(array1))
 <p style="text-align:justify;"><code>dtype</code> tells the data type of the elements of a NumPy array. In NumPy array, all the elements have the same data type.
 </p>
 
-<div data-datacamp-exercise data-lang="python" style="z-index:0;">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python" style="z-index:0;">
   <code data-type="sample-code">
 import numpy as np
 array1 = ([[1,2,3,4,5],dtype="int"])
@@ -1553,7 +1553,7 @@ array1 = ([[1,2,3,4,5],dtype="int"])
 
 <p style="text-align:justify;"><code>itemsize</code> returns the size (in bytes) of each element of a NumPy array.</p>
 
-<div data-datacamp-exercise data-lang="python" style="z-index:0;">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python" style="z-index:0;">
   <code data-type="sample-code"> 
 import numpy as np 
 x = np.array([1,2,3,4,5], dtype = np.int8) 

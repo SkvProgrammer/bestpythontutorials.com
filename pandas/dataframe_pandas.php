@@ -1490,7 +1490,7 @@ padding:0px;
 </div>
 <!--content goes here-->
 <div id="main">
-<p style="text-align:justify;" class="mt-4"><b>Data Frames</b> are the most popular Data Structure in Pandas it is quiet similar to Pandas.First of all we will be looking at the technical Definition of DataFrame.</p>
+<p style="text-align:justify;" class="mt-4"><b>Data Frames</b> are the most popular Data Structure in Pandas it is quite similar to Panels.First of all we will be looking at the technical Definition of DataFrame.</p>
 
 <p style="text-align:justify;">Pandas <b>DataFrame</b> is two-dimensional size-mutable, potentially heterogeneous tabular data structure with labeled axes (rows and columns). A Data frame is a two-dimensional data structure, i.e., data is aligned in a tabular fashion in rows and columns. Pandas DataFrame consists of three principal components, the data, rows, and columns.</p>
 
@@ -1549,7 +1549,7 @@ padding:0px;
 <h4 class="text-left mt-5" style="color:#a54eee;">Creating DataFrame</h4>
 <p style="text-align:justify;">DataFrame can be created using several way:-Lists,Dictionaries,Another DataFrames,Series and NdArray.In this section we are going to create a DataFrame using the numpy ndarray.</p>
 <h5 class="text-left mt-4" style="color:#a54eee;">using ndarray</h5>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 import pandas as pd
 import numpy as np
@@ -1560,7 +1560,7 @@ print(df)
 </code>
   </div>
 <h5 class="text-left mt-4" style="color:#a54eee;">using dictionary</h5>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 import pandas as pd
 data = {'Name':['shinchan', 'pokemom', 'alphaclasher'],'Age':[5,5,10]}
@@ -1571,7 +1571,7 @@ print(df)</code>
 <img src="dataframe_pandas1.png" class="img-fluid">
 
 <h5 class="text-left mt-4" style="color:#a54eee;">using Lists</h5>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 import pandas as pd
 data = [["Alpha","Beta","Gamma"],["A","B","C"]]
@@ -1586,7 +1586,7 @@ print(df)</code>
 
 <h5 class="text-left mt-4" style="color:#a54eee;">Selection by Label</h5>
 <p style="text-align:justify;">The rows of the data frame can be easily selected using the <code>loc()</code> method.</p>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 import pandas as pd
 
@@ -1599,7 +1599,7 @@ print(df.loc['a'])
   </div>
 <h5 class="text-left mt-4" style="color:#a54eee;">Selection by Index</h5>
 <p style="text-align:justify;">The rows of the data frame can be easily selected using the <code>index</code> of the Array with the <code>iloc()</code> method.</p>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 import pandas as pd
 
@@ -1612,8 +1612,8 @@ print(df.iloc[1])
   </div>
 
 <h4 class="text-left mt-5" style="color:#a54eee;">Addition of Rows</h4>
-<p style="text-align:justify;">Now we will that how we can add the rows in a DataFrame.We will simply join two DataFrames.</p>
-<div data-datacamp-exercise data-lang="python">
+<p style="text-align:justify;">Now we will see that how we can add the rows in a DataFrame.We will simply join two DataFrames.</p>
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 import pandas as pd
 
@@ -1626,7 +1626,7 @@ print(df1)
   </div>
 <h4 class="text-left mt-5" style="color:#a54eee;">Deletion of Rows</h4>
 <p style="text-align:justify;">We can delete any element by using the <code>drop()</code> method</p>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 import pandas as pd
 
@@ -1646,7 +1646,7 @@ print(df1)
 <p style="text-align:justify;">Now in this section we are going to perform operations like selection , addition or Deletion of Columns in a DataFrame.</p>
 <h5 class="text-left mt-4" style="color:#a54eee;">Column Selection</h5>
 
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 import pandas as pd
 
@@ -1660,7 +1660,7 @@ print(df ['one'])
 
 <h5 class="text-left mt-4" style="color:#a54eee;">Column Addition</h5>
 <p style="text-align:justify;">Now we will add columns in Pandas.The below example will help you to understand more in this context.</p>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 import pandas as pd
 
@@ -1675,7 +1675,7 @@ print(df ['one'] + df['two'])
 
 <h5 class="text-left mt-4" style="color:#a54eee;">Column Deletion</h5>
 <p style="text-align:justify;">Now we will see that how we can delete columns in a DataFrame.</p>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 import pandas as pd
 

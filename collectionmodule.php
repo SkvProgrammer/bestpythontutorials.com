@@ -1936,7 +1936,7 @@ function googleTranslateElementInit() {
 <p style="text-align:justify;">The python namedtuple() function returns a tuple-like object with names for each position in the tuple. It was used to eliminate the problem of remembering the index of each field of a tuple object in ordinary tuples.</p>
 
 
- <div data-datacamp-exercise data-lang="python">
+ <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 namedtuple1 = ("Programmer",121,"MF")
 print(namedtuple1) 
@@ -1949,7 +1949,7 @@ print(namedtuple1)
         <h3 style="text-align:left;"><code>deque()</code></h3> 
         <p style="text-align:justify;">The <code>deque()</code> in Python is the doubly ended queue in which you can remove or add elements at both the ends.</p>
 
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 from collections import deque
 dq = deque("programmer")
@@ -1969,7 +1969,7 @@ for i in dq:
 <p style="text-align:justify;">The Python Counter is a subclass of dictionary object which helps to count hashable objects.
 
 
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 from collections import Counter
 dict1 = {"sat":12,"skv":11}
@@ -1984,7 +1984,7 @@ print(Counter(dict1))
 The ChainMap class only makes updates (writes and deletions) to the first mapping in the chain while lookups will search the full chain.</p>
 
 
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 import collections
 dic_1 = { 'one' : 1, 'two' : 2 }
@@ -2004,7 +2004,7 @@ print (list(chain_map.values()))
        <h3 style="text-align:left;"><code>OrderedDict()</code></h3>
 <p style="text-align:justify;">The Python OrderedDict() is similar to a dictionary object where keys maintain the order of insertion. If we try to insert key again, the previous value will be overwritten for that key.</p>
 
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 import collections
 dict1 = collections.OrderedDict()
@@ -2024,7 +2024,7 @@ for key,value in dict1.items():
 
 
 
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 from collections import defaultdict
 n = defaultdict(int)

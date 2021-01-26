@@ -2080,7 +2080,7 @@ function googleTranslateElementInit() {
 <h4 class="text-left mt-4" style="color:#a54eee;">EXAMPLES</h4>
 
     
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 #math module examples
 import math
@@ -2209,7 +2209,7 @@ print(math.floor(4.332))
 <h4 class="text-left mt-4" style="color:#a54eee;">EXAMPLES</h4>
 
     
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 #cmath module examples
 import cmath

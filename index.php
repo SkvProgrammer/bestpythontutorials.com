@@ -2122,13 +2122,13 @@ html{
                     </div>
                 </div>
                 <div class="col-xl-3 col-md-6 col-lg-6">
-                    <div class="single_course text-center">
+                    <div class="single_course text-center pb-3">
                         <div class="icon gradient">
                             <i class="flaticon-crown"></i>
                         </div>
                         <h3>You can ask questions</h3>
                         <p>
-                            You can ask us any question in the comments section
+                            You can ask us any questions in comments section
                         </p>
                     </div>
                 </div>
@@ -2151,7 +2151,7 @@ html{
                     <div class="newsletter_form">
                         <h4></h4>
                         <form action="https://formspree.io/moqkdqrk" method="post" class="newsletter_form">
-                            <input type="text" placeholder="Enter your mail" name="_replyto">
+                            <input type="text" placeholder="Enter your mail" name="_replyto" required>
                             <button type="submit">Sign Up</button>
                         </form>
                     </div>
@@ -2303,16 +2303,16 @@ html{
                     <div class="col-xl-2 col-md-6 col-lg-2">
                         <div class="footer_widget">
                             <h3 class="footer_title">
-                                Resources<span class="badge badge-success p-1" style="font-size:10px;">Coming Soon</span>
+                                Resources
                             </h3>
 
                             <ul class="mt-0">
-                                <li><a href="#">Quizzes</a></li>
-                                <li><a href="#">Online IDE</a></li>
-                                <li><a href="#">Community Blog</a></li>
-                                <li><a href="#">Competitive Programming</a></li>
-                                <li><a href="#">Android Dev</a></li>
-                                <li><a href="#">Video Tutorials</a></li>
+                                <li><a href="quizzes.php">Quizzes</a></li>
+                                <li><a href="https://skvprogrammer.pythonanywhere.com">Online IDE</a></li>
+                                <li><a href="https://bestpythontutorials.com/blogs">Community Blog</a></li>
+                                <li><a onclick="alert('This section is under development')">Sports Programming</a></li>
+                                <li><a onclick="alert('This section is under development')">Android Dev</a></li>
+                                <li><a onclick="alert('This section is under development')">Video Tutorials</a></li>
                             </ul>
                         </div>
                     </div>
@@ -2451,6 +2451,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     <script src="js/mail-script.js"></script>
 
     <script src="js/main.js"></script>
+
 </body>
 
 </html>

@@ -1870,9 +1870,9 @@ function googleTranslateElementInit() {
        <a href="https://partners.hostgator.com/c/2548499/178160/3094" target="_top" id="178160"><img src="//a.impactradius-go.com/display-ad/3094-178160" border="0" alt="" width="336" height="280"/></a><img height="0" width="0" src="https://partners.hostgator.com/i/2548499/178160/3094" style="position:absolute;visibility:hidden;" border="0" /><br>
            </div>
 <h4 class="text-left mt-4" style="color:#a54eee;">Creating an Abstract Class</h4>
-<p style="text-align:justify;">Now in this section I am going to create an Abstract Class using the <b>abc</b> module.First of all let's define the Abstract Class:An abstract class can be considered as a #4537d1print for other classes. It allows you to create a set of methods that must be created within any child classes built from the abstract class. A class which contains one or more abstract methods is called an abstract class. An abstract method is a method that has a declaration but does not have an implementation. While we are designing large functional units we use an abstract class. When we want to provide a common interface for different implementations of a component, we use an abstract class.</p>
+<p style="text-align:justify;">Now in this section I am going to create an Abstract Class using the <b>abc</b> module.First of all let's define the Abstract Class:An abstract class can be considered as a blueprint for other classes. It allows you to create a set of methods that must be created within any child classes built from the abstract class. A class which contains one or more abstract methods is called an abstract class. An abstract method is a method that has a declaration but does not have an implementation. While we are designing large functional units we use an abstract class. When we want to provide a common interface for different implementations of a component, we use an abstract class.</p>
 
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 from abc import ABC
 Class MyClass(ABC):
@@ -1885,7 +1885,7 @@ Class MyClass(ABC):
 <h4 class="text-left mt-4" style="color:#a54eee;">Creating an Abstract Method</h4>
 <p style="text-align:justify;" class="mt-3">Now we will try to create Abstract Methods.To define abstract methods in an abstract class the method has to be decorated with the <code>@abstractmethod</code> decorator. From <code>abc</code> module <code>@abstractmethod</code> decorator has to be imported to use that annotation.</p>
 
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 from abc import ABC, abstractmethod
 Class MyClass(ABC):
@@ -1926,7 +1926,7 @@ Class MyClass(ABC):
 
 <h4 class="text-left mt-4" style="color:#a54eee;">Implementation</h4>
 
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 # Python program showing 
 # abstract base class work 

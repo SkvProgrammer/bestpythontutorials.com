@@ -1906,7 +1906,7 @@ function googleTranslateElementInit() {
 <p style="text-align:justify;">Now we will discuss all the concepts of functional programming that are mentioned above one by one:</p>
 <div class="text-left mt-0">
   <h3 style="text-align:left;color:#a54eee;" class="mb-1 mt-3">PURE FUNCTIONS</h3>
-   <div data-datacamp-exercise data-lang="python">
+   <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 def pure_function(List): 
   
@@ -1946,7 +1946,7 @@ print("Modified List:", Modified_List)
 
 <div class="text-left mt-5">
   <h3 style="text-align:left;color:#a54eee;" class="mb-1 mt-3">RECURSION</h3>
-   <div data-datacamp-exercise data-lang="python">
+   <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 def factorial(x):
   if x == 1:
@@ -1982,7 +1982,7 @@ print("The factorial of", number, "is", factorial(number))
 <p style="text-align:justify;">First class functions are functions that are treated like an object (or are assignable to a variable). Higher order functions are functions that take at least one first class function as a parameter, or return at least one first class function. They're different. ... It is a function that takes a function as an argument.</p>
 <div class="text-left mt-2">
   <h3 style="text-align:left;color:#a54eee;" class="mb-1 mt-3">EXAMPLE</h3>
-   <div data-datacamp-exercise data-lang="python">
+   <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 def sayHI(text):
   return text.upper()

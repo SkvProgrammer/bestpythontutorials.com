@@ -1510,7 +1510,7 @@ function googleTranslateElementInit() {
 </p>
 <h4 class="text-left mt-3" style="color:#a54eee;">EXAMPLES</h4>
 <p style="text-align:justify;">For Adding two Lists - We have two ways one is to iterate over them and put there sum in another list or we can use the <code>ufunc</code> i.e. <code>add()</code>.</p>
-<div data-datacamp-exercise data-lang="python" style="z-index:0;">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python" style="z-index:0;">
   <code data-type="sample-code"> 
 import numpy as np
  

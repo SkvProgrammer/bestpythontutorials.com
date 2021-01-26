@@ -1874,7 +1874,7 @@ function googleTranslateElementInit() {
         <p style="text-align:justify;">This returns true if the specified condition is false.</p>
 
 
- <div data-datacamp-exercise data-lang="python">
+ <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 a = 2
 b = 3

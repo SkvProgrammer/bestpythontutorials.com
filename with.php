@@ -1874,7 +1874,7 @@ function googleTranslateElementInit() {
            </div>
 <p style="text-align:justify;">It simplifies the management of common resources like file streams. Observe the following code example on how the use of with statement makes code cleaner.</p>
 <h5 class="text-left mt-4 mb-0">code #1(without using the with statement)</h5>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 # file handling 
 #without using with statement 
@@ -1886,7 +1886,7 @@ file.close()
   </div>
 
 <h5 class="text-left mt-4 mb-0">code #2(using the with statement)</h5>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 # file handling 
 #without using with statement 

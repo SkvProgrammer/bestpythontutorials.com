@@ -1510,7 +1510,7 @@ clear </td><td> This parameter if True and the figure already exists, then it is
 
 <h3 class="text-left mt-4" style="color:#a54eee;">EXAMPLES</h3>
 <h5 class="text-left mb-0 mt-4">code #1( Custom Figure Subclass )</h5>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 import matplotlib.pyplot as plt
 from matplotlib.figure import Figure
@@ -1541,7 +1541,7 @@ plt.plot(x, y)
 </code>
   </div>
 <h5 class="text-left mb-0 mt-5">code #2( Resizing axes with constrained layout )</h5>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 import matplotlib.pyplot as plt
 
@@ -1580,7 +1580,7 @@ plt.show()
 
 <h5 class="text-left mb-0 mt-5">code #
 3( Event Collection Demo )</h5>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 import matplotlib.pyplot as plt
 from matplotlib.collections import EventCollection

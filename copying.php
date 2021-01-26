@@ -1886,7 +1886,7 @@ In Python we have two ways to copy objects:-
 </p>
 <div class="text-left mt-0">
   <h4 style="text-align:left;color:#a54eee;" class="mb-1 mt-3">EXAMPLE</h4>
-   <div data-datacamp-exercise data-lang="python">
+   <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 # importing copy module 
 import copy 
@@ -1935,7 +1935,7 @@ print(list3)
 </script>
 <div class="text-left mt-0 mb-4">
   <h4 style="text-align:left;color:#a54eee;" class="mb-1 mt-3">EXAMPLE</h4>
-   <div data-datacamp-exercise data-lang="python">
+   <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 import copy
 list1 = [1,2,3,4]
@@ -1976,7 +1976,7 @@ You can see that changes are not made in the new list and are only made in origi
 
 <div class="text-left mt-0 mb-4">
   <h4 style="text-align:left;color:#a54eee;" class="mb-1 mt-3">EXAMPLE</h4>
-   <div data-datacamp-exercise data-lang="python">
+   <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 import copy
 

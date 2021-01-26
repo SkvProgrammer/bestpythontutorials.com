@@ -1869,7 +1869,7 @@ function googleTranslateElementInit() {
         <h3 style="text-align:left;color:#a54eee;" class="mt-4">EXAMPLE</h3>
  
         
- <div data-datacamp-exercise data-lang="python">
+ <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 a = 2
 b = 2

@@ -1887,7 +1887,7 @@ function googleTranslateElementInit() {
 <h4 class="text-left mt-4" style="color: #a54eee;">*args</h4>
 <p style="text-align:justify;">The special syntax <code>*args</code> in function definitions in python is used to pass a variable number of arguments to a function. It is used to pass a non-keyworded, variable-length argument list.</p>
 
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 #python program to demonstrate
 #the use of *args
@@ -1921,7 +1921,7 @@ data("Satyam Kumar Verman")#three arguments
 
 <h4 class="text-left mt-4" style="color:#a54eee;">**kwargs</h4>
 <p style="text-align:justify;">The special syntax **kwargs in function definitions in python is used to pass a keyworded, variable-length argument list. We use the name kwargs with the double star. The reason is because the double star allows us to pass through keyword arguments (and any number of them).</p>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 # Python program to illustrate 
 # **kwargs for variable number of keyword arguments 

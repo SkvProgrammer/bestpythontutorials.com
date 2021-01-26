@@ -1869,7 +1869,7 @@ function googleTranslateElementInit() {
 
 
 
- <div data-datacamp-exercise data-lang="python">
+ <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 a = 12
 print(a)
@@ -1882,7 +1882,7 @@ print(a)
           
 
           <h4 class="text-left mt-4" style="color:#a54eee;">Multiple Assignments</h4>
-              <div data-datacamp-exercise data-lang="python">
+              <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 #assigning same values to multiple variables
 a = b = c = 1
@@ -1920,7 +1920,7 @@ print(r)
  <div class="mb-3 mt-3">
        <a href="https://partners.hostgator.com/c/2548499/178160/3094" target="_top" id="178160"><img src="//a.impactradius-go.com/display-ad/3094-178160" border="0" alt="" width="336" height="280"/></a><img height="0" width="0" src="https://partners.hostgator.com/i/2548499/178160/3094" style="position:absolute;visibility:hidden;" border="0" /><br>
            </div>
- <div data-datacamp-exercise data-lang="python">
+ <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 a = 1 #int
 b = 2.1 #float
@@ -1988,7 +1988,7 @@ print(type(c))
                 <h4 style="text-align:left;text-decoration:none;">Tuple</h4>
                 <h5 style="text-align:left;">It is similar to Lists but they are immutable(unchangeable)</h5>
 
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 tuple1 = (12,13,14,15)
 tuple1[0] = 19
@@ -2022,7 +2022,7 @@ print(tuple1)
 
             <h5 style="text-align:left;">In programming we may come in the situation where we will need to deal with <numbers>True</numbers> or <numbers>False</numbers> conditions</h5><h5 style="text-align:left;">You can evaluate any expression in Python, and get one of two answers, <numbers>True</numbers> or <numbers>False.</numbers></h5>
 
- <div data-datacamp-exercise data-lang="python">
+ <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 print(10 == 9)
 print(10 > 9)
@@ -2049,7 +2049,7 @@ print(10 < 9)
              </p>
 
 
-              <div data-datacamp-exercise data-lang="python">
+              <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 print(bool ( "Hello Python" ) )
 print(bool ( 1 ) )
@@ -2073,7 +2073,7 @@ print(bool ( 1 ) )
              <h4 style="text-align:left;text-decoration:none;" class="mt-4 mb-2">Most Values in Python are True except values like empty <numbers>Arrays</numbers> or <numbers>None</numbers></h4>
 
 
-                        <div data-datacamp-exercise data-lang="python">
+                        <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 print( [ ] )
 print(bool( { } ))

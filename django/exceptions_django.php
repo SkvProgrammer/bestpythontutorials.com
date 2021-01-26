@@ -1528,7 +1528,7 @@ function googleTranslateElementInit() {
 </tr>
 <tr>
   <td>AppRegistryNotReady</td>
-  <td>It is raised when attempting to use models before the app loading process.</td>
+  <td>It is raised when attemptting to use models before the app loading process.</td>
 </tr>
 <tr>
   <td>ObjectDoesNotExist</td>

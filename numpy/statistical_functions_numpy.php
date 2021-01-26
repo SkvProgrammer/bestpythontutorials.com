@@ -1498,7 +1498,7 @@ function googleTranslateElementInit() {
   <table><tbody><tr><th>Operations </th><th>Function's NumPy </th></tr><tr><td>Minimum </td><td>np.min() </td></tr><tr><td>Maximum </td><td>np.max() </td></tr><tr><td>Mean </td><td>np.mean() </td></tr><tr><td>Median </td><td>np.median() </td></tr><tr><td>Standard deviation </td><td>np.std() </td></tr></tbody></table>
 </div>
 
-<div data-datacamp-exercise data-lang="python" style="z-index:0;">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python" style="z-index:0;">
   <code data-type="sample-code"> 
 import numpy as np 
 a = np.array([1,2,3,4]) 
@@ -1521,7 +1521,7 @@ print("Standard Deviation is:",np.std(a))
 <p style="text-align:justify;">The numpy.amin() and numpy.amax() functions are used to find the minimum and maximum of the array elements along the specified axis respectively.
 </p>
 
-<div data-datacamp-exercise data-lang="python" style="z-index:0;">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python" style="z-index:0;">
   <code data-type="sample-code"> 
 import numpy as np 
 a = np.array([1,2,3,4]) 
@@ -1546,7 +1546,7 @@ print("Maximum value in the array is:",np.amax(a))
 </ol>
 
 
-<div data-datacamp-exercise data-lang="python" style="z-index:0;">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python" style="z-index:0;">
   <code data-type="sample-code"> 
 import numpy as np  
   

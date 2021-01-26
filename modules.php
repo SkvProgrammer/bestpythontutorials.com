@@ -1879,7 +1879,7 @@ function googleTranslateElementInit() {
        <p style="text-align:justify;"><code>dir()</code> method for fetching all the Libraries inside the <code>math</code> module</p>
            
 
- <div data-datacamp-exercise data-lang="python">
+ <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 import math
 print(dir(math)) 

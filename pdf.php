@@ -1900,7 +1900,7 @@ function googleTranslateElementInit() {
 <h4 class="text-left mt-4" style="color:#a54eee;">Extracting Metadata</h4>
 <p style="text-align:justify;">In this section we will try to extract metadata such as author name , date created using the <b>PyPDF2</b> Module of a PDF File.For this example we will using a sample pdf Document of CBSE Reduced Syllabus of Class 9.</p>
 
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 from PyPDF2 import PdfFileReader
 def extract_pdfMeta(path):
@@ -1947,7 +1947,7 @@ if __name__ == '__main__':
 Let’s try to extract text from a particular page (for example: page 1) of the pdfs file we downloaded above.</p>
 
 
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 #Import pypdf2
 from PyPDF2 import PdfFileReader
@@ -1979,7 +1979,7 @@ if __name__ == '__main__':
 <h4 class="text-left mt-4" style="color:#a54eee;">Rotating the PDF</h4> 
 <p style="text-align:justify;">In this section we will try to change the orientation of the PDF Document.</p>
 
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 #Import pypdf2
 from PyPDF2 import PdfFileReader
@@ -2006,7 +2006,7 @@ if __name__ == '__main__':
 <h4 class="text-left mt-4" style="color:#a54eee;">Merging Two PDF Documents</h4>
 
 
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 # importing required modules 
 import PyPDF2 
@@ -2048,7 +2048,7 @@ if __name__ == "__main__":
 <h4 class="text-left mt-4" style="color:#a54eee;">Splitting PDF Documents</h4>
 
 
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 # importing the required modules 
 import PyPDF2 
@@ -2119,7 +2119,7 @@ if __name__ == "__main__":
 <h4 class="text-left mt-4" style="color:#a54eee;">Adding Watermark in PDF Documents</h4>
 
 
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 # importing the required modules 
 import PyPDF2 

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-Us">
     <head>
-        <title>File Upload System in Flask - BestPythonTutorials.com</title>
+        <title>WTF in Flask - BestPythonTutorials.com</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <script charset="UTF-8" src="//web.webpushs.com/js/push/21f7140e081ac8d7144ec5c3ffb92c8c_1.js" async></script>
@@ -18,7 +18,7 @@
           <script src="../codemirror/mode/javascript/javascript.js"></script>
           <script src="../codemirror/mode/sql/sql.js"></script>
            <script src="../codemirror/mode/xml/xml.js"></script> 
-           <meta name="description" content="File Upload in Flask - Flask File Upload - Uploading Files using Flask - BestPythonTutorials.com" />
+           <meta name="description" content="WTF in Flask - BestPythonTutorials.com" />
            <script src="https://unpkg.com/applause-button/dist/applause-button.js" type="text/javascript"></script>
         <link rel="stylesheet" type="text/css" href="https://unpkg.com/applause-button/dist/applause-button.css">
          <!-- add the button style & script -->
@@ -40,7 +40,7 @@
          <!--<script async src="https://cse.google.com/cse.js?cx=016236012273495808262:cabujlbzuwi"></script><link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text&display=swap" rel="stylesheet">-->
     
            
-    <script type="application/javascript" src="https://sdki.truepush.com/sdk/v2.0.2/app.js" async></script>
+     <script type="application/javascript" src="https://sdki.truepush.com/sdk/v2.0.2/app.js" async></script>
     <script>
     var truepush = window.truepush || [];
             
@@ -52,7 +52,8 @@
         })
     })
     </script>
-        
+
+
        <style>
 
  
@@ -1281,6 +1282,7 @@ padding:0px;
 
 </style>
 
+
 </head>
 <body>
 
@@ -1361,14 +1363,14 @@ padding:0px;
       <li><a href="cookies_flask.php"  target="_self">Cookies</a></li>
       <li><a href="static_files_flask.php"  target="_self">Static Files</a></li>
       <li><a href="request_object_flask.php"  target="_self">Request Object</a></li>
-      <li style="background-image:linear-gradient(#4537d1,#4537d1);border-top:1px solid white;border-bottom:1px solid white;"><a href="file_upload_flask.php"  target="_self">File Upload</a></li>
+      <li><a href="file_upload_flask.php"  target="_self">File Upload</a></li>
       <li><a href="sessions_flask.php"  target="_self">Sessions</a></li>
       <li><a href="redirect_errors_flask.php"  target="_self">Redirect and Errors</a></li>
       <li><a href="message_flashing_flask.php"  target="_self">Message Flashing</a></li>
       <li><a href="sqlite_flask.php"  target="_self">SQLite</a></li>
       <li><a href="sqlalchemy_flask.php"  target="_self">SQLAlchemy</a></li>
-      <li><a href="wtf_flask.php"  target="_self">WTF</a></li>
-      <li><a href="fast_cji_flask.php"  target="_self">Fast CJI</a></li>
+      <li style="background-image:linear-gradient(#4537d1,#4537d1);border-top:1px solid white;border-bottom:1px solid white;"><a href="wtf_flask.php"  target="_self">WTF</a></li>
+      <li><a href="fast_cji_flask.php"  target="_self">Fast CGI</a></li>
       <li><a href="deployment_flask.php"  target="_self">Deploying</a></li>
       <li><a href="caching_flask.php"  target="_self">Caching</a></li>
       <li><a href="api_design_flask.php"  target="_self">API Design</a></li>
@@ -1395,14 +1397,14 @@ padding:0px;
       <a href="cookies_flask.php"  target="_self">Cookies</a>
       <a href="static_files_flask.php"  target="_self">Static Files</a>
       <a href="request_object_flask.php"  target="_self">Request Object</a>
-      <a href="file_upload_flask.php"  target="_self" style="color:white;">File Upload</a>
+      <a href="file_upload_flask.php"  target="_self">File Upload</a>
       <a href="sessions_flask.php"  target="_self">Sessions</a>
       <a href="redirect_errors_flask.php"  target="_self">Redirect and Errors</a>
       <a href="message_flashing_flask.php"  target="_self">Message Flashing</a>
       <a href="sqlite_flask.php"  target="_self">SQLite</a>
       <a href="sqlalchemy_flask.php"  target="_self">SQLAlchemy</a>
-      <a href="wtf_flask.php"  target="_self">WTF</a>
-      <a href="fast_cji_flask.php"  target="_self">Fast CJI</a>
+      <a href="wtf_flask.php"  target="_self" style="color:white;">WTF</a>
+      <a href="fast_cji_flask.php"  target="_self">Fast CGI</a>
       <a href="deployment_flask.php"  target="_self">Deploying</a>
       <a href="caching_flask.php"  target="_self">Caching</a>
       <a href="api_design_flask.php"  target="_self">API Design</a>
@@ -1456,10 +1458,10 @@ padding:0px;
    <gcse:search></gcse:search>
 </div><br>
 <!--search ends-->
-    <h2 style="text-align:left;color:#a54eee;">Flask File Uploadling</h2>
+    <h2 style="text-align:left;color:#a54eee;">WTF in Flask</h2>
 <div class="row ml-auto mr-auto" style="width:40%!important;">
-<a href="https://www.facebook.com/sharer/sharer.php?u=http%3A//bestpythontutorials.com/flask/file_upload_flask.php" style="background-color:#3377ff;color:white;border-radius:1px;padding:1px;font-size:15px;" id="facebookshare" class="col-lg-3 col-sm-3 col-md-3 mb-1" class="col-lg-3 col-sm-3 col-md-3 mb-1"> <i class="fa fa-facebook-f"></i> Share </a>
-<a href="https://twitter.com/intent/tweet?text=http%3A//bestpythontutorials.com/flask/file_upload_flask.php" style="background-color:#1ac6ff;color:white;border-radius:1px;padding:1px;font-size:15px;" id="facebookshare" class="col-lg-3 col-sm-3 col-md-3 mb-1"> <i class="fa fa-twitter"></i> Tweet </a>
+<a href="https://www.facebook.com/sharer/sharer.php?u=http%3A//bestpythontutorials.com/flask/wtf_flask.php" style="background-color:#3377ff;color:white;border-radius:1px;padding:1px;font-size:15px;" id="facebookshare" class="col-lg-3 col-sm-3 col-md-3 mb-1" class="col-lg-3 col-sm-3 col-md-3 mb-1"> <i class="fa fa-facebook-f"></i> Share </a>
+<a href="https://twitter.com/intent/tweet?text=http%3A//bestpythontutorials.com/flask/wtf_flask.php" style="background-color:#1ac6ff;color:white;border-radius:1px;padding:1px;font-size:15px;" id="facebookshare" class="col-lg-3 col-sm-3 col-md-3 mb-1"> <i class="fa fa-twitter"></i> Tweet </a>
 <a href="https://www.youtube.com/channel/UC_pPPgwvndi8f2RkbkbvOIA" target="_blank" style="background-color:red;color:white;border-radius:1px;padding:1px;font-size:15px;" class="col-lg-3 col-sm-3 col-md-3 mb-1" id="facebookshare">   <i class="fa fa-youtube"></i> Youtube </a>
 <a style="background-color:orangered;color:white;border-radius:1px;padding:1px;font-size:15px;" class="col-lg-3 col-sm-3 col-md-3 mb-1" id="facebookshare" onclick="languagedisplay()">   <i class="fa fa-language"></i><text>Language</text> </a></button>
 
@@ -1488,56 +1490,90 @@ function googleTranslateElementInit() {
 <!-----------------------Google Translate API ends----------------->
 <!--content goes here-->
 <div id="main">
-<p style="text-align:justify;" class="mt-4">In this chapter we are going to make a simple file upload system using flask.The file upload system that we are going to make will be able to upload images from the computer.</p>
-<p style="text-align:justify;">Handling file upload in Flask is very easy. It needs an HTML form with its enctype attribute set to ‘multipart/form-data’, posting the file to a URL. The URL handler fetches file from request.files[] object and saves it to the desired location.</p>
-<p style="text-align:justify;">
-Each uploaded file is first saved in a temporary location on the server, before it is actually saved to its ultimate location. Name of destination file can be hard-coded or can be obtained from filename property of request.files[file] object. However, it is recommended to obtain a secure version of it using the secure_filename() function.
-</p>
-<p style="text-align:justify;">
-It is possible to define the path of default upload folder and maximum size of uploaded file in configuration settings of Flask object
-</p>
+<p style="text-align:justify;" class="mt-4">In any Web Application forms are a essential part to authenticate user and there are various ways by which we can build a form from normally building it in the templates but Flask also provides a way to build form using the WTF or WTForms.</p>
 
+<h3 class="text-left mt-4" style="color:#a54eee;">Why WTF is useful?</h3>
+<p style="text-align:justify;">WTF is useful due to the following factors:</p>
+<ul style="text-align:justify;list-style:square;">
+  <li>We can't render the HTML form data at real time.HTML itself provides no way to validate a user’s input.It's really an annoying thing.</li>
+  <li>The Server side script has to recreate the form elements from http request data. So in effect, form elements have to be defined twice – once in HTML and again in the server side script.</li>
+</ul>
+<h3 class="text-left mt-4">Installing Flask-WTF</h3>
+<div class="container p-1" style="background-color:#f2f2f2;border:1px solid lightgrey;text-align:justify;">
+  pip install flask-wtf
+</div>
+<p style="text-align:justify;" class="mt-4">Now this Library provides a lot of form fields such as:</p>
 <div style="overflow:scroll;">
   <table class="alt">
 <tbody><tr>
-  <th>S.no</th>
-  <th>Syntax</th>
+  <th>S.no.</th>
+  <th>Form Field</th>
   <th>Description</th>
 </tr>
 <tr>
   <td>1</td>
-  <td>app.config['UPLOAD_FOLDER']</td>
-  <td>It is used to mention the upload folder.</td>
+  <td>TextField</td>
+  <td>It is used to represent the text filed HTML form element.</td>
 </tr>
 <tr>
   <td>2</td>
-  <td>app.config['MAX_CONTENT-PATH']</td>
-  <td>It is used to mention the maximum size of the file to be uploaded.</td>
+  <td>BooleanField</td>
+  <td>It is used to represent the checkbox HTML form element.</td>
+</tr>
+<tr>
+  <td>3</td>
+  <td>DecimalField</td>
+  <td>It is used to represent the text field to display the numbers with decimals.</td>
+</tr>
+<tr>
+  <td>4</td>
+  <td>IntegerField</td>
+  <td>It is used to represent the text field to display the integer values.</td>
+</tr>
+<tr>
+  <td>5</td>
+  <td>RadioField</td>
+  <td>It is used to represent the radio button HTML form element.</td>
+</tr>
+<tr>
+  <td>6</td>
+  <td>SelectField</td>
+  <td>It is used to represent the select form element.</td>
+</tr>
+<tr>
+  <td>7</td>
+  <td>TextAreaField</td>
+  <td>It is used to represent text area form element.</td>
+</tr>
+<tr>
+  <td>8</td>
+  <td>PasswordField</td>
+  <td>It is used to take the password as the form input from the user.</td>
+</tr>
+<tr>
+  <td>9</td>
+  <td>SubmitField</td>
+  <td>It provides represents the &lt;input type = 'submit' value = 'Submit'&gt; html form element.</td>
 </tr>
 </tbody></table>
 </div>
+
 <h3 class="text-left mt-4" style="color:#a54eee;">EXAMPLE</h3>
+<p style="text-align:justify;">Now we will create a simple form using flask-wtf which will input the name and roll number of the student.For this example we have to make three python files and one html file for the view.</p>
 <div class="text-left mt-0 mb-1">
-  <p class="text-left mb-0">upload.py</p>
+  <p class="text-left" class="mb-0">forms.py</p>
  <form action="" method="post" target="_blank">
  <textarea id="editor1" name="initScript" style="height:20vh!important;text-align:justify;overflow:hidden;-webkit-border-radius: 5px;
     -moz-border-radius: 5px;border-radius: 5px;z-index:0;" readOnly = 'nocursor'>
-from flask import *  
-app = Flask(__name__)  
- 
-@app.route('/')  
-def upload():  
-    return render_template("upload.html")  
- 
-@app.route('/upload', methods = ['POST'])  
-def upload():  
-    if request.method == 'POST':  
-        f = request.files['file']  
-        f.save(f.filename)  
-        return render_template("upload.html", name = f.filename)  
-  
-if __name__ == '__main__':  
-    app.run()  </textarea>
+from flask_wtf import Form  
+from wtforms import TextField,IntegerField,SubmitField
+from wtforms import validators, ValidationError  
+
+
+class ContactForm(Form):  
+   name = TextField("Name ",[validators.DataRequired("Please enter your name.")])
+   roll = IntegerField("Roll no.",[validators.DataRequired("Please enter your roll no.")])
+   submit = SubmitField("Submit")   </textarea>
               <!--<button type="submit" style="background-color:white;border:none;outline:none;box-shadow:none;" class="mt-3">
               <a type="submit" class="pl-4 pr-4" style="border:2px solid #3399ff;border-radius:4px;color:#1aa3ff;">Run it    <i class="fa fa-angle-right"></i><i class="fa fa-angle-right"></i></a>
              </button>
@@ -1554,22 +1590,31 @@ if __name__ == '__main__':
   </script>      
 </div>
 
-
-
 <div class="text-left mt-0 mb-1">
-  <p class="text-left mb-0">upload.html</p>
+  <p class="text-left" class="mb-0 mt-1">formvalidation.py</p>
  <form action="" method="post" target="_blank">
  <textarea id="editor2" name="initScript" style="height:20vh!important;text-align:justify;overflow:hidden;-webkit-border-radius: 5px;
     -moz-border-radius: 5px;border-radius: 5px;z-index:0;" readOnly = 'nocursor'>
-<html>
-   <body>
-      <form action = "http://localhost:5000/upload" method = "POST" 
-         enctype = "multipart/form-data">
-         <input type = "file" name = "file" />
-         <input type = "submit" value="Upload" />
-      </form>
-   </body>
-</html></textarea>
+from flask import Flask, render_template, request, flash  
+from forms import ContactForm  
+app = Flask(__name__)  
+app.secret_key = '12345'  
+  
+@app.route('/contact', methods = ['GET', 'POST'])  
+def contact():  
+   form = ContactForm()  
+   if form.validate() == False:  
+      flash('All fields are required.')  
+   return render_template('contact.html', form = form)  
+  
+  
+  
+@app.route('/success',methods = ['GET','POST'])  
+def success():  
+   return render_template("success.html")  
+  
+if __name__ == '__main__':  
+   app.run()      </textarea>
               <!--<button type="submit" style="background-color:white;border:none;outline:none;box-shadow:none;" class="mt-3">
               <a type="submit" class="pl-4 pr-4" style="border:2px solid #3399ff;border-radius:4px;color:#1aa3ff;">Run it    <i class="fa fa-angle-right"></i><i class="fa fa-angle-right"></i></a>
              </button>
@@ -1579,14 +1624,103 @@ if __name__ == '__main__':
                      <script>
             
     var editor = CodeMirror.fromTextArea(document.getElementById('editor2'),{
+      mode:"python",
+      lineNumbers:true
+    });
+  
+  </script>      
+</div>
+
+
+<div class="text-left mt-0 mb-0">
+  <p class="text-left" class="mb-1 mt-1">contact.html</p>
+ <form action="" method="post" target="_blank">
+ <textarea id="editor3" name="initScript" style="height:20vh!important;text-align:justify;overflow:hidden;-webkit-border-radius: 5px;
+    -moz-border-radius: 5px;border-radius: 5px;z-index:0;" readOnly = 'nocursor'>
+<!doctype html>  
+<html>  
+   <body>  
+      <h2 style = "text-align: center;">Student Info</h2>  
+          
+      {% for message in form.name.errors %}  
+         <div>{{ message }}</div>  
+      {% endfor %}  
+        
+      {% for message in form.email.errors %}  
+         <div>{{ message }}</div>  
+      {% endfor %}  
+        
+      <form action = "http://localhost:5000/success" method = "POST">  
+           
+            {{ form.hidden_tag() }}  
+              
+            <div>  
+               {{ form.name.label }}<br>  
+               {{ form.name }}  
+               <br>       
+               {{ form.roll.label }}<br>  
+               {{ form.roll }}  
+               <br><br>  
+               {{ form.submit }}  
+            </div>  
+      </form>  
+   </body>  
+</html>              </textarea>
+              <!--<button type="submit" style="background-color:white;border:none;outline:none;box-shadow:none;" class="mt-3">
+              <a type="submit" class="pl-4 pr-4" style="border:2px solid #3399ff;border-radius:4px;color:#1aa3ff;">Run it    <i class="fa fa-angle-right"></i><i class="fa fa-angle-right"></i></a>
+             </button>
+             -->
+            
+           </form>
+                     <script>
+            
+    var editor = CodeMirror.fromTextArea(document.getElementById('editor3'),{
       mode:"xml",
       lineNumbers:true
     });
   
   </script>      
 </div>
-<h3 class="text-left mt-4">Output of the above code</h3>
-<img src="file_upload_flask.png" class="img-fluid" style="border:1px solid black;">
+
+<p class="mt-3">Now the last thing is to make a page which will print a message when the info is filled and submitted.</p>
+
+<div class="text-left mt-0 mb-1">
+  <p class="text-left" class="mb-0 mt-1">success.html</p>
+ <form action="" method="post" target="_blank">
+ <textarea id="editor4" name="initScript" style="height:20vh!important;text-align:justify;overflow:hidden;-webkit-border-radius: 5px;
+    -moz-border-radius: 5px;border-radius: 5px;z-index:0;" readOnly = 'nocursor'>
+<!DOCTYPE html>  
+<html>  
+<head>  
+    <title></title>  
+</head>  
+<body>  
+<h1>Form is submitted successfully</h1>  
+</body>  
+</html>               </textarea>
+              <!--<button type="submit" style="background-color:white;border:none;outline:none;box-shadow:none;" class="mt-3">
+              <a type="submit" class="pl-4 pr-4" style="border:2px solid #3399ff;border-radius:4px;color:#1aa3ff;">Run it    <i class="fa fa-angle-right"></i><i class="fa fa-angle-right"></i></a>
+             </button>
+             -->
+            
+           </form>
+                     <script>
+            
+    var editor = CodeMirror.fromTextArea(document.getElementById('editor4'),{
+      mode:"xml",
+      lineNumbers:true
+    });
+  
+  </script>      
+</div>
+
+
+
+
+
+
+
+
 
 
 
@@ -1934,10 +2068,10 @@ function closeNav() {
   window.open("installation.php");
 }*/
 function next(){
-  window.open("sessions_flask.php","_self");
+  window.open("fast_cji_flask.php","_self");
 }
 function prev(){
-  window.open("request_object_flask.php","_self");
+  window.open("sqlalchemy_flask.php","_self");
 }
 
 /**********scroll functionality*********/
@@ -1969,20 +2103,19 @@ function topFunction() {
   <script type="text/javascript">
         
     function codespeedy(){
-      /*var print_div = document.getElementById("main");
-var print_area = window.open(print_div.innerHTML);
+      var print_div = document.getElementById("main");
+var print_area = window.open();
 print_area.document.write(print_div.innerHTML);
 print_area.document.close();
 print_area.focus();
 print_area.print();
 print_area.close();
-*/
-window.print()
+
 // This is the code print a particular div element
     }
    
   </script>
 
-<script src="https://www.jdoodle.com/assets/jdoodle-pym.min.js" type="text/javascript"></script>
+
 </body>
 </html>

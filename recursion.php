@@ -1904,7 +1904,7 @@ function googleTranslateElementInit() {
         <h3 style="text-align:left;color:#a54eee;">Factorial of a number</h3>
       
 
- <div data-datacamp-exercise data-lang="python">
+ <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 def Factorial(n):
    if n == 1:
@@ -1929,7 +1929,7 @@ print(Factorial(3))
  <h3 style="text-align:left;color:#a54eee;" class="mt-4">Fibonacci Series</h3>
       
 
- <div data-datacamp-exercise data-lang="python">
+ <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 # Python program to display the Fibonacci sequence
 

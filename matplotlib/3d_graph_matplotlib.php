@@ -1483,7 +1483,7 @@ padding:0px;
 <p style="text-align:justify;" class="mt-4">In this chapter we are going to plot a simple 3D plot using <b>plot_surface()</b> method in matplotlib.Surface plot shows a functional relationship between a designated dependent variable (Y), and two independent variables (X and Z).</p>
 
 <h5 class="text-left mb-0 mt-2">code #1( 3D Surface Plot )</h5>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code"> 
 from mpl_toolkits import mplot3d
 import numpy as np
@@ -1503,7 +1503,7 @@ plt.show()
 <h4 class="text-left mt-4" style="color:#a54eee;">Output of the above code</h4>
 <img src="3dsurfaceplot.png" class="img-fluid">
 <h5 class="text-left mb-0 mt-2">code #2( 3D Scatter Plot )</h5>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code"> 
 import matplotlib.pyplot as plt
 class11_grades = [89, 90, 70, 89, 100, 80, 90, 100, 80, 34]
@@ -1530,7 +1530,7 @@ plt.show()
 
 
 <h5 class="text-left mb-0 mt-2">code #3( 3D Plot )</h5>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code"> 
 from mpl_toolkits.mplot3d import Axes3D
 import matplotlib.pyplot as plt
@@ -1581,7 +1581,7 @@ plt.show()
 
 
 <h5 class="text-left mb-0 mt-2">code #4( 3D Bars )</h5>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code"> 
 from mpl_toolkits.mplot3d import Axes3D
 import matplotlib.pyplot as plt
@@ -1616,7 +1616,7 @@ plt.show()
 
 
 <h5 class="text-left mb-0 mt-2">code #5( 3D Contour )</h5>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code"> 
 from mpl_toolkits.mplot3d import axes3d
 import matplotlib.pyplot as plt

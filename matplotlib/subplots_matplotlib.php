@@ -1491,7 +1491,7 @@ padding:0px;
 
 <h5 class="text-left mb-0 mt-2">code #
 1( Subplot with two rows and two columns )</h5>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 import matplotlib.pyplot as plt
 fig,a =  plt.subplots(2,2)

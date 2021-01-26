@@ -1896,7 +1896,7 @@ are created in order to manage the attributes of different classes which uses th
 <h4 class="text-left mt-4" style="color:#a54eee;">EXAMPLE</h4>
 
 <h5 class="text-left mb-0 mt-1">Code #1(A Simple and Easy Example For A Descriptor)</h5>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 class Descriptor(object): 
 
@@ -1938,7 +1938,7 @@ print(g.name)
 <p style="text-align:justify;">
 If you want to get the same result as the previous example without explicitly using a Python descriptor, then the most straight forward approach is to use a <kbd>property</kbd>. The following example uses a property that logs a message to the console when it’s accessed:
 </p>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 class Descriptor(object): 
 
@@ -1979,7 +1979,7 @@ print(g.name)
 <h4 class="text-left mt-4" style="color:#a54eee;">Descriptor using property()</h4>
 <p style="text-align:justify;"><b>property()</b> - it is easy to create a usable descriptor for any attributes.
 </p>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 # python program to demonstrate how to create a Descriptor
 #using property()

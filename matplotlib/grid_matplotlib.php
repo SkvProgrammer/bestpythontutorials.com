@@ -1480,10 +1480,10 @@ padding:0px;
 </div>
 <!--content goes here-->
 <div id="main">
-  <p style="text-align:justify;">Grid method in Matplotlib is used to control the visiblity of the grid in the figure.You can also display major / minor (or both) ticks of the grid. Additionally color, linestyle and linewidth properties can be set in the <code>grid()</code> function.</p>
+  <p style="text-align:justify;">Grid method in Matplotlib is used to control the visibility of the grid in the figure.You can also display major / minor (or both) ticks of the grid. Additionally color, linestyle and linewidth properties can be set in the <code>grid()</code> function.</p>
 <h5 class="text-left mb-0 mt-5">code #
 1( Grid )</h5>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code"> 
 import matplotlib.pyplot as plt
 import numpy as np
@@ -1507,7 +1507,7 @@ plt.show()
 
 <h5 class="text-left mb-0 mt-5">code #
 2( Grid with NaNs included )</h5>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code"> 
 import numpy as np
 import matplotlib.pyplot as plt

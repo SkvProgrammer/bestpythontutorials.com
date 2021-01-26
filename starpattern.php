@@ -1875,7 +1875,7 @@ function googleTranslateElementInit() {
            </div>
 
 <h3 class="text-left mt-4" style="color:#a54eee;">Star Patterns of Triangle or Pyramid</h3>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 def pattern(n):
       k = 2 * n - 2

@@ -1903,7 +1903,7 @@ function googleTranslateElementInit() {
 <p style="text-align:justify;">A Generator function is almost similar to a normal function in Python.The only difference is that when it comes to return or generate a value it use the <a href="#yield" style="color:#a54eee;">yield Keyword</a> rather than using the <b>return</b> Keyword.One more thing to remember all the methods that contain the yield keyword are called <b>Generator Function or Method</b>.Below is a simple example:</p>
        
 
-    <div data-datacamp-exercise data-lang="python">
+    <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 # a simple generator function
 def generator(number):
@@ -1946,7 +1946,7 @@ for i in x:
 <p style="text-align:justify;">Generator functions return a generator object. Generator objects are used either by calling the next method on the generator object or using the generator object in a <i>"for in"</i> loop</p>
 
 
-  <div data-datacamp-exercise data-lang="python">
+  <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 # A Python program to demonstrate use of 
 # generator object with next() 

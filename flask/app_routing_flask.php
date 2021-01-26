@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-Us">
     <head>
-        <title>Redirecting Pages and Errors in Flask - BestPythonTutorials.com</title>
+        <title>App Routing in Flask | @app.route() in Flask</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <script charset="UTF-8" src="//web.webpushs.com/js/push/21f7140e081ac8d7144ec5c3ffb92c8c_1.js" async></script>
@@ -18,7 +18,7 @@
           <script src="../codemirror/mode/javascript/javascript.js"></script>
           <script src="../codemirror/mode/sql/sql.js"></script>
            <script src="../codemirror/mode/xml/xml.js"></script> 
-           <meta name="description" content="Redirecting Pages and Errors in Flask - BestPythonTutorials.com" />
+           <meta name="description" content="App Rounting in Flask - Routing in Flask - BestPythonTutorials.com" />
            <script src="https://unpkg.com/applause-button/dist/applause-button.js" type="text/javascript"></script>
         <link rel="stylesheet" type="text/css" href="https://unpkg.com/applause-button/dist/applause-button.css">
          <!-- add the button style & script -->
@@ -40,7 +40,7 @@
          <!--<script async src="https://cse.google.com/cse.js?cx=016236012273495808262:cabujlbzuwi"></script><link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text&display=swap" rel="stylesheet">-->
     
            
-    <script type="application/javascript" src="https://sdki.truepush.com/sdk/v2.0.2/app.js" async></script>
+     <script type="application/javascript" src="https://sdki.truepush.com/sdk/v2.0.2/app.js" async></script>
     <script>
     var truepush = window.truepush || [];
             
@@ -52,7 +52,8 @@
         })
     })
     </script>
-        
+
+
        <style>
 
  
@@ -1281,6 +1282,7 @@ padding:0px;
 
 </style>
 
+
 </head>
 <body>
 
@@ -1354,7 +1356,7 @@ padding:0px;
       <li><a href="intro_flask.php"  target="_self">Introduction</a></li>
       <li><a href="environment_setup_flask.php"  target="_self">Environment Setup</a></li>
       <li><a href="first_app_flask.php"  target="_self">First App</a></li>
-      <li><a href="app_routing_flask.php"  target="_self">App Routing</a></li>
+      <li style="background-image:linear-gradient(#4537d1,#4537d1);border-top:1px solid white;border-bottom:1px solid white;"><a href="app_routing_flask.php"  target="_self">App Routing</a></li>
       <li><a href="url_building_flask.php"  target="_self">URL Building</a></li>
       <li><a href="http_flask.php"  target="_self">HTTP Methods</a></li>
       <li><a href="templates_flask.php"  target="_self">Templates</a></li>
@@ -1363,7 +1365,7 @@ padding:0px;
       <li><a href="request_object_flask.php"  target="_self">Request Object</a></li>
       <li><a href="file_upload_flask.php"  target="_self">File Upload</a></li>
       <li><a href="sessions_flask.php"  target="_self">Sessions</a></li>
-      <li style="background-image:linear-gradient(#4537d1,#4537d1);border-top:1px solid white;border-bottom:1px solid white;"><a href="redirect_errors_flask.php"  target="_self">Redirect and Errors</a></li>
+      <li><a href="redirect_errors_flask.php"  target="_self">Redirect and Errors</a></li>
       <li><a href="message_flashing_flask.php"  target="_self">Message Flashing</a></li>
       <li><a href="sqlite_flask.php"  target="_self">SQLite</a></li>
       <li><a href="sqlalchemy_flask.php"  target="_self">SQLAlchemy</a></li>
@@ -1388,7 +1390,7 @@ padding:0px;
       <a href="intro_flask.php"  target="_self">Introduction</a>
       <a href="environment_setup_flask.php"  target="_self">Environment Setup</a>
       <a href="first_app_flask.php"  target="_self">First App</a>
-      <a href="app_routing_flask.php"  target="_self">App Routing</a>
+      <a href="app_routing_flask.php"  target="_self" style="color:white;">App Routing</a>
       <a href="url_building_flask.php"  target="_self">URL Building</a>
       <a href="http_flask.php"  target="_self">HTTP Methods</a>
       <a href="templates_flask.php"  target="_self">Templates</a>
@@ -1397,7 +1399,7 @@ padding:0px;
       <a href="request_object_flask.php"  target="_self">Request Object</a>
       <a href="file_upload_flask.php"  target="_self">File Upload</a>
       <a href="sessions_flask.php"  target="_self">Sessions</a>
-      <a href="redirect_errors_flask.php"  target="_self" style="color:white;">Redirect and Errors</a>
+      <a href="redirect_errors_flask.php"  target="_self">Redirect and Errors</a>
       <a href="message_flashing_flask.php"  target="_self">Message Flashing</a>
       <a href="sqlite_flask.php"  target="_self">SQLite</a>
       <a href="sqlalchemy_flask.php"  target="_self">SQLAlchemy</a>
@@ -1456,10 +1458,10 @@ padding:0px;
    <gcse:search></gcse:search>
 </div><br>
 <!--search ends-->
-    <h2 style="text-align:left;color:#a54eee;">Flask Redirect and Errors</h2>
+    <h2 style="text-align:left;">App Routing in Flask</h2>
 <div class="row ml-auto mr-auto" style="width:40%!important;">
-<a href="https://www.facebook.com/sharer/sharer.php?u=http%3A//bestpythontutorials.com/flask/redirect_errors_flask.php" style="background-color:#3377ff;color:white;border-radius:1px;padding:1px;font-size:15px;" id="facebookshare" class="col-lg-3 col-sm-3 col-md-3 mb-1" class="col-lg-3 col-sm-3 col-md-3 mb-1"> <i class="fa fa-facebook-f"></i> Share </a>
-<a href="https://twitter.com/intent/tweet?text=http%3A//bestpythontutorials.com/flask/redirect_errors_flask.php" style="background-color:#1ac6ff;color:white;border-radius:1px;padding:1px;font-size:15px;" id="facebookshare" class="col-lg-3 col-sm-3 col-md-3 mb-1"> <i class="fa fa-twitter"></i> Tweet </a>
+<a href="https://www.facebook.com/sharer/sharer.php?u=http%3A//bestpythontutorials.com/flask/app_routing_flask.php" style="background-color:#3377ff;color:white;border-radius:1px;padding:1px;font-size:15px;" id="facebookshare" class="col-lg-3 col-sm-3 col-md-3 mb-1" class="col-lg-3 col-sm-3 col-md-3 mb-1"> <i class="fa fa-facebook-f"></i> Share </a>
+<a href="https://twitter.com/intent/tweet?text=http%3A//bestpythontutorials.com/flask/app_routing_flask.php" style="background-color:#1ac6ff;color:white;border-radius:1px;padding:1px;font-size:15px;" id="facebookshare" class="col-lg-3 col-sm-3 col-md-3 mb-1"> <i class="fa fa-twitter"></i> Tweet </a>
 <a href="https://www.youtube.com/channel/UC_pPPgwvndi8f2RkbkbvOIA" target="_blank" style="background-color:red;color:white;border-radius:1px;padding:1px;font-size:15px;" class="col-lg-3 col-sm-3 col-md-3 mb-1" id="facebookshare">   <i class="fa fa-youtube"></i> Youtube </a>
 <a style="background-color:orangered;color:white;border-radius:1px;padding:1px;font-size:15px;" class="col-lg-3 col-sm-3 col-md-3 mb-1" id="facebookshare" onclick="languagedisplay()">   <i class="fa fa-language"></i><text>Language</text> </a></button>
 
@@ -1488,102 +1490,26 @@ function googleTranslateElementInit() {
 <!-----------------------Google Translate API ends----------------->
 <!--content goes here-->
 <div id="main">
-<p style="text-align:justify;" class="mt-4">Flask class provides the <code>redirect()</code> function which redirects the user to some specified URL with the specified status code.An HTTP status code is a response from the server to the request of the browser. When we visit a website, a request is sent to the server, and the server then responds to the browser's request with a three-digit code: the HTTP status code. This status code also represents the error.</p>
 
-<h3 class="text-left mt-4" style="color:#a54eee;">SYNTAX</h3>
-<div class="container p-1" style="background-color:#f2f2f2;border:1px solid lightgrey;text-align:justify;">Flask.redirect(location, statuscode, response)</div>
+<p style="text-align:justify;" class="mt-4">App Routing in Flask is a very important topic it's like URL Mapping but it's a bit different from URL Mapping it helps in routing the Pages.</p>
+<p style="text-align:justify;">In our first application, the URL ('/') is associated with the home function that returns a particular string displayed on the web page.</p>
 
-<h3 class="text-left mt-4" style="color:#a54eee;">PARAMETERS</h3>
-<div style="overflow:scroll;">
-  <table class="alt">
-<tbody><tr>
-  <th>S.no</th>
-  <th>Parameter</th>
-  <th>Description</th>
-</tr>
-<tr>
-  <td>1</td>
-  <td>location</td>
-  <td>It is the URL where the response will be redirected.</td>
-</tr>
-<tr>
-  <td>2</td>
-  <td>status code</td>
-  <td>It is the status code that is sent to the browser's header along with the response from the server.</td>
-</tr>
-<tr>
-  <td>3</td>
-  <td>response</td>
-  <td>It is the instance of the response that is used in the project for future requirements. </td>
-</tr>
-</tbody></table>
-</div>
-
-<h3 class="text-left mt-4" style="color:#a54eee;">Standard HTTP Code</h3>
-<ul style="text-align:justify;list-style:square;">
-<li>HTTP_300_MULTIPLE_CHOICES
-<li>HTTP_301_MOVED_PERMANENTLY
-<li>HTTP_302_FOUND
-<li>HTTP_303_SEE_OTHER
-<li>HTTP_304_NOT_MODIFIED
-<li>HTTP_305_USE_PROXY
-<li>HTTP_306_RESERVED
-<li>HTTP_307_TEMPORARY_REDIRECT
-</ul>
-<p style="text-align:justify;" class="mt-3">The default status code is 302, which is for ‘found’</p>
-
-<h3 class="text-left mt-4" style="color:#a54eee;">The <code>abort()</code> Function</h3>
-<p style="text-align:justify;">The abort() function is used to handle the cases where the errors are involved in the requests from the client side, such as bad requests, unauthorized access and many more. However, the error code is to be mentioned due to which the error occurred.
-</p>
-<h4 class="text-left mt-3" style="color:#a54eee;">SYNTAX</h4>
-<div class="container p-1" style="background-color:#f2f2f2;border:1px solid lightgrey;text-align:justify;">
-  Flask.abort(code)
-</div>
-
-<p style="text-align:justify;" class="mt-3">The <b>code</b> parameter takes one of following values - </p>
-<ul style="list-style:square;text-align:justify;">
-<li>400 − for Bad Request
-
-<li>401 − for Unauthenticated
-
-<li>403 − for Forbidden
-
-<li>404 − for Not Found
-
-<li>406 − for Not Acceptable
-
-<li>415 − for Unsupported Media Type
-
-<li>429 − Too Many Requests
-</ul>
-
-<h3 class="text-left mt-4" style="color:#a54eee;">EXAMPLE</h3>
+<h3 class="text-left mt-4">EXAMPLE</h3>
 <div class="text-left mt-0 mb-1">
-  <p class="text-left mb-0">The below code will redirect the user if the login attemp is failed as many times as the login continuously fails.</p>
- <form action="" method="post" target="_blank">
+  <p style="text-align:justify;">This is our main python file where we have written the code actually needed for user authentication.</p>
+  <form action="https://www.jdoodle.com/api/redirect-to-post/python3-programming-online" method="post" target="_blank">
  <textarea id="editor1" name="initScript" style="height:20vh!important;text-align:justify;overflow:hidden;-webkit-border-radius: 5px;
     -moz-border-radius: 5px;border-radius: 5px;z-index:0;" readOnly = 'nocursor'>
-from flask import Flask, redirect, url_for, render_template, request
-# Initialize the Flask application
-app = Flask(__name__)
-
-@app.route('/')
-def index():
-   return render_template('login.html')
-
-@app.route('/login',methods = ['POST', 'GET']) 
-def login(): 
-   if request.method == 'POST' and request.form['username'] == 'admin' :
-      return redirect(url_for('success'))
-   else:
-      return redirect(url_for('index'))
-
-@app.route('/successlogin')
-def success():
-   return 'You have logged in successfully'
+from flask import Flask
+app = Flask(__name__) 
   
-if __name__ == '__main__':
-   app.run()</textarea>
+@app.route('/')#the homepage of our app 
+def greet(): 
+   return 'Hello Flask , We are Learning App Routing' 
+  
+
+if __name__ == '__main__': 
+   app.run() </textarea>
               <!--<button type="submit" style="background-color:white;border:none;outline:none;box-shadow:none;" class="mt-3">
               <a type="submit" class="pl-4 pr-4" style="border:2px solid #3399ff;border-radius:4px;color:#1aa3ff;">Run it    <i class="fa fa-angle-right"></i><i class="fa fa-angle-right"></i></a>
              </button>
@@ -1599,35 +1525,23 @@ if __name__ == '__main__':
   
   </script>      
 </div>
+<h3 class="text-left mt-4">Output of the above code</h3>
+<img src="app_routing_flask.png" class="img-fluid" style="border:1px solid black;">
+<p style="text-align:justify;" class="mt-2">Now we will route our page to <b>/home</b> URL which is an easy task to do.</p>
 <div class="text-left mt-0 mb-1">
-<p style="text-align:justify;" class="mt-4">Printing the <b>Unauthorized</b> Message in the browser...</p>
- <form action="" method="post" target="_blank">
+ <form action="https://www.jdoodle.com/api/redirect-to-post/python3-programming-online" method="post" target="_blank">
  <textarea id="editor2" name="initScript" style="height:20vh!important;text-align:justify;overflow:hidden;-webkit-border-radius: 5px;
     -moz-border-radius: 5px;border-radius: 5px;z-index:0;" readOnly = 'nocursor'>
-from flask import *  
-app = Flask(__name__)  
- 
-@app.route('/')  
-def index ():  
-    return render_template("index.html")  
- 
-@app.route('/login')  
-def login():  
-    return render_template("login.html");  
- 
-@app.route('/validate', methods = ["POST"])  
-def validate():  
-    if request.method == 'POST' and request.form['password'] == '12345':  
-        return redirect(url_for("success"))  
-    else:  
-        abort(401)  
- 
-@app.route('/success')  
-def success():  
-    return "You have logged in successfully"  
+from flask import Flask
+app = Flask(__name__) 
   
-if __name__ == '__main__':  
-    app.run()</textarea>
+@app.route('/home')#route to the /home url 
+def greet(): 
+   return 'Hello Flask , We are Learning App Routing' 
+  
+
+if __name__ == '__main__': 
+   app.run() </textarea>
               <!--<button type="submit" style="background-color:white;border:none;outline:none;box-shadow:none;" class="mt-3">
               <a type="submit" class="pl-4 pr-4" style="border:2px solid #3399ff;border-radius:4px;color:#1aa3ff;">Run it    <i class="fa fa-angle-right"></i><i class="fa fa-angle-right"></i></a>
              </button>
@@ -1643,23 +1557,57 @@ if __name__ == '__main__':
   
   </script>      
 </div>
+<h3 class="text-left mt-4">Output of the above code</h3>
+<img src="app_routing_flask1.png" class="img-fluid" style="border:1px solid black;">
+<p style="text-align:justify;" class="mt-3">The URL of the above code is like:</p>
+<img src="app_routing_flask2.png" class="img-fluid" style="border:1px solid black;">
+<p style="text-align:justify;" class="mt-3">Now we will try to route multiple pages using the <b>add_url_rule()</b>.The <b>add_url_rule()</b> is one more approach to perform routing for the flask web application that can be done by using the add_url() function of the Flask class.</p>
+<div class="text-left mt-0 mb-1">
+ <form action="https://www.jdoodle.com/api/redirect-to-post/python3-programming-online" method="post" target="_blank">
+ <textarea id="editor3" name="initScript" style="height:20vh!important;text-align:justify;overflow:hidden;-webkit-border-radius: 5px;
+    -moz-border-radius: 5px;border-radius: 5px;z-index:0;" readOnly = 'nocursor'>
+from flask import Flask
+app = Flask(__name__) 
+  
 
+def home_page(): 
+   return 'This is the home page'
 
+def about_page():
+   return 'This is the about page'
 
+def service_page():
+   return 'This is the services page' 
 
+app.add_url_rule("/","home_page",home_page) 
+app.add_url_rule("/about","about_page",about_page)
+app.add_url_rule("/service","service_page",service_page)   
 
+if __name__ == '__main__': 
+   app.run() </textarea>
+              <!--<button type="submit" style="background-color:white;border:none;outline:none;box-shadow:none;" class="mt-3">
+              <a type="submit" class="pl-4 pr-4" style="border:2px solid #3399ff;border-radius:4px;color:#1aa3ff;">Run it    <i class="fa fa-angle-right"></i><i class="fa fa-angle-right"></i></a>
+             </button>
+             -->
+            
+           </form>
+                     <script>
+            
+    var editor = CodeMirror.fromTextArea(document.getElementById('editor3'),{
+      mode:"python",
+      lineNumbers:true
+    });
+  
+  </script>      
+</div>
 
+<p style="text-align:justify;" class="mt-3">/ - Home Page</p>
+<img src="homepage.png" class="img-fluid" style="border:1px solid black;" alt="homepage">
 
-
-
-
-
-
-
-
-
-
-
+<p style="text-align:justify;" class="mt-3">/about - About Page</p>
+<img src="about.png" class="img-fluid" style="border:1px solid black;" alt="about page">
+<p style="text-align:justify;" class="mt-3">/service - Services Page</p>
+<img src="service.png" class="img-fluid" style="border:1px solid black;" align="services page">
 
 
 </div>
@@ -2005,10 +1953,10 @@ function closeNav() {
   window.open("installation.php");
 }*/
 function next(){
-  window.open("message_flashing_flask.php","_self");
+  window.open("url_building_flask.php","_self");
 }
 function prev(){
-  window.open("sessions_flask.php","_self");
+  window.open("first_app_flask.php","_self");
 }
 
 /**********scroll functionality*********/
@@ -2040,15 +1988,13 @@ function topFunction() {
   <script type="text/javascript">
         
     function codespeedy(){
-      /*var print_div = document.getElementById("main");
-var print_area = window.open(print_div.innerHTML);
+      var print_div = document.getElementById("main");
+var print_area = window.open();
 print_area.document.write(print_div.innerHTML);
 print_area.document.close();
 print_area.focus();
 print_area.print();
 print_area.close();
-*/
-window.print()
 // This is the code print a particular div element
     }
    

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-Us">
     <head>
-        <title>App Routing in Flask | @app.route() in Flask</title>
+        <title>Environment Setup for Flask</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <script charset="UTF-8" src="//web.webpushs.com/js/push/21f7140e081ac8d7144ec5c3ffb92c8c_1.js" async></script>
@@ -18,7 +18,7 @@
           <script src="../codemirror/mode/javascript/javascript.js"></script>
           <script src="../codemirror/mode/sql/sql.js"></script>
            <script src="../codemirror/mode/xml/xml.js"></script> 
-           <meta name="description" content="App Rounting in Flask - Routing in Flask - BestPythonTutorials.com" />
+           <meta name="description" content="Flask Tutorial - Flask Environment Setup using pip- BestPythonTutorials.com" />
            <script src="https://unpkg.com/applause-button/dist/applause-button.js" type="text/javascript"></script>
         <link rel="stylesheet" type="text/css" href="https://unpkg.com/applause-button/dist/applause-button.css">
          <!-- add the button style & script -->
@@ -1354,9 +1354,9 @@ padding:0px;
     <li style="box-shadow:1px 1px white;background-color:white;background-image:none!important;padding:0px;"><h4 style="text-align:center;font-family: 'Big Shoulders Stencil Text', cursive!important;height:30px;line-height:55px;color:#a54eee;background-color:white;font-size:35px!important;">FLASK TUTORIAL</h4></li><br>
       <li><a href="home_flask.php"  target="_self">Flask Home</a></li>
       <li><a href="intro_flask.php"  target="_self">Introduction</a></li>
-      <li><a href="environment_setup_flask.php"  target="_self">Environment Setup</a></li>
+      <li style="background-image:linear-gradient(#4537d1,#4537d1);border-top:1px solid white;border-bottom:1px solid white;"><a href="environment_setup_flask.php"  target="_self">Environment Setup</a></li>
       <li><a href="first_app_flask.php"  target="_self">First App</a></li>
-      <li style="background-image:linear-gradient(#4537d1,#4537d1);border-top:1px solid white;border-bottom:1px solid white;"><a href="app_routing_flask.php"  target="_self">App Routing</a></li>
+      <li><a href="app_routing_flask.php"  target="_self">App Routing</a></li>
       <li><a href="url_building_flask.php"  target="_self">URL Building</a></li>
       <li><a href="http_flask.php"  target="_self">HTTP Methods</a></li>
       <li><a href="templates_flask.php"  target="_self">Templates</a></li>
@@ -1386,11 +1386,11 @@ padding:0px;
    
 
      <a href="" style="border:none;color:white;"><h1 id="tag1">FLASK TUTORIAL</h1></a>
-       <a href="home_flask.php"  target="_self">Flask home</a>
+       <a href="home_flask.php"  target="_self">Flask Home</a>
       <a href="intro_flask.php"  target="_self">Introduction</a>
-      <a href="environment_setup_flask.php"  target="_self">Environment Setup</a>
+      <a href="environment_setup_flask.php"  target="_self" style="color:white;">Environment Setup</a>
       <a href="first_app_flask.php"  target="_self">First App</a>
-      <a href="app_routing_flask.php"  target="_self" style="color:white;">App Routing</a>
+      <a href="app_routing_flask.php"  target="_self">App Routing</a>
       <a href="url_building_flask.php"  target="_self">URL Building</a>
       <a href="http_flask.php"  target="_self">HTTP Methods</a>
       <a href="templates_flask.php"  target="_self">Templates</a>
@@ -1458,10 +1458,10 @@ padding:0px;
    <gcse:search></gcse:search>
 </div><br>
 <!--search ends-->
-    <h2 style="text-align:left;">App Routing in Flask</h2>
+    <h2 style="text-align:left;">Flask Environment Setup</h2>
 <div class="row ml-auto mr-auto" style="width:40%!important;">
-<a href="https://www.facebook.com/sharer/sharer.php?u=http%3A//bestpythontutorials.com/flask/app_routing_flask.php" style="background-color:#3377ff;color:white;border-radius:1px;padding:1px;font-size:15px;" id="facebookshare" class="col-lg-3 col-sm-3 col-md-3 mb-1" class="col-lg-3 col-sm-3 col-md-3 mb-1"> <i class="fa fa-facebook-f"></i> Share </a>
-<a href="https://twitter.com/intent/tweet?text=http%3A//bestpythontutorials.com/flask/app_routing_flask.php" style="background-color:#1ac6ff;color:white;border-radius:1px;padding:1px;font-size:15px;" id="facebookshare" class="col-lg-3 col-sm-3 col-md-3 mb-1"> <i class="fa fa-twitter"></i> Tweet </a>
+<a href="https://www.facebook.com/sharer/sharer.php?u=http%3A//bestpythontutorials.com/flask/environment_setup_flask.php" style="background-color:#3377ff;color:white;border-radius:1px;padding:1px;font-size:15px;" id="facebookshare" class="col-lg-3 col-sm-3 col-md-3 mb-1" class="col-lg-3 col-sm-3 col-md-3 mb-1"> <i class="fa fa-facebook-f"></i> Share </a>
+<a href="https://twitter.com/intent/tweet?text=http%3A//bestpythontutorials.com/flask/environment_setup_flask.php" style="background-color:#1ac6ff;color:white;border-radius:1px;padding:1px;font-size:15px;" id="facebookshare" class="col-lg-3 col-sm-3 col-md-3 mb-1"> <i class="fa fa-twitter"></i> Tweet </a>
 <a href="https://www.youtube.com/channel/UC_pPPgwvndi8f2RkbkbvOIA" target="_blank" style="background-color:red;color:white;border-radius:1px;padding:1px;font-size:15px;" class="col-lg-3 col-sm-3 col-md-3 mb-1" id="facebookshare">   <i class="fa fa-youtube"></i> Youtube </a>
 <a style="background-color:orangered;color:white;border-radius:1px;padding:1px;font-size:15px;" class="col-lg-3 col-sm-3 col-md-3 mb-1" id="facebookshare" onclick="languagedisplay()">   <i class="fa fa-language"></i><text>Language</text> </a></button>
 
@@ -1490,125 +1490,28 @@ function googleTranslateElementInit() {
 <!-----------------------Google Translate API ends----------------->
 <!--content goes here-->
 <div id="main">
+<p style="text-align:justify;" class="mt-4
+">Before installing Python it would be better for us to install virtual environment in order to keep the packages in the right and efficient way.If you don't know what is virtual environment and how to install it.Check out our <a href="../virtualenv.php" style="text-decoration:none;color:grey;">Virtual Environment Chapter <img src="../django/link.png" style="height:10px;"></a></p>
 
-<p style="text-align:justify;" class="mt-4">App Routing in Flask is a very important topic it's like URL Mapping but it's a bit different from URL Mapping it helps in routing the Pages.</p>
-<p style="text-align:justify;">In our first application, the URL ('/') is associated with the home function that returns a particular string displayed on the web page.</p>
-
-<h3 class="text-left mt-4">EXAMPLE</h3>
-<div class="text-left mt-0 mb-1">
-  <p style="text-align:justify;">This is our main python where we have written the code actually needed for user authentication.</p>
-  <form action="https://www.jdoodle.com/api/redirect-to-post/python3-programming-online" method="post" target="_blank">
- <textarea id="editor1" name="initScript" style="height:20vh!important;text-align:justify;overflow:hidden;-webkit-border-radius: 5px;
-    -moz-border-radius: 5px;border-radius: 5px;z-index:0;" readOnly = 'nocursor'>
-from flask import Flask
-app = Flask(__name__) 
-  
-@app.route('/')#the homepage of our app 
-def greet(): 
-   return 'Hello Flask , We are Learning App Routing' 
-  
-
-if __name__ == '__main__': 
-   app.run() </textarea>
-              <!--<button type="submit" style="background-color:white;border:none;outline:none;box-shadow:none;" class="mt-3">
-              <a type="submit" class="pl-4 pr-4" style="border:2px solid #3399ff;border-radius:4px;color:#1aa3ff;">Run it    <i class="fa fa-angle-right"></i><i class="fa fa-angle-right"></i></a>
-             </button>
-             -->
-            
-           </form>
-                     <script>
-            
-    var editor = CodeMirror.fromTextArea(document.getElementById('editor1'),{
-      mode:"python",
-      lineNumbers:true
-    });
-  
-  </script>      
-</div>
-<h3 class="text-left mt-4">Output of the above code</h3>
-<img src="app_routing_flask.png" class="img-fluid" style="border:1px solid black;">
-<p style="text-align:justify;" class="mt-2">Now we will route our page to <b>/home</b> URL which is an easy task to do.</p>
-<div class="text-left mt-0 mb-1">
- <form action="https://www.jdoodle.com/api/redirect-to-post/python3-programming-online" method="post" target="_blank">
- <textarea id="editor2" name="initScript" style="height:20vh!important;text-align:justify;overflow:hidden;-webkit-border-radius: 5px;
-    -moz-border-radius: 5px;border-radius: 5px;z-index:0;" readOnly = 'nocursor'>
-from flask import Flask
-app = Flask(__name__) 
-  
-@app.route('/home')#route to the /home url 
-def greet(): 
-   return 'Hello Flask , We are Learning App Routing' 
-  
-
-if __name__ == '__main__': 
-   app.run() </textarea>
-              <!--<button type="submit" style="background-color:white;border:none;outline:none;box-shadow:none;" class="mt-3">
-              <a type="submit" class="pl-4 pr-4" style="border:2px solid #3399ff;border-radius:4px;color:#1aa3ff;">Run it    <i class="fa fa-angle-right"></i><i class="fa fa-angle-right"></i></a>
-             </button>
-             -->
-            
-           </form>
-                     <script>
-            
-    var editor = CodeMirror.fromTextArea(document.getElementById('editor2'),{
-      mode:"python",
-      lineNumbers:true
-    });
-  
-  </script>      
-</div>
-<h3 class="text-left mt-4">Output of the above code</h3>
-<img src="app_routing_flask1.png" class="img-fluid" style="border:1px solid black;">
-<p style="text-align:justify;" class="mt-3">The URL of the above code is like:</p>
-<img src="app_routing_flask2.png" class="img-fluid" style="border:1px solid black;">
-<p style="text-align:justify;" class="mt-3">Now we will try to route multiple pages using the <b>add_url_rule()</b>.The <b>add_url_rule()</b> is one more approach to perform routing for the flask web application that can be done by using the add_url() function of the Flask class.</p>
-<div class="text-left mt-0 mb-1">
- <form action="https://www.jdoodle.com/api/redirect-to-post/python3-programming-online" method="post" target="_blank">
- <textarea id="editor3" name="initScript" style="height:20vh!important;text-align:justify;overflow:hidden;-webkit-border-radius: 5px;
-    -moz-border-radius: 5px;border-radius: 5px;z-index:0;" readOnly = 'nocursor'>
-from flask import Flask
-app = Flask(__name__) 
-  
-
-def home_page(): 
-   return 'This is the home page'
-
-def about_page():
-   return 'This is the about page'
-
-def service_page():
-   return 'This is the services page' 
-
-app.add_url_rule("/","home_page",home_page) 
-app.add_url_rule("/about","about_page",about_page)
-app.add_url_rule("/service","service_page",service_page)   
-
-if __name__ == '__main__': 
-   app.run() </textarea>
-              <!--<button type="submit" style="background-color:white;border:none;outline:none;box-shadow:none;" class="mt-3">
-              <a type="submit" class="pl-4 pr-4" style="border:2px solid #3399ff;border-radius:4px;color:#1aa3ff;">Run it    <i class="fa fa-angle-right"></i><i class="fa fa-angle-right"></i></a>
-             </button>
-             -->
-            
-           </form>
-                     <script>
-            
-    var editor = CodeMirror.fromTextArea(document.getElementById('editor3'),{
-      mode:"python",
-      lineNumbers:true
-    });
-  
-  </script>      
+<p style="text-align:justify;">Now after installing , creating and activating the virtual environment you can install Flask in your computer by typing the following command in cmd or terminal:</p>
+<div class="container p-2" style="background-color:#f2f2f2;border:1px solid lightgrey;text-align:justify;">
+  pip install flask
 </div>
 
-<p style="text-align:justify;" class="mt-3">/ - Home Page</p>
-<img src="homepage.png" class="img-fluid" style="border:1px solid black;" alt="homepage">
-
-<p style="text-align:justify;" class="mt-3">/about - About Page</p>
-<img src="about.png" class="img-fluid" style="border:1px solid black;" alt="about page">
-<p style="text-align:justify;" class="mt-3">/service - Services Page</p>
-<img src="service.png" class="img-fluid" style="border:1px solid black;" align="services page">
-
+<h3 class="text-left mt-4">Check the installation</h3>
+<p style="text-align:justify;">Open python in the terminal and type the following code to find out whether flask is installed in your device or not and to get the version of the flask.You can open the <b>repl</b> in Python by simply typing python in cmd or terminal:</p>
+<div class="container" style="text-align:justify;background-color:#f2f2f2;border:1px solid lightgrey;">
+Microsoft Windows [Version 6.3.9600]<br>
+(c) 2013 Microsoft Corporation. All rights reserved.
+<br>
+<br>
+C:\Users\Your Name>python
+</div>
+<p style="text-align:justify;" class="mt-3">Now this will start python in your terminal now what's the next step,the next step is just type the below code:</p>
+<div class="container p-2" style="background-color:#f2f2f2;border:1px solid lightgrey;text-align:justify;">
+  >>>import flask<br>
+  >>>flask.__version__
+</div>
 
 </div>
 <br><br>
@@ -1766,7 +1669,7 @@ s0.parentNode.insertBefore(s1,s0);
         
 
         
-             <button class="btn newcolorbtn" onclick="prev()" id="prev" style="color:white;position:absolute;left:10%;border-radius:1px!important;font-family: 'Roboto Condensed', sans-serif;"><i class=" fa fa-chevron-left"></i> Previous</button>
+             <button class="btn newcolorbtn" onclick="prev()" id="prev" style="color:white;position:absolute;left:10%;border-radius:1px!important;font-family: 'Roboto Condensed', sans-serif;"><i class=" fa fa-chevron-left"></i>  Previous</button>
            <button class="btn newcolorbtn" id="next" style="color:white;position:absolute;right:10%;border-radius:1px!important;font-family: 'Roboto Condensed', sans-serif;" onclick="next()">Next  <i class=" fa fa-chevron-right"></i></button><br>
            <!------------------------ADS----------------->
            <div class="container-fluid mt-3 mb-1" style="height:30vh;width:100%;">
@@ -1953,10 +1856,10 @@ function closeNav() {
   window.open("installation.php");
 }*/
 function next(){
-  window.open("url_building_flask.php","_self");
+  window.open("first_app_flask.php","_self");
 }
 function prev(){
-  window.open("first_app_flask.php","_self");
+  window.open("intro_flask.php","_self");
 }
 
 /**********scroll functionality*********/

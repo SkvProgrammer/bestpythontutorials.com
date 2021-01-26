@@ -1856,7 +1856,7 @@ function googleTranslateElementInit() {
 
 <!-----------------------------CONTENT------------------->
 
- <div data-datacamp-exercise data-lang="python">
+ <div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 print(2 + 2) #Adding two integers
 print(2 + 2.2) #Adding an Integers and a floating point number
@@ -1870,7 +1870,7 @@ print(2 + 2j) #Adding an integer with a complex number
              <p style="text-align:justify;">Similarly we can perform Other operations such as <b>Subtraction</b>,<b>Multiplication</b> or <b>Division</b>...</p>
              <p style="text-align:justify;">Now we will see the use and importance of parenthesis for a bit larger expression...</p>
 
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 print(2 * 2 + 2 / 2)
 print(2 * (2 + 2) / 2)
@@ -1888,7 +1888,7 @@ print(2 * (2 + 2) / 2)
 <h3 class="text-left mt-4" style="color:#a54eee;">Finding the Remainder</h3>
 <p style="text-align:justify;">We can find the reminder after division of two numbers using the <code>modulo( % )</code> operator.</p>
 
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 print(7 % 2)
 </code>
@@ -1902,7 +1902,7 @@ print(7 % 2)
 
 
 <p style="text-align:justify;" class="mt-3">Now we are going to build a simple calculator program in python which will perform all basic operations such as Addition,Subtraction,Division and Multiplication.</p>
-<div data-datacamp-exercise data-lang="python">
+<div data-datacamp-exercise data-no-lazy-loading data-lang="python">
   <code data-type="sample-code">
 #building a simple calculator program in python
 num1 = float(input("Enter the first number:"))#first number
