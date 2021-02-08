@@ -1605,7 +1605,7 @@ s0.parentNode.insertBefore(s1,s0);
         <h5 class="modal-title text-center">Report Us</h5>
       </div>
       <div class="modal-body">
-        <p>If you find any errors in this tutorials don't hesitate to <a href="mailto:" style="color:white;text-decoration:underline;">mail us</a></p>
+        <p>If you find any errors in this tutorials don't hesitate to <a href="mailto:report@bestpythontutorials.com" style="color:white;text-decoration:underline;">mail us</a></p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default text-white" data-dismiss="modal">Close</button>

@@ -1,4 +1,4 @@
-  
+   
 <!DOCTYPE html>
 <html lang="en-Us">
     <head>
@@ -56,7 +56,7 @@
  
   #footlink li a{
     font-family: 'Big Shoulders Stencil Text', cursive!important;
-  font-size:18px!important;
+  font-size:17px!important;
   margin:0px!important;
   }
   #footlink li h4{
@@ -734,7 +734,7 @@ margin-top: -28px;
 }*/
 
 svg{
-margin-top:-20px;
+margin-top:-16px;
 }
 /**************************************testcodeends******************/
 .dropdown-menu a{
@@ -1023,10 +1023,10 @@ right: 0;
 
 
 .formxyz {
-border: 3px solid #f1f1f1;
+
 color:white;
 }
-.containerx {
+.containerx { max-width:400px;
 border-radius:10px!important;
 padding: 20px;
 /*background-color: #f1f1f1;*/
@@ -1956,9 +1956,9 @@ function googleTranslateElementInit() {
   <form style="text-align: center;" action="https://formspree.io/mlepjgpw"
   method="POST">
     <label>Your Email</label><br>
-    <input type="email" name="_replyto" placeholder="Type your Email." style="margin-top:10px;margin-bottom:13px;padding:2px;width:70%;padding-left:2px;padding-right:2px;border:1px solid lightgrey;border-radius:10px;"><br>
+    <input type="email" name="_replyto" placeholder="Type your Email." style="margin-top:10px;margin-bottom:13px;padding:2px;width:70%;padding-left:2px;padding-right:2px;border:1px solid lightgrey;border-radius:10px;" required><br>
     <label>Your Suggestion</label><br>
-    <textarea name="message" placeholder="Type you Suggestion." style="height:80px;width:165px;resize:none;margin-top:15px;width:70%;border:1px solid lightgrey;outline:none;padding-left:2px;padding-right:2px;border-radius:10px;"></textarea><br>
+    <textarea name="message" placeholder="Type you Suggestion." style="height:80px;width:165px;resize:none;margin-top:15px;width:70%;border:1px solid lightgrey;outline:none;padding-left:2px;padding-right:2px;border-radius:10px;" required></textarea><br>
 
     <br>
     <button type="submit" class="btn newcolorbtn mt-5" id="click-me" style="border-radius:50px;">Submit Your Suggestion</button>
@@ -1972,7 +1972,6 @@ function googleTranslateElementInit() {
 
   </div>
 </div>
-
 <button class="btn newcolorbtn" style="box-shadow:none;outline:none;border-radius:50px;padding-left:20px;padding-right:20px;" data-toggle="modal" data-target="#myModalfeedback">Feedback/Suggest Improvement</button>
 
 <br>
@@ -2224,7 +2223,7 @@ s0.parentNode.insertBefore(s1,s0);
         <h5 class="modal-title text-center">Report Us</h5>
       </div>
       <div class="modal-body">
-        <p>If you find any errors in this tutorials don't hesitate to <a href="mailto:" style="color:white;text-decoration:underline;">mail us</a></p>
+        <p>If you find any errors in this tutorials don't hesitate to <a href="mailto:report@bestpythontutorials.com" style="color:white;text-decoration:underline;">mail us</a></p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default text-white" data-dismiss="modal">Close</button>
@@ -2247,7 +2246,8 @@ s0.parentNode.insertBefore(s1,s0);
         <h5 class="modal-title text-center">Contact Developer</h5>
       </div>
       <div class="modal-body">
-         <p style="text-align:left;">Hey,I am Satyam Kumar Verman ,the creator of this awesome site I take individual projects of Web Design & Development,Android App Development and Software Development.You can contact me by mailing  at <br><a href="maito:satyamkumarverman@gmail.com" style="color:white;"> satyamkumarverman@gmail.com</a><br>OR<br><a href="maito:developer@bestpythontutorials.com" style="color:white;"> developer@bestpythontutorials.com</a><br>OR<br> visit my<a href="https://skv.netlify.com" style="color:white;"> Website</a>.</p>
+        <img src="self_t.png" class="img-fluid" style="height:100px;width:100px;border-radius:50px;border-top-left-radius:30px!important;filter:drop-shadow(2px 2px 2px lightgrey);">
+         <p style="text-align:left;">Hello,I am Satyam Kumar Verman ,the creator of this awesome site I take individual projects of Web Design & Development,Android App Development and Software Development.You can contact me by mailing  at <br><a href="maito:satyamkumarverman@gmail.com" style="color:white;"> satyamkumarverman@gmail.com</a><br>OR<br><a href="maito:developer@bestpythontutorials.com" style="color:white;"> developer@bestpythontutorials.com</a><br>OR<br> visit my<a href="https://skv.netlify.com" style="color:white;"> Website</a>.</p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default text-white" data-dismiss="modal">Close</button>
@@ -2262,7 +2262,7 @@ s0.parentNode.insertBefore(s1,s0);
 
 <!-----------------------------------MODAL ENDS------------------------->
         
-<footer style="height:auto;background-image:linear-gradient(75deg,#a54eee,#4537d1);font-family: 'Roboto', sans-serif!important;" class="text-center container-fluid pt-5" id="foot"> 
+<footer style="height:auto;background-image:linear-gradient(75deg,#a54eee,#4537d1);font-family: 'Roboto', sans-serif!important;padding-top:100px!important;" class="text-center container-fluid pt-5" id="foot"> 
 
   <button class="btn newcolorbtn col-lg-4 col-md-4 col-sm-12 mt-3" style="border-radius:1px;" data-target="#myModal" data-toggle="modal"><i class="fa fa-flag"></i>  Report Error</button>
 
@@ -2296,7 +2296,7 @@ s0.parentNode.insertBefore(s1,s0);
     <li><h4>Resources</h4></li>
     <li><a href="ide/onlineide.php">Online IDE</a></li>
     <li><a href="comp/home_competitive_programming.php">Competitive Programming</a></li>
-    <li><a href="blogs/communityblogs.php">Community Blogs</a></li>
+    <li><a href="blogs/index.php">Community Blogs</a></li>
     <li><a href="videos/home_videos.php">Video Tutorials</a></li>
     <li><a href="ebooks/home_ebooks.php">EBooks</a></li>
     
@@ -2317,6 +2317,7 @@ s0.parentNode.insertBefore(s1,s0);
 <button class="btn newcolorbtn mb-5 mt-5 pl-5 pr-5" style="border-radius:1px;padding-left:30px;padding-right:30px;" onclick="window.open('quizzes.php','_blank')">Quizzes</button>
 <button class="btn newcolorbtn mb-5 mt-5 pl-5 pr-5" style="border-radius:1px;padding-left:30px;padding-right:30px;" onclick="window.open('https://shop.bestpythontutorials.com','_blank')">Shop</button>           
 
+<h4 style="color:white;">Follow us on</h4>
     <!-- Social buttons -->
 <ul class="list-unstyled list-inline text-center" style="color:white;" id="social">
 <li class="list-inline-item">
@@ -2326,7 +2327,7 @@ s0.parentNode.insertBefore(s1,s0);
 </li>
 <li class="list-inline-item">
 <a class="btn-floating btn-tw mx-1">
-<i class="fa fa-twitter" onclick="window.open('https://twitter.com/bestpythontuto1')"> </i>
+<i class="fa fa-twitter" onclick="window.open('https://twitter.com/bestpythontuto2')"> </i>
 </a>
 </li>
 <!--<li class="list-inline-item">

@@ -754,7 +754,7 @@ button.gsc-search-button
 }*/
 
 svg{
-  margin-top:-20px;
+margin-top:-16px;
 }
 /**************************************testcodeends******************/
 .dropdown-menu a{
@@ -1043,10 +1043,10 @@ padding:8px;
 
 
 .formxyz {
-  border: 3px solid #f1f1f1;
   color:white;
 }
-.containerx {
+
+.containerx { max-width:400px;
   border-radius:10px!important;
   padding: 20px;
   /*background-color: #f1f1f1;*/
@@ -2082,9 +2082,9 @@ print("New List after making changes:",list2)
   <form style="text-align: center;" action="https://formspree.io/mlepjgpw"
   method="POST">
     <label>Your Email</label><br>
-    <input type="email" name="_replyto" placeholder="Type your Email." style="margin-top:10px;margin-bottom:13px;padding:2px;width:70%;padding-left:2px;padding-right:2px;border:1px solid lightgrey;border-radius:10px;"><br>
+    <input type="email" name="_replyto" placeholder="Type your Email." style="margin-top:10px;margin-bottom:13px;padding:2px;width:70%;padding-left:2px;padding-right:2px;border:1px solid lightgrey;border-radius:10px;" required><br>
     <label>Your Suggestion</label><br>
-    <textarea name="message" placeholder="Type you Suggestion." style="height:80px;width:165px;resize:none;margin-top:15px;width:70%;border:1px solid lightgrey;outline:none;padding-left:2px;padding-right:2px;border-radius:10px;"></textarea><br>
+    <textarea name="message" placeholder="Type you Suggestion." style="height:80px;width:165px;resize:none;margin-top:15px;width:70%;border:1px solid lightgrey;outline:none;padding-left:2px;padding-right:2px;border-radius:10px;" required></textarea><br>
 
     <br>
     <button type="submit" class="btn newcolorbtn mt-5" id="click-me" style="border-radius:50px;">Submit Your Suggestion</button>
@@ -2352,7 +2352,7 @@ s0.parentNode.insertBefore(s1,s0);
         <h5 class="modal-title text-center">Report Us</h5>
       </div>
       <div class="modal-body">
-        <p>If you find any errors in this tutorials don't hesitate to <a href="mailto:" style="color:white;text-decoration:underline;">mail us</a></p>
+        <p>If you find any errors in this tutorials don't hesitate to <a href="mailto:report@bestpythontutorials.com" style="color:white;text-decoration:underline;">mail us</a></p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default text-white" data-dismiss="modal">Close</button>
@@ -2375,7 +2375,8 @@ s0.parentNode.insertBefore(s1,s0);
         <h5 class="modal-title text-center">Contact Developer</h5>
       </div>
       <div class="modal-body">
-         <p style="text-align:left;">Hey,I am Satyam Kumar Verman ,the creator of this awesome site I take individual projects of Web Design & Development,Android App Development and Software Development.You can contact me by mailing  at <br><a href="maito:satyamkumarverman@gmail.com" style="color:white;"> satyamkumarverman@gmail.com</a><br>OR<br><a href="maito:developer@bestpythontutorials.com" style="color:white;"> developer@bestpythontutorials.com</a><br>OR<br> visit my<a href="https://skv.netlify.com" style="color:white;"> Website</a>.</p>
+        <img src="self_t.png" class="img-fluid" style="height:100px;width:100px;border-radius:50px;border-top-left-radius:30px!important;filter:drop-shadow(2px 2px 2px lightgrey);">
+         <p style="text-align:left;">Hello,I am Satyam Kumar Verman ,the creator of this awesome site I take individual projects of Web Design & Development,Android App Development and Software Development.You can contact me by mailing  at <br><a href="maito:satyamkumarverman@gmail.com" style="color:white;"> satyamkumarverman@gmail.com</a><br>OR<br><a href="maito:developer@bestpythontutorials.com" style="color:white;"> developer@bestpythontutorials.com</a><br>OR<br> visit my<a href="https://skv.netlify.com" style="color:white;"> Website</a>.</p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default text-white" data-dismiss="modal">Close</button>
@@ -2388,109 +2389,112 @@ s0.parentNode.insertBefore(s1,s0);
 
 
 
+
 <!-----------------------------------MODAL ENDS------------------------->
-        <footer style="height:auto;background-image:linear-gradient(75deg,#a54eee,#4537d1);font-family: 'Roboto', sans-serif!important;" class="text-center container-fluid pt-5" id="foot"> 
-
-             <button class="btn newcolorbtn col-lg-4 col-md-4 col-sm-12 mt-3" style="border-radius:1px;" data-target="#myModal" data-toggle="modal"><i class="fa fa-flag"></i>  Report Error</button>
-
-
-             <button class="btn newcolorbtn col-lg-4 col-md-4 col-sm-12 mt-3" style="border-radius:1px;"><i class="fa fa-envelope"></i><a href="mailto:contact@bestpythontutorials.com" style="color:white;text-decoration:none;"> Mail us</a></button>
-             <button class="btn newcolorbtn col-lg-4 col-md-4 col-sm-12 mt-3" style="border-radius:1px;" onclick="myopen(3)"><i class="fa fa-address-book"></i>      Contact us</button>
-             <button class="btn newcolorbtn col-lg-4 col-md-4 col-sm-12 mt-3" style="border-radius:1px;" onclick="myopen(4)"><i class="fa fa-user-secret"></i>        Privacy Policy</button>
-             <button class="btn newcolorbtn col-lg-4 col-md-4 col-sm-12 mt-3" style="border-radius:1px;" onclick="myopen(5)"><i class="fa fa-info"></i>    Terms and Conditions</button>
-             <button class="btn newcolorbtn col-lg-4 col-md-4 col-sm-12 mt-3" style="border-radius:1px;" data-target="#myModalone" data-toggle="modal"><i class="fa fa-envelope-o"></i>     Contact Developer</button>
-             <div class="row" style="font-family: 'Raleway', sans-serif;">
-             <ul style="list-style:none;color:white;" id="footlink" class="mt-5 col-lg-6 col-md-12 col-sm-12">
-               <li><h4>Our Tutorials</h4></li>
-               <li><a href="home.php">Python</a></li>
-               <li><a href="django/home_django.php">Django</a></li>
-               <li><a href="flask/home_flask.php">Flask</a></li>
-               <li><a href="numpy/home_numpy.php">Numpy</a></li>
-               <li><a href="pandas/home_pandas.php">Pandas</a></li>
-               <li><a href="matplotlib/home_matplotlib.php">Matplotlib</a></li>
-              
-             </ul>
-               <ul style="list-style:none;color:white;" id="footlink" class="mt-5 col-lg-6 col-md-12 col-sm-12">
-               <li><h4>Tutorials Coming Soon</h4></li>
-               <li><a href="datascience/home_datascience.php">Data Science</a></li>
-               <li><a href="sql/home_sql.php">SQL</a></li>
-               <li><a href="ds/home_ds_algo.php">DS/ALGO</a></li>
-               <li><a href="mobile_app/home_mobile_app_development.php">Mobile App Development</a></li>
-               <li><a href="ethical_hacking/home_ethical_hacking.php">Ethical Hacking</a></li>
-               <li><a href="index.php#all_courses">See all</a></li>
-             </ul>
-               <ul style="list-style:none;color:white;" id="footlink" class="mt-5 col-lg-6 col-md-12 col-sm-12">
-               <li><h4>Resources</h4></li>
-               <li><a href="ide/onlineide.php">Online IDE</a></li>
-               <li><a href="comp/home_competitive_programming.php">Competitive Programming</a></li>
-               <li><a href="blogs/communityblogs.php">Community Blogs</a></li>
-               <li><a href="videos/home_videos.php">Video Tutorials</a></li>
-               <li><a href="ebooks/home_ebooks.php">EBooks</a></li>
                
+<footer style="height:auto;background-image:linear-gradient(75deg,#a54eee,#4537d1);font-family: 'Roboto', sans-serif!important;padding-top:100px!important;" class="text-center container-fluid pt-5" id="foot"> 
 
-             
-             </ul>
+  <button class="btn newcolorbtn col-lg-4 col-md-4 col-sm-12 mt-3" style="border-radius:1px;" data-target="#myModal" data-toggle="modal"><i class="fa fa-flag"></i>  Report Error</button>
 
-               <ul style="list-style:none;color:white;" id="footlink" class="mt-5 col-lg-6 col-md-12 col-sm-12">
-               <li><h4>Contribute</h4></li>
-               <li><a href="https://bestpythontutorials.com/blogs/write-your-article"> Write articles for us</a></li>
-               <li><a href="mailto:contact@bestpythontutorials.com">Suggest Topics for Blogs</a></li>
-               <li><a href="mailto:report@bestpythontutorials.com">Report Errors(if any)</a></li>
-               <li><a href="#social">Share our Tutorials</a></li>
-               <li><a href="#">Finally Keep Visiting our site</a></li>  
-                   
-             </ul>
-           </div>
-           <button class="btn newcolorbtn mb-5 mt-5 pl-5 pr-5" style="border-radius:1px;padding-left:30px;padding-right:30px;" onclick="window.open('quizzes.php','_blank')">Quizzes</button>
-  <button class="btn newcolorbtn mb-5 mt-5 pl-5 pr-5" style="border-radius:1px;padding-left:30px;padding-right:30px;" onclick="window.open('https://shop.bestpythontutorials.com','_blank')">Shop</button>           
 
-               <!-- Social buttons -->
-  <ul class="list-unstyled list-inline text-center" style="color:white;" id="social">
-    <li class="list-inline-item">
-      <a class="btn-floating btn-fb mx-1" onclick="window.open('https://www.facebook.com/skvprogrammer')" id="facebook">
-        <i class="fa fa-facebook-f"> </i>
-      </a>
-    </li>
-    <li class="list-inline-item">
-      <a class="btn-floating btn-tw mx-1">
-        <i class="fa fa-twitter" onclick="window.open('https://twitter.com/bestpythontuto1')"> </i>
-      </a>
-    </li>
-    <!--<li class="list-inline-item">
-      <a class="btn-floating btn-gplus mx-1">
-        <i class="fa fa-google-plus"> </i>
-      </a>-->
-    </li>
-    <li class="list-inline-item">
-      <a class="btn-floating btn-li mx-1">
-        <i class="fa fa-instagram" onclick="window.open('https://www.instagram.com/skvprogrammer/?hl=en')"> </i>
-      </a>
-    </li>
-    <li class="list-inline-item">
-      <a class="btn-floating btn-li mx-1">
-        <i class="fa fa-youtube" onclick="window.open('https://www.youtube.com/channel/UC_pPPgwvndi8f2RkbkbvOIA')"> </i>
-      </a>
-    </li>
-    <!--<li class="list-inline-item">
-      <a class="btn-floating btn-dribbble mx-1">
-        <i class="fa fa-dribbble"> </i>
-      </a>
-    </li>-->
+  <button class="btn newcolorbtn col-lg-4 col-md-4 col-sm-12 mt-3" style="border-radius:1px;"><i class="fa fa-envelope"></i><a href="mailto:contact@bestpythontutorials.com" style="color:white;text-decoration:none;"> Mail us</a></button>
+  <button class="btn newcolorbtn col-lg-4 col-md-4 col-sm-12 mt-3" style="border-radius:1px;" onclick="myopen(3)"><i class="fa fa-address-book"></i>      Contact us</button>
+  <button class="btn newcolorbtn col-lg-4 col-md-4 col-sm-12 mt-3" style="border-radius:1px;" onclick="myopen(4)"><i class="fa fa-user-secret"></i>        Privacy Policy</button>
+  <button class="btn newcolorbtn col-lg-4 col-md-4 col-sm-12 mt-3" style="border-radius:1px;" onclick="myopen(5)"><i class="fa fa-info"></i>    Terms and Conditions</button>
+  <button class="btn newcolorbtn col-lg-4 col-md-4 col-sm-12 mt-3" style="border-radius:1px;" data-target="#myModalone" data-toggle="modal"><i class="fa fa-envelope-o"></i>     Contact Developer</button>
+  <div class="row" style="font-family: 'Raleway', sans-serif;">
+  <ul style="list-style:none;color:white;" id="footlink" class="mt-5 col-lg-6 col-md-12 col-sm-12">
+    <li><h4>Our Tutorials</h4></li>
+    <li><a href="home.php">Python</a></li>
+    <li><a href="django/home_django.php">Django</a></li>
+    <li><a href="flask/home_flask.php">Flask</a></li>
+    <li><a href="numpy/home_numpy.php">Numpy</a></li>
+    <li><a href="pandas/home_pandas.php">Pandas</a></li>
+    <li><a href="matplotlib/home_matplotlib.php">Matplotlib</a></li>
+   
+  </ul>
+    <ul style="list-style:none;color:white;" id="footlink" class="mt-5 col-lg-6 col-md-12 col-sm-12">
+    <li><h4>Tutorials Coming Soon</h4></li>
+    <li><a href="datascience/home_datascience.php">Data Science</a></li>
+    <li><a href="sql/home_sql.php">SQL</a></li>
+    <li><a href="ds/home_ds_algo.php">DS/ALGO</a></li>
+    <li><a href="mobile_app/home_mobile_app_development.php">Mobile App Development</a></li>
+    <li><a href="ethical_hacking/home_ethical_hacking.php">Ethical Hacking</a></li>
+    <li><a href="index.php#all_courses">See all</a></li>
+  </ul>
+    <ul style="list-style:none;color:white;" id="footlink" class="mt-5 col-lg-6 col-md-12 col-sm-12">
+    <li><h4>Resources</h4></li>
+    <li><a href="ide/onlineide.php">Online IDE</a></li>
+    <li><a href="comp/home_competitive_programming.php">Competitive Programming</a></li>
+    <li><a href="blogs/index.php">Community Blogs</a></li>
+    <li><a href="videos/home_videos.php">Video Tutorials</a></li>
+    <li><a href="ebooks/home_ebooks.php">EBooks</a></li>
+    
+
+  
   </ul>
 
-             <!--like button-->
-             <!--<abbr title="Like us on facebook"><i class="fa fa-thumbs-up" style="color:white;font-size:30px;"></i>-->
-  
-             <!--like button end-->
-                <div class="footer text-center py-3 text-light" style="font-family: 'Big Shoulders Stencil Text', cursive!important;font-size:20px;">&copy <?php
-    $copyYear = 2020; // Set your website start date
-    $curYear = date('Y'); // Keeps the second year updated
-      echo $copyYear . (($copyYear != $curYear) ? '-' . $curYear : '');
-  ?> Copyright:
-    <a href="index.php" style="color:white;text-decoration:none;font-family: 'Big Shoulders Stencil Text', cursive!important;"> BestPythonTutorials.com :</a>All Rights are Reserved<br><br>
-    <applause-button style="width: 48px; height: 48px;margin:0px auto;color:rgb(0,200,0)!important;"/>
-  </div>
-           </footer>
+    <ul style="list-style:none;color:white;" id="footlink" class="mt-5 col-lg-6 col-md-12 col-sm-12">
+    <li><h4>Contribute</h4></li>
+    <li><a href="https://bestpythontutorials.com/blogs/write-your-article"> Write articles for us</a></li>
+    <li><a href="mailto:contact@bestpythontutorials.com">Suggest Topics for Blogs</a></li>
+    <li><a href="mailto:report@bestpythontutorials.com">Report Errors(if any)</a></li>
+    <li><a href="#social">Share our Tutorials</a></li>
+    <li><a href="#">Finally Keep Visiting our site</a></li>  
+        
+  </ul>
+</div>
+<button class="btn newcolorbtn mb-5 mt-5 pl-5 pr-5" style="border-radius:1px;padding-left:30px;padding-right:30px;" onclick="window.open('quizzes.php','_blank')">Quizzes</button>
+<button class="btn newcolorbtn mb-5 mt-5 pl-5 pr-5" style="border-radius:1px;padding-left:30px;padding-right:30px;" onclick="window.open('https://shop.bestpythontutorials.com','_blank')">Shop</button>           
+
+<h4 style="color:white;">Follow us on</h4>
+    <!-- Social buttons -->
+<ul class="list-unstyled list-inline text-center" style="color:white;" id="social">
+<li class="list-inline-item">
+<a class="btn-floating btn-fb mx-1" onclick="window.open('https://www.facebook.com/skvprogrammer')" id="facebook">
+<i class="fa fa-facebook-f"> </i>
+</a>
+</li>
+<li class="list-inline-item">
+<a class="btn-floating btn-tw mx-1">
+<i class="fa fa-twitter" onclick="window.open('https://twitter.com/bestpythontuto2')"> </i>
+</a>
+</li>
+<!--<li class="list-inline-item">
+<a class="btn-floating btn-gplus mx-1">
+<i class="fa fa-google-plus"> </i>
+</a>-->
+</li>
+<li class="list-inline-item">
+<a class="btn-floating btn-li mx-1">
+<i class="fa fa-instagram" onclick="window.open('https://www.instagram.com/skvprogrammer/?hl=en')"> </i>
+</a>
+</li>
+<li class="list-inline-item">
+<a class="btn-floating btn-li mx-1">
+<i class="fa fa-youtube" onclick="window.open('https://www.youtube.com/channel/UC_pPPgwvndi8f2RkbkbvOIA')"> </i>
+</a>
+</li>
+<!--<li class="list-inline-item">
+<a class="btn-floating btn-dribbble mx-1">
+<i class="fa fa-dribbble"> </i>
+</a>
+</li>-->
+</ul>
+
+  <!--like button-->
+  <!--<abbr title="Like us on facebook"><i class="fa fa-thumbs-up" style="color:white;font-size:30px;"></i>-->
+
+  <!--like button end-->
+     <div class="footer text-center py-3 text-light" style="font-family: 'Big Shoulders Stencil Text', cursive!important;font-size:20px;">&copy <?php
+$copyYear = 2020; // Set your website start date
+$curYear = date('Y'); // Keeps the second year updated
+echo $copyYear . (($copyYear != $curYear) ? '-' . $curYear : '');
+?> Copyright:
+<a href="index.php" style="color:white;text-decoration:none;font-family: 'Big Shoulders Stencil Text', cursive!important;"> BestPythonTutorials.com :</a>All Rights are Reserved<br><br>
+<applause-button style="width: 48px; height: 48px;margin:0px auto;color:rgb(0,200,0)!important;"/>
+</div>
+</footer>
            </section>
 
 

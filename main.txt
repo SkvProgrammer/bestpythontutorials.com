@@ -1,0 +1,7 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^bestpythontutorials\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.bestpythontutorials\.com$
+RewriteRule ^ide\/onlineide\.php$ "https\:\/\/bestpythontutorial\.herokuapp\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^bestpythontutorials\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.bestpythontutorials\.com$
+RewriteRule ^blogs\/communityblogs\.php$ "https\:\/\/bestpythontutorials\.com\/blogs\/index\.php" [R=301,L]

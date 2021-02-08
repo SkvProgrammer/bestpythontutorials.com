@@ -738,7 +738,7 @@ button.gsc-search-button
 }*/
 
 svg{
-  margin-top:-20px;
+margin-top:-16px;
 }
 /**************************************testcodeends******************/
 .dropdown-menu a{
@@ -1027,10 +1027,10 @@ padding:8px;
 
 
 .formxyz {
-  border: 3px solid #f1f1f1;
   color:white;
 }
-.containerx {
+
+.containerx { max-width:400px;
   border-radius:10px!important;
   padding: 20px;
   /*background-color: #f1f1f1;*/
@@ -1579,9 +1579,9 @@ window.onclick = function(event) {
   <form style="text-align: center;" action="https://formspree.io/mlepjgpw"
   method="POST">
     <label>Your Email</label><br>
-    <input type="email" name="_replyto" placeholder="Type your Email." style="margin-top:10px;margin-bottom:13px;padding:2px;width:70%;padding-left:2px;padding-right:2px;border:1px solid lightgrey;border-radius:10px;"><br>
+    <input type="email" name="_replyto" placeholder="Type your Email." style="margin-top:10px;margin-bottom:13px;padding:2px;width:70%;padding-left:2px;padding-right:2px;border:1px solid lightgrey;border-radius:10px;" required><br>
     <label>Your Suggestion</label><br>
-    <textarea name="message" placeholder="Type you Suggestion." style="height:80px;width:165px;resize:none;margin-top:15px;width:70%;border:1px solid lightgrey;outline:none;padding-left:2px;padding-right:2px;border-radius:10px;"></textarea><br>
+    <textarea name="message" placeholder="Type you Suggestion." style="height:80px;width:165px;resize:none;margin-top:15px;width:70%;border:1px solid lightgrey;outline:none;padding-left:2px;padding-right:2px;border-radius:10px;" required></textarea><br>
 
     <br>
     <button type="submit" class="btn newcolorbtn mt-5" id="click-me" style="border-radius:50px;">Submit Your Suggestion</button>
@@ -1738,7 +1738,7 @@ s0.parentNode.insertBefore(s1,s0);
         <h5 class="modal-title text-center">Report Us</h5>
       </div>
       <div class="modal-body">
-        <p>If you find any errors in this tutorials don't hesitate to <a href="mailto:" style="color:white;text-decoration:underline;">mail us</a></p>
+        <p>If you find any errors in this tutorials don't hesitate to <a href="mailto:report@bestpythontutorials.com" style="color:white;text-decoration:underline;">mail us</a></p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default text-white" data-dismiss="modal">Close</button>
@@ -1809,8 +1809,8 @@ s0.parentNode.insertBefore(s1,s0);
                <ul style="list-style:none;color:white;" id="footlink" class="mt-5 col-lg-6 col-md-12 col-sm-12">
                <li><h4>Resources</h4></li>
                <li><a href="../ide/onlineide.php">Online IDE</a></li>
-               <li><a href="../comp/home_competitive_programming.php">Competitive Programming</a></li>
-               <li><a href="../blogs/communityblogs.php">Community Blogs</a></li>
+               <li><a href="../comp/ home_competitive_programming.php">Competitive Programming</a></li>
+               <li><a href="../blogs/index.php">Community Blogs</a></li>
                <li><a href="../videos/home_videos.php">Video Tutorials</a></li>
                <li><a href="../ebooks/home_ebooks.php">EBooks</a></li>
                
@@ -1832,6 +1832,7 @@ s0.parentNode.insertBefore(s1,s0);
   <button class="btn newcolorbtn mb-5 mt-5 pl-5 pr-5" style="border-radius:1px;padding-left:30px;padding-right:30px;" onclick="window.open('https://shop.bestpythontutorials.com','_blank')">Shop</button>           
 
                <!-- Social buttons -->
+        <h3 style="color:white;">Follow us on</h3>
   <ul class="list-unstyled list-inline text-center" style="color:white;" id="social">
     <li class="list-inline-item">
       <a class="btn-floating btn-fb mx-1" onclick="window.open('https://www.facebook.com/skvprogrammer')" id="facebook">
@@ -1840,7 +1841,7 @@ s0.parentNode.insertBefore(s1,s0);
     </li>
     <li class="list-inline-item">
       <a class="btn-floating btn-tw mx-1">
-        <i class="fa fa-twitter" onclick="window.open('https://twitter.com/bestpythontuto1')"> </i>
+        <i class="fa fa-twitter" onclick="window.open('https://twitter.com/bestpythontuto2')"> </i>
       </a>
     </li>
     <!--<li class="list-inline-item">
@@ -1869,7 +1870,11 @@ s0.parentNode.insertBefore(s1,s0);
              <!--<abbr title="Like us on facebook"><i class="fa fa-thumbs-up" style="color:white;font-size:30px;"></i>-->
   
              <!--like button end-->
-                <div class="footer text-center py-3 text-light" style="font-family: 'Big Shoulders Stencil Text', cursive!important;font-size:20px;">&copy 2020-2021 Copyright:
+                <div class="footer text-center py-3 text-light" style="font-family: 'Big Shoulders Stencil Text', cursive!important;font-size:20px;">&copy <?php
+    $copyYear = 2020; // Set your website start date
+    $curYear = date('Y'); // Keeps the second year updated
+      echo $copyYear . (($copyYear != $curYear) ? '-' . $curYear : '');
+  ?> Copyright:
     <a href="../index.php" style="color:white;text-decoration:none;font-family: 'Big Shoulders Stencil Text', cursive!important;"> BestPythonTutorials.com :</a>All Rights are Reserved<br><br>
     <applause-button style="width: 48px; height: 48px;margin:0px auto;color:rgb(0,200,0)!important;"/>
   </div>

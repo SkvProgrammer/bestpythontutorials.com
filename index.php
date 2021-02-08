@@ -2255,7 +2255,7 @@ html{
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="https://twitter.com/bestpythontuto1" target="_blank">
+                                        <a href="https://twitter.com/bestpythontuto2" target="_blank">
                                             <i class="ti-twitter-alt"></i>
                                         </a>
                                     </li>

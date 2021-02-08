@@ -741,7 +741,7 @@ button.gsc-search-button
 }*/
 
 svg{
-  margin-top:-20px;
+margin-top:-16px;
 }
 /**************************************testcodeends******************/
 .dropdown-menu a{
@@ -1030,10 +1030,10 @@ padding:8px;
 
 
 .formxyz {
-  border: 3px solid #f1f1f1;
   color:white;
 }
-.containerx {
+
+.containerx { max-width:400px;
   border-radius:10px!important;
   padding: 20px;
   /*background-color: #f1f1f1;*/
@@ -1735,9 +1735,9 @@ urlpatterns = [
   <form style="text-align: center;" action="https://formspree.io/mlepjgpw"
   method="POST">
     <label>Your Email</label><br>
-    <input type="email" name="_replyto" placeholder="Type your Email." style="margin-top:10px;margin-bottom:13px;padding:2px;width:70%;padding-left:2px;padding-right:2px;border:1px solid lightgrey;border-radius:10px;"><br>
+    <input type="email" name="_replyto" placeholder="Type your Email." style="margin-top:10px;margin-bottom:13px;padding:2px;width:70%;padding-left:2px;padding-right:2px;border:1px solid lightgrey;border-radius:10px;" required><br>
     <label>Your Suggestion</label><br>
-    <textarea name="message" placeholder="Type you Suggestion." style="height:80px;width:165px;resize:none;margin-top:15px;width:70%;border:1px solid lightgrey;outline:none;padding-left:2px;padding-right:2px;border-radius:10px;"></textarea><br>
+    <textarea name="message" placeholder="Type you Suggestion." style="height:80px;width:165px;resize:none;margin-top:15px;width:70%;border:1px solid lightgrey;outline:none;padding-left:2px;padding-right:2px;border-radius:10px;" required></textarea><br>
 
     <br>
     <button type="submit" class="btn newcolorbtn mt-5" id="click-me" style="border-radius:50px;">Submit Your Suggestion</button>
@@ -2026,7 +2026,8 @@ s0.parentNode.insertBefore(s1,s0);
         <h5 class="modal-title text-center">Contact Developer</h5>
       </div>
       <div class="modal-body">
-         <p style="text-align:left;">Hey,I am Satyam Kumar Verman ,the creator of this awesome site I take individual projects of Web Design & Development,Android App Development and Software Development.You can contact me by mailing  at <br><a href="maito:satyamkumarverman@gmail.com" style="color:white;"> satyamkumarverman@gmail.com</a><br>OR<br><a href="maito:developer@bestpythontutorials.com" style="color:white;"> developer@bestpythontutorials.com</a><br>OR<br> visit my<a href="https://skv.netlify.com" style="color:white;"> Website</a>.</p>
+        <img src="self_t.png" class="img-fluid" style="height:100px;width:100px;border-radius:50px;border-top-left-radius:30px!important;filter:drop-shadow(2px 2px 2px lightgrey);">
+         <p style="text-align:left;">Hello,I am Satyam Kumar Verman ,the creator of this awesome site I take individual projects of Web Design & Development,Android App Development and Software Development.You can contact me by mailing  at <br><a href="maito:satyamkumarverman@gmail.com" style="color:white;"> satyamkumarverman@gmail.com</a><br>OR<br><a href="maito:developer@bestpythontutorials.com" style="color:white;"> developer@bestpythontutorials.com</a><br>OR<br> visit my<a href="https://skv.netlify.com" style="color:white;"> Website</a>.</p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default text-white" data-dismiss="modal">Close</button>
@@ -2035,6 +2036,7 @@ s0.parentNode.insertBefore(s1,s0);
 
   </div>
 </div>
+
 
 
 
@@ -2075,7 +2077,7 @@ s0.parentNode.insertBefore(s1,s0);
                <li><h4>Resources</h4></li>
                <li><a href="../ide/onlineide.php">Online IDE</a></li>
                <li><a href="../comp/home_competitive_programming.php">Competitive Programming</a></li>
-               <li><a href="../blogs/communityblogs.php">Community Blogs</a></li>
+               <li><a href="../blogs/index.php">Community Blogs</a></li>
                <li><a href="../videos/home_videos.php">Video Tutorials</a></li>
                <li><a href="../ebooks/home_ebooks.php">EBooks</a></li>
                
@@ -2105,7 +2107,7 @@ s0.parentNode.insertBefore(s1,s0);
     </li>
     <li class="list-inline-item">
       <a class="btn-floating btn-tw mx-1">
-        <i class="fa fa-twitter" onclick="window.open('https://twitter.com/bestpythontuto1')"> </i>
+        <i class="fa fa-twitter" onclick="window.open('https://twitter.com/bestpythontuto2')"> </i>
       </a>
     </li>
     <!--<li class="list-inline-item">
